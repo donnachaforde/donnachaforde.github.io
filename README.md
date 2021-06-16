@@ -2,12 +2,15 @@
 Donnacha's homepage on GitHub
 
 ## Repos
-Here are public repos that are in a presentable form. 
-(https://github.com/donnachaforde)
+Here are public repos that are in a presentable form.
 
-(Only just getting to grips with GitHub pages...)
+[GitHub](https://github.com/donnachaforde)
 
-### [Talks & Posts](https://donnachaforde.github.io/talks-posts/)
+## Writing
 
+I've started to capture some musings here in [Talks & Posts](https://donnachaforde.github.io/talks-posts/)
 
-Adding an [About](About.md)
+***
+
+|----|
+| [About](About.md) |
