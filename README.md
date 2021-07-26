@@ -10,7 +10,7 @@ Here are public repos that are in a presentable form.
 
 
 ## Talks
-An outline of some talks Ive give [here](https://github.com/donnachaforde/talks-posts/blob/master/talks/README.md)
+An outline of some talks I've given [here](https://github.com/donnachaforde/talks-posts/blob/master/talks/README.md)
 
 ## Posts & Blogs
 
