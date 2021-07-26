@@ -3,7 +3,7 @@ Donnacha's homepage on GitHub
 
 I'm working on how best to organize this but I'm trying to pull bits n' pieces across several repos together here. 
 
-## Code & Scipts
+## Code & Scripts
 Here are public repos that are in a presentable form.
 
 [GitHub](https://github.com/donnachaforde)
