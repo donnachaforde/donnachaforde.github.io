@@ -5,6 +5,5 @@ Here are posts and articles I've penned on various topics.
 
 Lessons from Sport and Sports Management that cross over to software Engineering
 
-[Repetition, Repetition, Repetition](lessons-from-sport/lessons-from-sport_repetition.md)
-
+[Repetition, Repetition, Repetition](lessons-from-sport/repetition.md)
 
