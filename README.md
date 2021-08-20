@@ -22,7 +22,7 @@ I previously started to capture some musings [here](https://github.com/donnachaf
 
 I've now pushed my first posting directly. 
 
-[Posts](https://github.com/donnachaforde/donnachaforde.github.io/blob/main/posts/README.md)
+[Posts](posts/README.md)
 
 
 ***
