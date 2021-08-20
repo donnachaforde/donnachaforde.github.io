@@ -5,6 +5,6 @@ Here are posts and articles I've penned on various topics.
 
 Lessons from Sport and Sports Management that cross over to software Engineering
 
-[Repetition, Repetition, Repetition](https://github.com/donnachaforde/donnachaforde.github.io/blob/main/posts/Lessons-from-Sport/Lessons-from-Sport_Repetition.md)
+[Repetition, Repetition, Repetition](Lessons-from-Sport/Lessons-from-Sport_Repetition.md)
 
 
