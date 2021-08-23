@@ -18,4 +18,10 @@ What I find curious though is how the repetitiveness of this function gives the 
 And, so it is with software engineering as championed in Agile development. Having a team of engineers repeatedly go through the task of creating a release not only makes the operation slick but familiarizes the team with every last detail that has to be completed in order for the release to go well. It helps with planning as going through the process drives out every last work effort needed. It’s not necessarily that people couldn’t plan these actions up front but the act of ‘doing’ puts theory to the test and helps the human brain clearly identify what’s really involved. 
 In sport, repetition is simply part-and-parcel of acquiring and honing a skill and so it needs to be with engineering. CI/CT/CD are all intended to help drive out errors and short-comings as early as possible and improve a team’s responsiveness. Software errors, which go with the territory, don’t seem as big a problem when you can pivot and quickly issue a new release with the fix.
 
-As a top coach once told me, "Practice makes permanent".  
+As elite Judo coach Neil Adams MBE likes to remind us, "Practice makes permanent".  
+
+
+***
+Donnacha Forde
+
+[LinkedIn/donnachaforde](https://www.linkedin.com/in/donnachaforde)
