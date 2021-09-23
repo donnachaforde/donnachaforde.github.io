@@ -32,7 +32,7 @@ Here are public repos on GitHub that are in a presentable form.
 
 * [Posts](posts/README.md)
 
-	I'm now publishing posts directly on GitHub Pages. 
+	I'm now publishing posts directly on GitHub Pages. My first is an observation from the world of sport that applies to software engineering on how [repetition](posts/lessons-from-sport/repetition.md) breeds excellence. 
 
 ***
 ## Lectures
