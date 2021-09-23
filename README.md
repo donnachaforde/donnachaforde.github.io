@@ -5,18 +5,34 @@ I'm still getting to grips with GitHub Pages and working out how best to organiz
 
 *** 
 
-## Code & Scripts
-Here are public repos that are in a presentable form.
+## Code 
+Here are public repos on GitHub that are in a presentable form.
 
-[GitHub](https://github.com/donnachaforde)
+* [GitHub](https://github.com/donnachaforde)
+
+	These include code examples (mostly C/C++/Java) but also some basic shell-scrips. 
 
 ***
+## Posts & Blogs
 
-## Talks
-Slides from a few talks I've delivered are available [here](talks/README.md)
 
-* The Role of the Architect
-* Working in the Software Industry (Delivered to 3rd Year University Students)
+
+* [JVM Performance Tuning](blogs/jvm-performance-tuning/README.md) 
+
+	Some years back, I wrote a blog on JVM Performance Tuning. The entire series of blogs is published on Blogger.com, starting [here](https://donnachaforde.blogspot.com/2015/09/jvm-performance-tuning-part-i-jvm.html).
+
+
+
+
+*  [Code Design](blogs/code-design/README.md)
+	
+	Ruminations on code-level design issues that I've started to capture.
+
+
+
+* [Posts](posts/README.md)
+
+	I'm now publishing posts directly on GitHub Pages. 
 
 ***
 ## Lectures
@@ -51,28 +67,21 @@ Details on the series of lectures I devised for a course on _Software Architectu
 
 
 ***
-## Posts & Blogs
+
+## Talks
+Slides from a few talks I've delivered are available [here](talks/README.md)
+
+* The Role of the Architect
+* Working in the Software Industry (Delivered to 3rd Year University Students)
 
 
-
-* [JVM Performance Tuning](blogs/jvm-performance-tuning/README.md) 
-
-	Some years back, I wrote a blog on JVM Performance Tuning. The entire series of blogs is published on Blogger.com, starting [here](https://donnachaforde.blogspot.com/2015/09/jvm-performance-tuning-part-i-jvm.html).
-
-
-
-
-*  [Code Design](blogs/code-design/README.md)
-	
-	Ruminations on code-level design issues that I've started to capture.
-
-
-
-* [Posts](posts/README.md)
-
-	I'm now publishing posts directly on GitHub Pages. 
 
 
 ***
 ## About
 A little bit more about me here: [About](About.md)
+
+***
+Donnacha Forde
+
+[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)
