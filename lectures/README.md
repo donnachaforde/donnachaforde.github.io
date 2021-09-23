@@ -29,7 +29,7 @@ I developed the course material over the summer of 2017 and delivered it in Q4 2
 
 	I cover how SQL-Server databases emerged in the '80's and '90's to become central to most modern applications before going on to examine non-SQL databases. I also take a look at distributed-database architecuture, two-phase commit and database replication.  
 
-6. [A Quick Recap on Object-Oriented Design](06%20-%20A%20Quick%20Recap%20on%20Object-Oriented%20Design.pdf)
+6. [A Quick Recap on Object-Oriented Design](published/06%20-%20A%20Quick%20Recap%20on%20Object-Oriented%20Design.pdf)
 
 	I quickly recap on the principals of OO as a precursor to my next talk on Spring.
 
@@ -66,7 +66,8 @@ There was an emphasis on industry contribution for this MSc course and, in keepi
 ---
 Donnacha Forde
 
-[https://www.linkedin.com/in/donnachaforde/](https://www.linkedin.com/in/donnachaforde/)
+[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)
+
 
 ---
 
