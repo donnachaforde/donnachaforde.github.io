@@ -8,7 +8,7 @@ When I really need to scrutinize the compile output, I copy this output to a sep
 Note: These are the intermediate files for the project, not the solution. The solution output (e.g. exe, dll) is written to the solution output, whose location depends on the physical layout of the project but, by default, will be in subdirectory under the solution file itself. 
 One of the downsides of introduces templates into C++ is that compiler errors can be so verbose as to be near impossible for a human to read. One advantage of copying build output to a separate editor, is to replace expanded template definitions with human-readable shorthand. 
 
-For example, the humble `std::string` expands to `std::basic_string<char,std::char_traits<char>,std::allocator<char>>` and can make a function/method call seem quite verbose. I’ve found myself making these sort of substitutions with STL constructs just to make the error more readable. 
+For example, the humble `std::string` expands to `std::basic_string<char,std::char_traits<char>,std::allocator<char>>` and can make a function/method call seem quite verbose. I’ve found myself making these sort of substitutions with STL constructs (like `list` and `queue`) just to make the error more readable. Once your build output starts to resemble readable code again, you're half-way to understanding the error at hand.
 
 ## Reveal your compiler and linker Instructions
 By default, Visual Studio supresses the detailed compiler and linker execution banner. It uses the /nologo switch respectively on the compiler and linker to achieve this. I like to see what I’m going and occasionally, need to check what include paths or linker paths I’ve actually specified in the project properties. 
