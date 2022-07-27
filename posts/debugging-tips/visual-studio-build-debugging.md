@@ -46,6 +46,6 @@ $ cat client.log | grep "error LNK" | grep -v LNK2038 | grep -v LNK2005
 client.exe : fatal error LNK1169: one or more multiply defined symbols found
 ```
 
-showing us that we really only have 2-3 types of issues to resolve. 
+Filtering the output in this way shows us that we really only have 2-3 types of issues to resolve. 
 A quick read up on https://docs.microsoft.com/en-us/cpp/error-messages/tool-errors/linker-tools-error-lnk1169 explains it normally follows instances of LNK2005.
 Ultimately, what might initially appeared as scary with hundreds of errors just boils down to two. 
