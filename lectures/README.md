@@ -52,7 +52,7 @@ I developed the course material over the summer of 2017 and delivered it in Q4 2
 
 11. [Architecting for the Internet of Things](published/11%20-%20Architecting%20for%20the%20Internet%20of%20Things%20(IoT).pdf)
 
-	In this short talk, I introduce IoT from an architect's perspective and propose how a tiered abstraction model helps us deal with the complexity in this domain and satify the needs of the various stakeholders. 
+	In this short talk, I introduce IoT from an architect's perspective and propose how a tiered abstraction model helps us deal with the complexity in this domain and satisfy the needs of the various stakeholders. 
 
 
 ### Guest Speakers
