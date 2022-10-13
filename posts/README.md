@@ -11,5 +11,5 @@ Here are posts and articles I've penned on various topics.
 
 
 
-[Debugging Visual Studio builds](debugging-tips/visual-studio-build-debugging.md) - Tips to employ when trying to debug build issues with your project in Visual Studio. 
+
 
