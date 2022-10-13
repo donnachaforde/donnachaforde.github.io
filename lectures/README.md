@@ -1,7 +1,9 @@
 [Home](/)
 
 # Lectures on Software Architecture & Design
- University Lectures at masters-level delivered at [Munster Technology University](https://www.cit.ie/index.cfm) _(formerly Cork Institute of Technology - CIT)_ as part of an [MSc Software Architecture & Design](https://cs.cit.ie/sad). 
+ University Lectures at masters-level delivered at [Munster Technology University](https://www.cit.ie/index.cfm) (MTU)  as part of an [MSc program in Software Architecture & Design](https://cs.cit.ie/sad). 
+
+> **Note** MTU was formerly Cork Institute of Technology (CIT)
 
 ![image](./rc/Course-Title.jpg)
 
