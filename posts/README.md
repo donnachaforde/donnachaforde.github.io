@@ -1,3 +1,5 @@
+[Home](/)
+
 # Posts
 Here are posts and articles I've penned on various topics. 
 
