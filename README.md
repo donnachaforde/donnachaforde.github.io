@@ -1,43 +1,44 @@
 
-Welcome to my homepage on GitHub
+# README
+Welcome to my GitHub homepage where you'll find everything I've put online. 
 
-I'm still getting to grips with GitHub Pages and working out how best to organize this. I'm trying to pull bits n' pieces across several repos together here into one organized site.
+
 
 *** 
 
 ## Code 
 Here are public repos on GitHub that are in a presentable form.
 
-* [GitHub](https://github.com/donnachaforde)
+* [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scrips).
 
-	These include code examples (mostly C/C++/Java) but also some basic shell-scrips. 
+* [Espresso](https://github.com/donnachaforde?tab=repositories&q=espresso&type=public&language=&sort=) - My hobby-horse project: an easy to use command-line parser library and some handy CLI tools. 
+
+* [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C.  
 
 ***
 ## Posts & Blogs
 
 
 
-* [JVM Performance Tuning](blogs/jvm-performance-tuning/README.md) 
-
-	Some years back, I wrote a blog on JVM Performance Tuning. The entire series of blogs is published on Blogger.com, starting [here](https://donnachaforde.blogspot.com/2015/09/jvm-performance-tuning-part-i-jvm.html).
-
-
-
-
-*  [Code Design](blogs/code-design/README.md)
+* [JVM Performance Tuning](blogs/jvm-performance-tuning/README.md) - Details on a series of blogs I wrote summarizing my experiences. 
 	
-	Ruminations on code-level design issues that I've started to capture.
+* [Code Design](blogs/code-design/README.md) - Ruminations on code-level design issues. 
 
+* [Posts](posts/README.md) - Published posts
 
-
-* [Posts](posts/README.md)
-
-	I'm now publishing posts directly on GitHub Pages. My first is an observation from the world of sport that applies to software engineering on how [repetition](posts/lessons-from-sport/repetition.md) breeds excellence. 
+	
 
 ***
-## Lectures
+## Talks & Lectures
 
-Details on the series of lectures I devised for a course on _Software Architecture & Design_ at MSc level are [here](lectures/README.md).
+Slides used for talks I've delivered are available [here](talks/README.md)
+
+* The Role of the Architect
+* Working in the Software Industry (Delivered to 3rd Year University Students)
+
+
+
+Details on the series of lectures  for an MSc course on _Software Architecture & Design_ I delivered are [here](lectures/README.md).
 
 **Contents**
 
@@ -57,21 +58,10 @@ Details on the series of lectures I devised for a course on _Software Architectu
 
 
 ***
-
-## Talks
-Slides from a few talks I've delivered are available [here](talks/README.md)
-
-* The Role of the Architect
-* Working in the Software Industry (Delivered to 3rd Year University Students)
-
-
-
-
-***
 ## About
-A little bit more about me here: [About](About.md)
+Read more about me [here](About.md) and on [LinkedIn.com](https://www.linkedin.com/in/donnachaforde/)
 
-***
+
 Donnacha Forde
 
-[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)
+

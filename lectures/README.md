@@ -63,14 +63,11 @@ There was an emphasis on industry contribution for this MSc course and, in keepi
 2. Cloud Antipatterns with Pivotal Cloud Foundry (Guest Speaker - [Tammer Saleh](http://tammersaleh.com/), Pivotal)
 3. Architecting for Scale with McAfee (Guest Speaker - [Pat Lynch](https://www.linkedin.com/in/pat-lynch-59b6b31), McAfee)
 
+
+> **Note** Company associations correct as of the time the talk was delivered. (2017-2018).
+
 ---
 Donnacha Forde
 
 [linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)
 
-
----
-
-_Note: Company associations are as of the time the talk was delivered. (2017-2018)._
-
----
