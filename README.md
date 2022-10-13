@@ -33,7 +33,7 @@ Here are public repos on GitHub that are in a presentable form.
 
 * [Talks](./talks/README.md) - Details on talks delivered outside of work
 
-* [Lectuers](./lectures/README.md) - Details on the series of lectures  for an MSc course on _Software Architecture & Design_ I delivered at CIT.
+* [Lectures](./lectures/README.md) - Details on the series of lectures  for an MSc course on _Software Architecture & Design_ I delivered at CIT.
 
 	**Contents**
 
