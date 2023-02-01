@@ -106,5 +106,7 @@ I added code in a piecemeal way until I isolated the lines that introduced the l
 
 In turn, comparing the two sets of header files as detailed above, revealed the preprocessor declaration was the root-cause of all the linker errors. Of course, it was the cause of the compiler warning too! Hence, the moral of the story, ignore compiler warnings at your peril!
 
+Or, at the very least, be aware of the compiler warnings you can ignore and those you cannot.
+
 
 
