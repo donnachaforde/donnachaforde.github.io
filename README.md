@@ -20,20 +20,18 @@ Here are public repos on GitHub that are in a presentable form.
 
 
 
-* [JVM Performance Tuning](blogs/jvm-performance-tuning/README.md) - Details on a series of blogs I wrote summarizing my experiences. 
+* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning/README.md) - Details on a series of blogs I wrote summarizing my experiences. 
 	
-* [Code Design](blogs/code-design/README.md) - Ruminations on code-level design issues. 
+* [Code Design](./blogs%2Bposts/code-design/README.md) - Ruminations on code design issues. 
 
-* [Posts](posts/README.md) - Published posts
-
+* [Software Engineering](./blogs%2Bposts/software-engineering/README.md) - Articles published covering various software engineering topics. 
 	
 
 ***
-## Talks & Lectures
+## Lectures
 
-* [Talks](./talks/README.md) - Details on talks delivered outside of work
 
-* [Lectures](./lectures/README.md) - Details on the series of lectures  for an MSc course on _Software Architecture & Design_ I delivered at CIT.
+* [Lectures](./lectures/README.md) - Details on the series of lectures  for an MSc course on _Software Architecture & Design_ I delivered at Munster Technological University (_formerly Cork Institute of Technology - CIT_).
 
 	**Contents**
 
