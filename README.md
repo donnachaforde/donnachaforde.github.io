@@ -20,11 +20,11 @@ Here are public repos on GitHub that are in a presentable form.
 ***
 ## Posts & Blogs
 
-* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning/README) - Details on a series of blogs I wrote summarizing my experiences. 
+* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning/README.md) - Details on a series of blogs I wrote summarizing my experiences. 
 	
-* [Code Design](./blogs%2Bposts/code-design/README) - Ruminations on code design issues. 
+* [Code Design](./blogs%2Bposts/code-design/README.md) - Ruminations on code design issues. 
 
-* [Software Engineering](./blogs%2Bposts/software-engineering/README) - Articles published covering various software engineering topics. 
+* [Software Engineering](./blogs%2Bposts/software-engineering/README.md) - Articles published covering various software engineering topics. 
 	
 
 
