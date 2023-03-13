@@ -1,5 +1,9 @@
+[Home](/)
+
 # Lectures on Software Architecture & Design
- University Lectures at masters-level delivered at [Munster Technology University](https://www.cit.ie/index.cfm) _(formerly Cork Institute of Technology - CIT)_ as part of an [MSc Software Architecture & Design](https://cs.cit.ie/sad). 
+ University Lectures at masters-level delivered at [Munster Technology University](https://www.cit.ie/index.cfm) (MTU)  as part of an [MSc program in Software Architecture & Design](https://cs.cit.ie/sad). 
+
+> **Note** MTU was formerly Cork Institute of Technology (CIT)
 
 ![image](./rc/Course-Title.jpg)
 
@@ -52,7 +56,7 @@ I developed the course material over the summer of 2017 and delivered it in Q4 2
 
 11. [Architecting for the Internet of Things](published/11%20-%20Architecting%20for%20the%20Internet%20of%20Things%20(IoT).pdf)
 
-	In this short talk, I introduce IoT from an architect's perspective and propose how a tiered abstraction model helps us deal with the complexity in this domain and satify the needs of the various stakeholders. 
+	In this short talk, I introduce IoT from an architect's perspective and propose how a tiered abstraction model helps us deal with the complexity in this domain and satisfy the needs of the various stakeholders. 
 
 
 ### Guest Speakers
@@ -63,14 +67,11 @@ There was an emphasis on industry contribution for this MSc course and, in keepi
 2. Cloud Antipatterns with Pivotal Cloud Foundry (Guest Speaker - [Tammer Saleh](http://tammersaleh.com/), Pivotal)
 3. Architecting for Scale with McAfee (Guest Speaker - [Pat Lynch](https://www.linkedin.com/in/pat-lynch-59b6b31), McAfee)
 
+
+> **Note** Company associations correct as of the time the talk was delivered. (2017-2018).
+
 ---
 Donnacha Forde
 
 [linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)
 
-
----
-
-_Note: Company associations are as of the time the talk was delivered. (2017-2018)._
-
----
