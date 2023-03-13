@@ -10,6 +10,52 @@ When I really need to scrutinize the compile output, I copy this output to a sep
 ## Massage the message
 One of the downsides of introducing templates into C++ is that compiler errors can be so verbose as to be near impossible for a human to read. One advantage of copying build output to a separate editor, is to replace expanded template definitions with human-readable shorthand. For example, the humble `std::string` expands to `std::basic_string<char,std::char_traits<char>,std::allocator<char>>` and can make a function/method call seem quite verbose. I’ve found myself making these sort of substitutions with STL constructs (like `list` and `queue`) just to make the error more readable. Once your build output starts to resemble readable code again, you're half-way to understanding the error at hand.
 
+Let's take an example of a linker error I recently encoutered while working with gRPC. On initial presentation, the following error-message is somewhat opaque. 
+
+````
+libprotobuf-lite.lib(libprotobuf-lite.dll) : error LNK2005: "public: void __cdecl google::protobuf::internal::ArenaStringPtr::Set(struct google::protobuf::internal::ArenaStringPtr::EmptyDefault,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class google::protobuf::Arena *)" (?Set@ArenaStringPtr@internal@protobuf@google@@QEAAXUEmptyDefault@1234@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVArena@34@@Z) already defined in libprotobuf.lib(arenastring.obj)
+````
+But, we can start by breaking out the message text and the mangled signature from what is actually code. 
+````
+libprotobuf-lite.lib(libprotobuf-lite.dll) : error LNK2005: 
+
+"public: void __cdecl google::protobuf::internal::ArenaStringPtr::Set(struct google::protobuf::internal::ArenaStringPtr::EmptyDefault,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class google::protobuf::Arena *)" 
+
+(?Set@ArenaStringPtr@internal@protobuf@google@@QEAAXUEmptyDefault@1234@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVArena@34@@Z) 
+
+already defined in libprotobuf.lib(arenastring.obj)
+````
+
+This is the mangled representation of the function. I've found that whereas these used to be fairly simple when using C, because of namespace, classes, overloading, etc. these are more unweildy. 
+````
+(?Set@ArenaStringPtr@internal@protobuf@google@@QEAAXUEmptyDefault@1234@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVArena@34@@Z) 
+````
+
+This is the actually C++ code detailing the method in question. 
+
+````
+"public: void __cdecl google::protobuf::internal::ArenaStringPtr::Set(struct google::protobuf::internal::ArenaStringPtr::EmptyDefault,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class google::protobuf::Arena *)" 
+````
+
+Now, we can substitute the full representation for the string class. 
+````
+"public: void __cdecl google::protobuf::internal::ArenaStringPtr::Set(struct google::protobuf::internal::ArenaStringPtr::EmptyDefault, string&&, class google::protobuf::Arena *)" 
+````
+
+It's still a little unweildy so let's get rid of namespace and class scoping. 
+````
+"public: void google::protobuf::internal::ArenaStringPtr::Set(struct google::protobuf::internal::ArenaStringPtr::EmptyDefault, string&&, class google::protobuf::Arena *)" 
+````
+
+Finally, something that is human-readable. We're looking to resolve a method that take 3 arguments (i.e. a struct, a string and a class). 
+
+````
+"public: void internal::ArenaStringPtr::Set(struct internal::ArenaStringPtr::EmptyDefault, string&&, class Arena*)" 
+````
+
+Now at least , we know what we're dealing with. 
+
+
 ## Reveal your compiler and linker Instructions
 By default, Visual Studio supresses the detailed compiler and linker execution banner. It uses the /nologo switch respectively on the compiler and linker to achieve this. I like to see what I’m going and occasionally, need to check what include paths or linker paths I’ve actually specified in the project properties. 
 
