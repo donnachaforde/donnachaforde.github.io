@@ -1,3 +1,5 @@
+[Home](/)
+
 # Hard-won Lessons: Don’t ignore compiler warnings…
 
 Don’t ignore compiler warnings unless you’re absolutely sure why you’re ignoring them. Yeah, there are some warnings that fall into the category of nuisance information but many are there for good reason. Or, at the very least, can give you a small clue about potential issues with your environment. 
