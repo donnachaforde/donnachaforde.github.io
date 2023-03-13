@@ -4,7 +4,7 @@
 Here are posts and articles covering more general softare engineering topics. 
 
 
-## General Software Engineering
+## Management & Leadership
 
 
 
