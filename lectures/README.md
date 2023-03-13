@@ -62,7 +62,7 @@ I developed the course material over the summer of 2017 and delivered it in Q4 2
 ### Guest Speakers
 There was an emphasis on industry contribution for this MSc course and, in keeping with that sentiment, I invited guest speakers from industry to gave a talk on their subject matter expertise.
 
-1. UI Infrastructure & Web Frameworks (Guest Speaker - Elaine Holland, EMC)
+1. UI Infrastructure & Web Frameworks (Guest Speaker - [Elaine Holland](https://www.linkedin.com/in/elaine-holland-b10b8b225/), EMC)
 1. Microservices Reference Architecture with NGINX (Guest Speaker - [Peter Kelly](https://www.linkedin.com/in/peterkellyonline), NGINX)
 2. Cloud Antipatterns with Pivotal Cloud Foundry (Guest Speaker - [Tammer Saleh](http://tammersaleh.com/), Pivotal)
 3. Architecting for Scale with McAfee (Guest Speaker - [Pat Lynch](https://www.linkedin.com/in/pat-lynch-59b6b31), McAfee)
