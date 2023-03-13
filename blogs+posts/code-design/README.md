@@ -8,6 +8,7 @@ First, I've learnt that thinking can be improved just through the process of _pu
 
 
 ### The design and evolution of the espresso library
+
 Ruminations on C++ OO Design
 * [Overview](https://github.com/donnachaforde/espresso/blob/master/docs/README.md)          
 * [Creation Pattens](https://github.com/donnachaforde/espresso/blob/master/docs/Blog-Construction.md)

@@ -22,10 +22,9 @@ Here are public repos on GitHub that are in a presentable form.
 
 * [JVM Performance Tuning](blogs/jvm-performance-tuning/README.md) - Details on a series of blogs I wrote summarizing my experiences. 
 	
-* [Code Design](blogs/code-design/README.md) - Ruminations on code-level design issues. 
+* [Code Design](blogs/code-design/README.md) - Ruminations on code design issues. 
 
-* [Posts](posts/README.md) - Published posts
-
+* [Software Engineering](posts/README.md) - Articles published covering various software engineering topics. 
 	
 
 ***
