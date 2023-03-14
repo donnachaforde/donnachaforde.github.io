@@ -1,4 +1,4 @@
-[github.com](https://github.com/donnachaforde/donnachaforde.github.io) | [github.io](https://donnachaforde.github.io)
+[github.com](https://github.com/donnachaforde/donnachaforde.github.io) [github.io](https://donnachaforde.github.io)
 
 # Blogs on Code Design
 
