@@ -1,4 +1,4 @@
-[Home](/)
+[github.com](https://github.com/donnachaforde/donnachaforde.github.io) | [github.io](https://donnachaforde.github.io)
 
 # Visual Studio Build-Debugging Tips
 When you hit compiler and linker errors in Visual Studio, it can help if you peel the output back to basics and pay close attention to what you’re telling the compiler and linker – and what it’s saying back to you. 
