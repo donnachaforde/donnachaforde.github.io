@@ -13,7 +13,7 @@ Here are public repos on GitHub that are in a presentable form.
 
 * [Espresso](https://github.com/donnachaforde?tab=repositories&q=espresso&type=public&language=&sort=) - My hobby-horse project: an easy to use command-line parser library and some handy CLI tools. 
 
-* [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C.  
+* [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
 
 
 
