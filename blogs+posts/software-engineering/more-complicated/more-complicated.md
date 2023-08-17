@@ -26,3 +26,6 @@ Donnacha Forde
 August 2003
 
 [LinkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)
+
+> **Note:**
+_The quote above attributed to Ben Goldacre is from his book with the same title. He's also know for his book title 'Bad Science', which is a good read for anyone remotely interested in the scientific method._
