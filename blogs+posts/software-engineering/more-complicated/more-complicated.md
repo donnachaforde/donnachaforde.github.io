@@ -28,4 +28,4 @@ August 2003
 [LinkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)
 
 > **Note:**
-_The quote above attributed to Ben Goldacre is from his book with the same title. He's also know for his book title 'Bad Science', which is a good read for anyone remotely interested in the scientific method._
+_The quote above attributed to Ben Goldacre is from his [book](https://www.amazon.co.uk/Think-Youll-Find-More-Complicated/dp/0007505140) with the same title. He's also known for his book titled [Bad Science](https://www.amazon.co.uk/Bad-Science-Ben-Goldacre/dp/000728487X), which is a good read for anyone remotely interested in science or the scientific method._
