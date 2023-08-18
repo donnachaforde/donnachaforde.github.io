@@ -1,4 +1,6 @@
-[github.com](https://github.com/donnachaforde/donnachaforde.github.io) [github.io](https://donnachaforde.github.io)
+[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design](https://donnachaforde.github.io/blogs+posts/code-design/)
+
+
 
 # Blogs on Code Design
 
@@ -12,11 +14,12 @@ Second, when working with languages like C++ and Java, but particularly with C++
 ### Ruminations on  OO Design
 
 
+>Note - These  links redirect to README.md files in the [espresso repo](https://github.com/donnachaforde/espresso).
+
+
 * [Overview](https://github.com/donnachaforde/espresso/blob/master/docs/README.md)          
 * [Creation Pattens](https://github.com/donnachaforde/espresso/blob/master/docs/Blog-Construction.md)
 * [Using Manager Objects](https://github.com/donnachaforde/espresso/blob/master/docs/Blog-Manager-Object.md)
 
-
->Note - These  links redirect to README.md files in the espresso repo.
 
 

@@ -1,4 +1,9 @@
-[github.com](https://github.com/donnachaforde/donnachaforde.github.io) [github.io](https://donnachaforde.github.io)
+
+[//]: # (Navigation bread crumbs)
+
+[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[repetition](https://donnachaforde.github.io/blogs+posts/software-engineering/lessons-from-sport/repetition)
+
+
 
 # Repetition, repetition, repetition…
 ## Lessons from sport that translate to engineering

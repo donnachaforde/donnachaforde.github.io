@@ -1,4 +1,4 @@
-[github.com](https://github.com/donnachaforde/donnachaforde.github.io) [github.io](https://donnachaforde.github.io)
+[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[more-complicated](https://donnachaforde.github.io/blogs+posts/software-engineering/more-complicated/more-complicated.html)
 
 # I think you'll find it's a bit more complicated than that...
 
