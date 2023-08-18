@@ -1,4 +1,4 @@
-[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)
 
 
 # JVM Performance Tuning

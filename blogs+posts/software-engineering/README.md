@@ -1,4 +1,4 @@
-[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering](https://donnachaforde.github.io/blogs+posts/software-engineering/)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering](https://donnachaforde.github.io/blogs+posts/software-engineering/)
 
 # Blogs on Software Engineering
 Here are posts and articles covering more general softare engineering topics. 

@@ -1,4 +1,4 @@
-[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[visual-studio-build-output-tips](https://donnachaforde.github.io/blogs+posts/software-engineering/visual-studio-builds/visual-studio-build-output-tips.html)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[visual-studio-build-output-tips](https://donnachaforde.github.io/blogs+posts/software-engineering/visual-studio-builds/visual-studio-build-output-tips.html)
 
 
 
