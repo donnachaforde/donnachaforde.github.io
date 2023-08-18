@@ -9,7 +9,7 @@ Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll fi
 ## Code 
 Here are public repos on GitHub that are in a presentable form.
 
-* [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scrips).
+* [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
 
 * [Espresso](https://github.com/donnachaforde?tab=repositories&q=espresso&type=public&language=&sort=) - My hobby-horse project: an easy to use command-line parser library and some handy CLI tools. 
 
@@ -18,7 +18,7 @@ Here are public repos on GitHub that are in a presentable form.
 
 
 ***
-## Posts & Blogs
+## [Posts & Blogs](https://donnachaforde.github.io/blogs+posts)
 
 * [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - Details on a series of blogs I wrote summarizing my experiences. 
 	
@@ -29,12 +29,14 @@ Here are public repos on GitHub that are in a presentable form.
 
 
 ***
-## Lectures
+## [Lectures](https://donnachaforde.github.io/lectures/)
 
  I delivered the anchor module for an MSc course on _Software Architecture & Design_ at Munster Technological University during 2017-2019 (_formerly Cork Institute of Technology - CIT_).  A summary of all the lectures is provided [here](./lectures/README.md) and the slides (PDF) for each are below.
 
 **Contents**
 
+ **Note:**
+_The following links reference PDF docs._
 
 1. [The Role of the Architect](lectures/published/01%20-%20The%20Role%20of%20the%20Architect.pdf)
 2. [Middleware & Interprocess Communication](lectures/published/02%20-%20Middleware%20%26%20Interprocess%20Communication.pdf)
@@ -51,7 +53,7 @@ Here are public repos on GitHub that are in a presentable form.
 
 
 ***
-## About Me
+## [About Me](https://about.me/donnacha.forde/getstarted)
 Read more about me [here](about.md) and on [LinkedIn.com](https://www.linkedin.com/in/donnachaforde/)
 
 
