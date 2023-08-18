@@ -1,4 +1,4 @@
-[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design](https://donnachaforde.github.io/blogs+posts/code-design/)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design](https://donnachaforde.github.io/blogs+posts/code-design/)
 
 
 

@@ -1,4 +1,4 @@
-[home/](https://github.com/donnachaforde/donnachaforde.github.io)[lectures](https://donnachaforde.github.io/lectures/)
+[home/](https://donnachaforde.github.io)[lectures](https://donnachaforde.github.io/lectures/)
 
 
 

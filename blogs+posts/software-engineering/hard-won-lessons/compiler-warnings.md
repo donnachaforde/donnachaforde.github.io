@@ -1,4 +1,4 @@
-[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[compiler-warnings](https://donnachaforde.github.io/blogs+posts/software-engineering/hard-won-lessons/compiler-warnings.html)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[compiler-warnings](https://donnachaforde.github.io/blogs+posts/software-engineering/hard-won-lessons/compiler-warnings.html)
 
 
 # Hard-won Lessons: Don’t ignore compiler warnings…
