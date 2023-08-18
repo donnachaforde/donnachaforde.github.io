@@ -53,7 +53,7 @@ _The following links reference PDF docs._
 
 
 ***
-## [About Me](https://about.me/donnacha.forde/getstarted)
+## [About Me](https://about.me/donnacha.forde)
 Read more about me [here](about.md) and on [LinkedIn.com](https://www.linkedin.com/in/donnachaforde/)
 
 
