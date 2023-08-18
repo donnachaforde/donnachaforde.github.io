@@ -1,4 +1,5 @@
-[github.com](https://github.com/donnachaforde/donnachaforde.github.io) [github.io](https://donnachaforde.github.io)
+[home/](https://github.com/donnachaforde/donnachaforde.github.io)[lectures](https://donnachaforde.github.io/lectures/)
+
 
 
 
@@ -14,6 +15,10 @@ I developed the course material over the summer of 2017 and delivered it in Q4 2
 ---
 
 ### Lectures
+
+ **Note:**
+_The following links reference PDF docs._
+
 1. [The Role of the Architect](published/01%20-%20The%20Role%20of%20the%20Architect.pdf)
 
 	After introducing the course, I cover how the role of the _Software Architect_ emerged in industry, describe what the role entails and why it's so important. 

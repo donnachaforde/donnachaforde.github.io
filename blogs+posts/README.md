@@ -1,4 +1,6 @@
-[github.com](https://github.com/donnachaforde/donnachaforde.github.io) [github.io](https://donnachaforde.github.io)
+
+[home/](https://github.com/donnachaforde/donnachaforde.github.io)[blogs+posts](https://donnachaforde.github.io/blogs+posts/)
+
 
 # Blogs & Posts
 
