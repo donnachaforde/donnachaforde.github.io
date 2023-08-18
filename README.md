@@ -6,7 +6,7 @@ Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll fi
 
 *** 
 
-## Code 
+## [Code](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
 Here are public repos on GitHub that are in a presentable form.
 
 * [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
