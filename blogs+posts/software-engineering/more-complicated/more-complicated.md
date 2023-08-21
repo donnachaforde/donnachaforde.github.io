@@ -3,7 +3,7 @@
 # I think you'll find it's a bit more complicated than that...
 
 
-<img src="./quote-i-think-you-ll-find-it-s-a-bit-more-complicated-than-that-ben-goldacre-46-16-63.jpg" alt="C++ Logo" width="400" height="200" />
+<img src="https://www.azquotes.com/picture-quotes/quote-i-think-you-ll-find-it-s-a-bit-more-complicated-than-that-ben-goldacre-46-16-63.jpg" width="400" height="200" />
 
 _Photo Credit: [www.azquotes.com](https://www.azquotes.com/quote/461663)_
 
