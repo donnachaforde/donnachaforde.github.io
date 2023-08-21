@@ -15,9 +15,9 @@ Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll fi
 
 * [Software Engineering](./blogs%2Bposts/software-engineering) - Articles published covering various software engineering topics and architecture. 
 
-* [Code Design](./blogs%2Bposts/code-design) - Ruminations on code design. 
+* [Code Design](./blogs%2Bposts/code-design) - Ruminations on lower-level code design. 
 
-* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - Details on a series of blogs I wrote summarizing my experiences. 
+* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - Details on a series of blogs I wrote summarizing my experiences tuning the JVM. 
 
 
 ## [Lectures](https://donnachaforde.github.io/lectures/)
@@ -51,6 +51,8 @@ Here are public repos on GitHub that are in a presentable form.
 * [Espresso](https://github.com/donnachaforde?tab=repositories&q=espresso&type=public&language=&sort=) - My hobby-horse project: an easy to use command-line parser library and some handy CLI tools. 
 
 * [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
+
+* [Bash Shell](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
 
 * [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
 
