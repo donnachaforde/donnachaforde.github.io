@@ -14,12 +14,10 @@ Second, when working with languages like C++ and Java, but particularly with C++
 ### Ruminations on  OO Design
 
 
->Note - These  links redirect to README.md files in the [espresso repo](https://github.com/donnachaforde/espresso).
 
-
-* [Overview](https://github.com/donnachaforde/espresso/blob/master/docs/README.md)          
-* [Creation Pattens](https://github.com/donnachaforde/espresso/blob/master/docs/Blog-Construction.md)
-* [Using Manager Objects](https://github.com/donnachaforde/espresso/blob/master/docs/Blog-Manager-Object.md)
+* [Overview & Design Considerations](./espresso/design-considerations.md)
+* [Creation Pattens](./espresso/object-construction.md)
+* [Employing Manager Objects](./espresso/manager-objects.md)
 
 
 
