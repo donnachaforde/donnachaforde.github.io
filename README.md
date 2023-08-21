@@ -1,41 +1,34 @@
 
-# README
-Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll find everything I've put online. 
+
+Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll find pretty much everything I've put online. 
+
+<img src="https://media.licdn.com/dms/image/C4E03AQHNpRCvTr_urQ/profile-displayphoto-shrink_200_200/0/1624951213749?e=1698278400&v=beta&t=EfuSoETTBJhTzcQvV84t0Bg9cp-r7EuNHXOUnjzfF-8" width="200" height="200" />
 
 
 
-*** 
-
-## [Code](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
-Here are public repos on GitHub that are in a presentable form.
-
-* [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
-
-* [Espresso](https://github.com/donnachaforde?tab=repositories&q=espresso&type=public&language=&sort=) - My hobby-horse project: an easy to use command-line parser library and some handy CLI tools. 
-
-* [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
 
 
 
-***
+
+
 ## [Posts & Blogs](https://donnachaforde.github.io/blogs+posts)
 
-* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - Details on a series of blogs I wrote summarizing my experiences. 
-	
-* [Code Design](./blogs%2Bposts/code-design) - Ruminations on code design issues. 
+* [Software Engineering](./blogs%2Bposts/software-engineering) - Articles published covering various software engineering topics and architecture. 
 
-* [Software Engineering](./blogs%2Bposts/software-engineering) - Articles published covering various software engineering topics. 
-	
+* [Code Design](./blogs%2Bposts/code-design) - Ruminations on lower-level code design. 
+
+* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - Details on a series of blogs I wrote summarizing my experiences tuning the JVM. 
 
 
-***
 ## [Lectures](https://donnachaforde.github.io/lectures/)
 
- I delivered the anchor module for an MSc course on _Software Architecture & Design_ at Munster Technological University during 2017-2019 (_formerly Cork Institute of Technology - CIT_).  A summary of all the lectures is provided [here](./lectures/README.md) and the slides (PDF) for each are below.
+ I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_).  
+ 
+ A summary of the lectures are available [here.](./lectures/README.md)
 
 **Contents**
 
- **Note:**
+ >**Note:**
 _The following links reference PDF docs._
 
 1. [The Role of the Architect](lectures/published/01%20-%20The%20Role%20of%20the%20Architect.pdf)
@@ -52,7 +45,19 @@ _The following links reference PDF docs._
 
 
 
-***
+## [Code](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
+Here are public repos on GitHub that are in a presentable form.
+
+* [Espresso](https://github.com/donnachaforde?tab=repositories&q=espresso&type=public&language=&sort=) - My hobby-horse project: an easy to use command-line parser library and some handy CLI tools. 
+
+* [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
+
+* [Bash Shell](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
+
+* [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
+
+
+
 ## [About Me](https://about.me/donnacha.forde)
 Read more about me [here](about.md) and on [LinkedIn.com](https://www.linkedin.com/in/donnachaforde/)
 
