@@ -1,6 +1,9 @@
 
-# README
-Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll find everything I've put online. 
+
+Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll find pretty much everything I've put online. 
+
+<img src="https://media.licdn.com/dms/image/C4E03AQHNpRCvTr_urQ/profile-displayphoto-shrink_200_200/0/1624951213749?e=1698278400&v=beta&t=EfuSoETTBJhTzcQvV84t0Bg9cp-r7EuNHXOUnjzfF-8" width="200" height="200" />
+
 
 
 
