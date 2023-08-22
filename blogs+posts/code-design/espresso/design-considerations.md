@@ -1,7 +1,9 @@
-# Design Blog- espresso lib 
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[design-considerations](./design-considerations.md)
+
+# Design Considerations - espresso lib 
 Ruminations on the design and evolution of the espresso library. 
 
-***
+
 ## Introduction
 
 The idea of capturing this work in a library came to me many years ago now
@@ -14,7 +16,7 @@ I figured it would have general applicability so a standalone library seemed apt
 At this point, anytime I had an idea for a handy tool or utility, I had a quick way to create it and treat it as a command, with the typical handling of help, version and usage information. 
 
 
-***
+
 ## Design Goals/Influences
 
 There are a few stylistic aspects to the solution that are a result of some influences. 
@@ -30,7 +32,7 @@ So, as theme, I wanted ultimately flexibility.
 
 
 
-***
+
 ## Design Evolution
 
 
@@ -44,14 +46,14 @@ I detailed the design thought process in a separate article on [construction](./
 
 Another design journey lead me down a track that led to the implementation of the [MVC pattern](./object-construction.md). 
 
-***
+
 ## Style, Conventions and External Influences
 
 When I first devised the espresso library, I was strongly influenced by the Visual C++ naming conventions, using camelCase with a leading capital letter. I always thought this more aesthetically pleasing that the use of underscores in names.
 
 However, after years and years of Java programming, I came round to having a preference for camelCase 'without' the leading uppercase letter. I tend to use a 'light' version of Hungarian notation so I found my new preference to be compatible with this. 
 
-***
+
 ## IDE History
 
 This library was first developed using Visual C++ 6.0. That version of the Microsoft C/C++ compiler had quite a long life and the project was still tied to that version for many years. Eventually, it was upgraded to Visual Studio 2003 (Visual C++ 7), then Visual C++ 8 and Visual C++ 9. Thereafter, it was neglected while I pursued pure Java development and didn't get any attention until Visual Studio 2014 but then was upgraded to Visual Studio 17 and most recently Visual Studio 2019. 

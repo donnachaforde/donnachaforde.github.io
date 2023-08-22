@@ -1,14 +1,15 @@
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[object-construction](./object-construction.md)
+
 # Object Construction
 The thought process around object construction. 
 
-***
+
 ## Introduction
 
 In this blog, I explore construction patterns for initializing the library. As described in my top-level blog, my goal was to provide a way to initialize the library for writing to stdout without excluding alternative rendering. 
 
 
 
-***
 ## Influences
 
 When thinking about design, I find it helps to have a conversation with yourself to try to identify 'baggage' - what pre-conceptions and preferences you're bringing to the table on day-one.  
@@ -22,7 +23,6 @@ When thinking about design, I find it helps to have a conversation with yourself
 
 
 
-***
 ## Design Evolution
 
 Taking the programmer's experience of the library into consider, I wanted a clear way to model and capture command-line argument info, as follows:
