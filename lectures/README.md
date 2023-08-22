@@ -30,7 +30,7 @@ _The following links reference PDF docs._
 
 3. [UI Architecture](published/03%20-%20UI%20Architecture.pdf), UI Infrastructure & Web Frameworks (co-presented with Guest Speaker)
 
-	Here, I introduced the subject of UI Architecture in broad terms before co-presenting on UI Infrstructure and Frameworks with my guest speaker. 
+	Here, I introduced the subject of UI Architecture in broad terms before co-presenting on UI Infrastructure and Frameworks with my guest speaker. 
 
 4. [An Introduction to Database Modelling](published/04%20-%20An%20Introduction%20to%20Database%20Modelling.pdf)
 
