@@ -13,11 +13,11 @@ Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll fi
 
 ## [Posts & Blogs](https://donnachaforde.github.io/blogs+posts)
 
-* [Software Engineering](./blogs%2Bposts/software-engineering) - Articles published covering various software engineering topics and architecture. 
+* [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
 
-* [Code Design](./blogs%2Bposts/code-design) - Ruminations on lower-level code design. 
+* [Code Design](./blogs%2Bposts/code-design) - Ruminations on lower-level Object-Oriented code design. 
 
-* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - Details on a series of blogs I wrote summarizing my experiences tuning the JVM. 
+* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
 
 
 ## [Lectures](https://donnachaforde.github.io/lectures/)

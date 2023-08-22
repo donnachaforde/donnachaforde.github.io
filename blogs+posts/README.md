@@ -14,11 +14,10 @@ The posts under Code Design focus on code design specifically whereas the posts 
 
 ### Contents
 
+* [Software Engineering](software-engineering/README.md)
+* [Code Design](code-design/README.md)
 * [JVM Performance Tuning](jvm-performance-tuning/README.md)
 
-* [Code Design](code-design/README.md)
-
-* [Software Engineering](software-engineering/README.md)
 
 
 

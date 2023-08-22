@@ -1,14 +1,16 @@
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[manager-objects](./manager-objects.md)
+
+
 # Employing Manager Objects
 The rationale behind the introduction of the 'Manager' object in espresso.   
 
-***
+
 ## Introduction
 
 In this blog, I explore the presence of the 'manager' object in the class design for the espresso library, which might be considered controversial in some circles. In a pure OO model, your classes represent real-work entities and managers don't always, if perhaps never, fit into that model. Still, I remain a fan and resort to deploying such classes frequently. 
 
 
 
-***
 ## Influences
 
 There were two drivers to introducing the `ArgumentManager` class, as follows:
@@ -19,7 +21,7 @@ There were two drivers to introducing the `ArgumentManager` class, as follows:
 
 
 
-***
+
 ## Design Evolution
 
 The initial driver though was the desire to avoid writing duplicate code. After developing some tools that leveraged the espresso library, I realised certain command-line arguments are common to almost all commands. Requests for _help_ and _version_ being practically universal. 
