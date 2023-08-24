@@ -24,13 +24,17 @@ Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll fi
 ## [Code](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
 Here are public repos on GitHub that are in a presentable form.
 
-* [Espresso](https://github.com/donnachaforde?tab=repositories&q=espresso&type=public&language=&sort=) - My hobby-horse project: an easy to use command-line parser library and some handy CLI tools. 
+* [espresso lib](https://github.com/donnachaforde/espresso) - A hobby-horse project - i.e. an easy-to-use command-line parser to simplify CLI development. 
+
+* [espresso tools](https://github.com/donnachaforde/espresso-tools) - A collection of useful CLI tools that leverages the espresso library. 
 
 * [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
 
-* [Bash Shell](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
+* [Hello World!](https://github.com/donnachaforde/example-hello-world) - Various implementations of the famous K&R "Hello World!" in different languages.
 
-* [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
+* [Bash Shell Profile](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
+
+* [GitHub Repos](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
 
 
 
