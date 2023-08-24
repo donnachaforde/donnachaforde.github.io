@@ -20,6 +20,25 @@ Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll fi
 * [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
 
 
+
+## [Code](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
+Here are public repos on GitHub that are in a presentable form.
+
+* [espresso lib](https://github.com/donnachaforde/espresso) - A hobby-horse project - i.e. an easy-to-use command-line parser to simplify CLI development. 
+
+* [espresso tools](https://github.com/donnachaforde/espresso-tools) - A collection of useful CLI tools that leverages the espresso library. 
+
+* [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
+
+* [Hello World!](https://github.com/donnachaforde/example-hello-world) - Various implementations of the famous K&R "Hello World!" in different languages.
+
+* [Bash Shell Profile](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
+
+* [GitHub Repos](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
+
+
+
+
 ## [Lectures](https://donnachaforde.github.io/lectures/)
 
  I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_).  
@@ -43,18 +62,6 @@ _The following links reference PDF docs._
 10. [The 'Third Platform' - Cloud & Big Data](lectures/published/10%20-%20The%20Third%20Platform%20-%20Cloud%20%26%20Big%20Data.pdf)
 11. [Architecting for the Internet of Things](lectures/published/11%20-%20Architecting%20for%20the%20Internet%20of%20Things%20(IoT).pdf)
 
-
-
-## [Code](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
-Here are public repos on GitHub that are in a presentable form.
-
-* [Espresso](https://github.com/donnachaforde?tab=repositories&q=espresso&type=public&language=&sort=) - My hobby-horse project: an easy to use command-line parser library and some handy CLI tools. 
-
-* [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
-
-* [Bash Shell](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
-
-* [GitHub](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
 
 
 
