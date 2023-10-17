@@ -17,13 +17,27 @@ Events arrived into the system asynchronously and were held in a buffer and then
 
 ## Problem
 
-The upshot is that the code section was continuously allocating new `ArrayLists` that subsequently had to be freed when the dispatcher thread was done with them. Now, I hasten to add that this was a relatively small amount of memory on each occasion but what struck me was that it would continuously do this for the entirety of the lifetime of the process and this was a backend server that was meant to run forever. 
+The upshot is that the code section was continuously allocating new `ArrayLists` that subsequently had to be freed when the dispatcher thread was done with them. Now, I hasten to add that this was a relatively small amount of memory on each occasion but what struck me was that it would continuously do so for the entire lifetime of the process and this was a backend-server meant to run indefinitely. 
 
-Additionally, given that the ArrayList was created using the default ctor, it allocated the default internal size and was reallocating memory as and when that default threshold was surpassed. In other words, not only was the ArrayList object itself being repeatedly allocated but the internal array used to hold the collection of object references was also generating work for the GC.  
+Additionally, given that the `ArrayList` was created using the default ctor, it allocated the default internal size and was reallocating memory as and when that default threshold was surpassed. In other words, not only was the `ArrayList` object itself being repeatedly allocated but the internal array used to hold the collection of object references was also generating work for the GC.  
+
+## Analysis
+The primary objective was straightforward: stop repeatedly allocating memory. That meant fixing two issues:
+
+* Avoid reallocating the internal array of the `ArrayList`.
+* Figure out a way to avoid having to create new  `ArrayList` objects each time we toggled the queue. 
+
+
+### Preallocating Memory Buffer
+Regarding the first issue, allocating a sufficiently large enough internal memory buffer for the `ArrayList` in the first instance should avoid any subsequent reallocations. This of course would mean that a little more memory was allocated than might otherwise have been needed but the main objective here was to reduce the work done in GC interrupts. So, the trade off would be worth it.
+
+>Note: The default constructor for the Java ArrayList<> creates an empty list with capacity for 10 elements.  
+
+
+### Avoiding New Memory Allocations
+What about the collection object itself? Could we avoid having to allocate a new object every time the dispatcher thread triggered?
 
 ## Solution
-The primary objective was straightforward: stop repeatedly allocating memory. Allocating a sufficiently large enough buffer in the first instance would mean that the internal memory buffer of the ArrayList never should mean would never have to be extended but what about the collection object itself? Could we avoid having to allocate a new object every time the dispatcher thread triggered?
-
 
 
 ***
