@@ -13,11 +13,13 @@ Second, when working with languages like C++ and Java, but particularly with C++
 
 ### Ruminations on  OO Design
 
-
-
 * [Overview & Design Considerations](./espresso/design-considerations.md)
 * [Creation Pattens](./espresso/object-construction.md)
 * [Employing Manager Objects](./espresso/manager-objects.md)
 
+
+### Performance Improvement
+
+* [Eliminating Heap Memory Allocations (Java)](./toggle-queue.md)
 
 
