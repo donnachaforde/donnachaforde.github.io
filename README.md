@@ -1,12 +1,11 @@
 
 
-Welcome to my [GitHub homepage](https://donnachaforde.github.io) where you'll find pretty much everything I've put online. 
-
-<img src="https://media.licdn.com/dms/image/C4E03AQHNpRCvTr_urQ/profile-displayphoto-shrink_200_200/0/1624951213749?e=1698278400&v=beta&t=EfuSoETTBJhTzcQvV84t0Bg9cp-r7EuNHXOUnjzfF-8" width="200" height="200" />
+Welcome to my **GitHub Homepage** where you'll find pretty much everything I've put online. 
 
 
+<img src="donnacha-headshot.jpeg" width="200" height="200" />
 
-
+Here you'll find Posts & Blogs I've penned as well as Talks I've delivered, links to code/examples in GitHub and an outline of the University course I delivered on Software Architecture & Design. At the end you'll find some details about me. 
 
 
 
@@ -69,6 +68,7 @@ _The following links reference PDF docs._
 Read more about me [here](about.md) and on [LinkedIn.com](https://www.linkedin.com/in/donnachaforde/)
 
 
-Donnacha Forde
+_Donnacha Forde_
+
 
 
