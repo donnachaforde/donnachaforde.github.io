@@ -1,4 +1,4 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[java-memory-model](./java-performance-tuning-part-ii-the-java-memory-model.md))
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[java-memory-model](./java-performance-tuning-part-ii-the-java-memory-model.md)
 
 # JVM Performance Tuning – Part II
 
@@ -27,7 +27,7 @@ Generally, your Java application is ‘paused’ while the GC does its job. Howe
 This is the heap-location for older objects and it is regarded as the ‘Space Efficient’ generation. It is typically larger than the New Generation, occupying most of the heap. 
 The GC cycles for the Tenured Generation are referred to as _Major GC Cycles_. They are much more expensive than GC cycles on the New Generation and should occur much less frequently. I say ‘should’ here because frequent invocation of major GC cycles likely means your application is in trouble. 
 
-> [!IMPORTANT]  
+> **Important**  
 > The JVM will only resort to a major GC cycle when the minor GC cycle fails to free up enough memory. Logically, if the objects residing in the Tenured Generation truly are long-lived, then the GC cycle here won’t free up much memory. I’ve typically seen the GC make a few attempts before firing an `OutOfMemoryException` and killing the application. 
 
 ## Permanent Generation
@@ -54,7 +54,7 @@ Note that the GC toggles the purpose of the two Survivor Spaces. On each iterati
 ## JVM Memory Pools
 If you’re curious, you can take a peek at these various memory sections in action by using the `JConsole` tool that comes with the JDK install. 
 
-> [!TIP]
+> **Tip**
 > On Windows, look for `jconsole.exe` usually located under `C:\Program Files\Java\<jdk version>\bin`
 
 ![](./rcs/jvm-memory-pools.png)
@@ -105,7 +105,7 @@ In my [next blog](./java-performance-tuning-part-iii-garbage-collectors.md), I�
 ---
 Donnacha Forde
 
-https://www.linkedin.com/in/donnachaforde/
+https://www.linkedin.com/in/donnachaforde
 
 
 ## References
