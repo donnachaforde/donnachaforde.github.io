@@ -32,13 +32,15 @@ Again, most Java programmers will be aware that it’s the Garbage Collector (GC
 
 It’s worth taking a moment to explain what goes on when an object is allocated. The following code:
 
+```java
     Foo foo = new Foo();
+```
 
 Results in two entities coming into existence – i.e. the object on the heap and the reference variable that points to it:
 
 ![Object Structure](./rcs/java-object-structure.png)
  
-These two entities have somewhat disconnected lifecycles in the sense that the reference can go out of scope (and be destroyed) before the object it references. However, the object can never go out of scope as long as there is at least one reference to it. 
+These two entities have somewhat disconnected life-cycles in the sense that the reference can go out of scope (and be destroyed) before the object it references. However, the object can never go out of scope as long as there is at least one reference to it. 
 
 It's the GC that’s responsible for:
 * Ensuring referenced objects remain in memory. 
@@ -85,3 +87,6 @@ One point to note that many Java Programmers seem to be unaware of is the GC bec
 Donnacha Forde
 
 https://www.linkedin.com/in/donnachaforde/
+
+## References
+http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html
