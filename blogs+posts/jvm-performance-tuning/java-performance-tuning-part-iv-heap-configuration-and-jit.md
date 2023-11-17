@@ -1,3 +1,5 @@
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[jvm-heap-config-and-jit](./java-performance-tuning-part-iv-heap-configuration-and-jit.md)
+
 # JVM Performance Tuning – Part IV
 In this section, I discuss Heap Configuration and the Java Just-in-Time compiler (JIT) , building upon previous blogs covering principal concepts in [Part I](./java-performance-tuning-part-i-jvm-concepts.md), the Java Memory Model in [Part II](./java-performance-tuning-part-ii-the-java-memory-model.md) and Garbage Collectors in [Part III](./java-performance-tuning-part-iii-garbage-collectors.md). 
 
