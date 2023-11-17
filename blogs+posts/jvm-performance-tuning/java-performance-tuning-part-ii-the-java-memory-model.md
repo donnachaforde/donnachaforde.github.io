@@ -1,13 +1,13 @@
 # JVM Performance Tuning – Part II
 
 
-Now that we have the principal concepts out of the way in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md), I’d like to explain the _Java Memory Model_, which is a fancy way to describe how the JVM views the world. 
+Now that we have the principal concepts out of the way in [Part I](./java-performance-tuning-part-i-jvm-concepts.md), I’d like to explain the _Java Memory Model_, which is a fancy way to describe how the JVM views the world. 
 
 ![](./rcs/duke-learning-curve.png)
 
 
 ## JVM Memory Layout
-In broad terms, JVM memory is often referred to in terms of _Heap_ and _Non-Heap_. Heap memory consists of the _New Generation_ and the _Tenured Generation_, as explained in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md). The non-heap consists of _PermGen_ – i.e. _Permanent Generation_.
+In broad terms, JVM memory is often referred to in terms of _Heap_ and _Non-Heap_. Heap memory consists of the _New Generation_ and the _Tenured Generation_, as explained in [Part I](./java-performance-tuning-part-i-jvm-concepts.md). The non-heap consists of _PermGen_ – i.e. _Permanent Generation_.
 
 The following diagram illustrates the layout: 
 
@@ -97,7 +97,7 @@ On the left-hand-side, we can see a Java process that is currently using ~325 MB
 
 The size of the JVM will vary according to the implementation you’re using, whether you’re operating on a 32-bit or 64-bit OS and whether you link with any DLLs. 
 
-In my [next blog](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md), I’ll explain Garbage Collectors, Memory Sizing and the JIT Compiler.
+In my [next blog](./java-performance-tuning-part-iii-garbage-collectors.md), I’ll explain Garbage Collectors, Memory Sizing and the JIT Compiler.
 
 
 ---
