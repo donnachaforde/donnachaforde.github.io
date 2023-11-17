@@ -92,7 +92,7 @@ On the left-hand-side, we can see a Java process that is currently using ~325 MB
 
 The size of the JVM will vary according to the implementation you’re using, whether you’re operating on a 32-bit or 64-bit OS and whether you link with any DLLs. 
 
-In my next blog, I’ll explain Garbage Collectors, Memory Sizing and the JIT Compiler.
+In my [next blog](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md), I’ll explain Garbage Collectors, Memory Sizing and the JIT Compiler.
 
 
 ---
@@ -103,4 +103,5 @@ https://www.linkedin.com/in/donnachaforde/
 
 ## References
 http://www.infoq.com/articles/Java-PERMGEN-Removed
+
 https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation

@@ -60,12 +60,15 @@ Alternatively, you could opt to pay that cost up front and gain the benefit over
 
 
 
-In my next and last blog this series, I’ll discuss JVM Diagnostics and will illustrate how to work with the JVM to test and verify whether your tuning effects are having the desired effect. I’ll also show you how, with a little bit of grunt effort, how you can visualize and interpret diagnostic information to a greater level of depth than many profiling or memory monitoring tools. 
+In my [next and last blog](./Java%20Performance%20Tuning%20-%20Part%20V%20-%20JVM%20Diagnostics.md) this series, I’ll discuss JVM Diagnostics and will illustrate how to work with the JVM to test and verify whether your tuning effects are having the desired effect. I’ll also show you how, with a little bit of grunt effort, how you can visualize and interpret diagnostic information to a greater level of depth than many profiling or memory monitoring tools. 
 
 ---
 
 Donnacha Forde
+
 https://www.linkedin.com/in/donnachaforde/
+
+
 
 ## References
 http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html

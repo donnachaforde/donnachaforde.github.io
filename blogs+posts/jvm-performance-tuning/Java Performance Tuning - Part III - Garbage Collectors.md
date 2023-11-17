@@ -174,7 +174,7 @@ The *G1 Collector* can be enabled as follows:
 
 A more complete set of JVM options is published on the Oracle site [here](http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html). 
 
-In my next blog in this series, I will discuss Heap Configuration, which goes _‘hand-in-glove’_ with your GC tuning, Stack Size and the JIT compiler options. In practice, if you’re going to tune the GC, you’ll need to have a handle on these concepts as, at times, one has implications on the other and you’ll need to understand these. Otherwise, you may well find your JVM rejecting your choice of options. 
+In my [next blog](./Java%20Performance%20Tuning%20-%20Part%20IV%20-%20Heap%20Configuration%20&%20JIT.md) in this series, I will discuss Heap Configuration, which goes _‘hand-in-glove’_ with your GC tuning, Stack Size and the JIT compiler options. In practice, if you’re going to tune the GC, you’ll need to have a handle on these concepts as, at times, one has implications on the other and you’ll need to understand these. Otherwise, you may well find your JVM rejecting your choice of options. 
 
 ---
 Donnacha Forde
