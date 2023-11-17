@@ -33,11 +33,12 @@ This is known a ‘PermGen’ and is typically much smaller than both the New an
 
 For the most part, it’s pretty insignificant unless your application makes extensive use of Reflection. In which case, you may well need to adjust the sizing. 
 
-For many Java developers, the PermGen is a bit of a mystery. For others, especially those that use reflection, it’s important to understand that the JVM has an internal representation of Java classes, as well as objects. Jon Masamitsu's Weblog does a good job of explaining what is does here: https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation.
+For many Java developers, the PermGen is a bit of a mystery. For others, especially those that use reflection, it’s important to understand that the JVM has an internal representation of Java classes, as well as objects. Jon Masamitsu's Weblog does a good job of explaining what it does here: https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation.
 
 Originally, there was no separate space for PermGen and objects and classes were stored together. Apparently, a dedicated PermGen was desirable for certain GCs so it’s somewhat ironic that the latest version of Java (JDK 8) has done away with the dedicated generation.
 
->**Note:** In Java 8, the concept of PermGen has been removed and a different approach to managing all the ‘metadata’ contained therein has been introduced. See the following article for details: http://www.infoq.com/articles/Java-PERMGEN-Removed. 
+> [!WARNING] 
+> In Java 8, the concept of PermGen has been removed and a different approach to managing all the ‘metadata’ contained therein has been introduced. See the following article for details: http://www.infoq.com/articles/Java-PERMGEN-Removed. 
 
 ## Eden & Survivor Spaces
 The New Generation is subdivided into a space called ‘Eden’ + 2 x ‘Survivor’ Spaces. Eden is where new objects are created though, on exception, large objects may be created directly in the Tenured Generation.  
