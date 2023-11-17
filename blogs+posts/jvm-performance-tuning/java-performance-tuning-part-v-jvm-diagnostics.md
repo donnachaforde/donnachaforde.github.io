@@ -143,9 +143,9 @@ Java is great programming environment but, in insulating programmers from the me
 Equally, as often quoted _“premature optimization is the root of all evil”_ and we do a disservice to our coding when our brains are preoccupied with the minutia of the performance of each line of code. Instead, a balance is required and I’d advise that Java programmers regularly run their code under a profiler, just to keep on top of things, to flag issues early and to help them understand the wider context. 
 
 ---
-Donnacha Forde
+_Donnacha Forde_
 
-https://www.linkedin.com/in/donnachaforde
+_[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
 ## References

@@ -105,7 +105,8 @@ Great! This worked a treat and meant that I was now able to meet my fussy design
 The only annoyance being that I didn't think of it sooner. Then again, I'm a little rusty.... 
 
 ***
-Donnacha Forde - Espresso Library
+_Donnacha Forde_
 
-May 2021
+_May 2021_
 
+_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_

@@ -78,7 +78,7 @@ There was an emphasis on industry contribution for this MSc course and, in keepi
 > **Note** Company associations correct as of the time the talk was delivered. (2017-2018).
 
 ---
-Donnacha Forde
+_Donnacha Forde_
 
-[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)
+_[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 

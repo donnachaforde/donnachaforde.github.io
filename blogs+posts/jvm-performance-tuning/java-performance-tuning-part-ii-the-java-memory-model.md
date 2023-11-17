@@ -104,9 +104,9 @@ In my [next blog](./java-performance-tuning-part-iii-garbage-collectors.md), Iâ€
 
 
 ---
-Donnacha Forde
+_Donnacha Forde_
 
-https://www.linkedin.com/in/donnachaforde/
+_[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_/
 
 
 ## References

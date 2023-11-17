@@ -166,9 +166,9 @@ A more complete set of JVM options is published on the Oracle site [here](http:/
 In my [next blog](./java-performance-tuning-part-iv-heap-configuration-and-jit.md) in this series, I will discuss Heap Configuration, which goes _‘hand-in-glove’_ with your GC tuning, Stack Size and the JIT compiler options. In practice, if you’re going to tune the GC, you’ll need to have a handle on these concepts as, at times, one has implications on the other and you’ll need to understand these. Otherwise, you may well find your JVM rejecting your choice of options. 
 
 ---
-Donnacha Forde
+_Donnacha Forde_
 
-https://www.linkedin.com/in/donnachaforde
+_[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
 ## References
