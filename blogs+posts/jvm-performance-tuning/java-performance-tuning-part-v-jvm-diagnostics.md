@@ -12,7 +12,8 @@ Here we’ll learn that, in practice, these discrete topics impact each other an
 ## Memory Size & GC Performance
 In their guide to [Memory Management in the Java Hotspot™ Virtual Machine](http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf) (from 2006) Sun Microsystems remind us of something long-since pointed, which is that:
 
-> [!IMPORTANT]  
+> **Important**  
+>
 > _“Sufficient available memory is most important factor affecting GC performance.”_
 >
 >And:
@@ -34,7 +35,8 @@ So, what can we conclude from this?
 
 Well, it would seem reasonable that you’ll need a large enough New-Generation so as not to have to resort to having the GC clear out the Tenured-Generation, thereby incurring the cost of a Major-Collection. New objects are allocated in the New-Generation so keeping the memory levels optimal here is key to ensuring smooth performance overall. Of course, long-lived objects will eventually be promoted from the New-Generation to the Tenured-Generation so it also follows that this generation needs to be large enough to hold these mature objects, and still leave some room for expansion. Should the JVM have to trigger a Major-Collection, then it’s likely it really does need the extra space and it’s critical that it can recuperate some memory. Often, depending on the nature and lifecycle of your mature objects, this situation may well be a short precursor to an `OutOfMemory` exception and the termination of your process. 
 
-> [!IMPORTANT]  
+> **Important**  
+>
 > Ultimately, the ideal scenario we want to achieve is to have the lower-cost Minor GC-cycle run as needed and, if at all possible, avoid the more expensive Major GC-cycles entirely.
 
 ### GC Behaviour in Practice
@@ -132,7 +134,7 @@ And the following shows how Heap Occupancy and GC Effectiveness look over time.
 Ultimately, these graphs merely allow us to see the diagnostics data more effectively though, in so doing, it may help spot patterns and identify where we might have to start profiling and investigating deeper. 
 
 ## Parting Thoughts
-The JVM diagnostics should really be used to confirm whether your hypotosis – i.e. the particular combination of GC policy, Heap Configuration settings – is actually having the effect you’re hoping for. It should be clearly understood at this point that these tweaks can impact each other and that what you’re looking to achieve is a working balance – i.e. a compromise that’s ‘good enough’. Use the diagnostics to check that by achieving the results in one area, you haven’t created a problem in the other. 
+The JVM diagnostics should really be used to confirm whether your hypothesis – i.e. the particular combination of GC policy, Heap Configuration settings – is actually having the effect you’re hoping for. It should be clearly understood at this point that these tweaks can impact each other and that what you’re looking to achieve is a working balance – i.e. a compromise that’s ‘good enough’. Use the diagnostics to check that by achieving the results in one area, you haven’t created a problem in the other. 
 
 I feel it only fair to point out that there are limits to what you can achieve here. While my investigations have left me convinced that you can nearly always improve on the default JVM settings, the scale of the improvements are likely to be relatively small. If your application _‘runs like dog’_ (i.e. performs poorly) to begin with, then no amount of tweaking is going to turn it into a racehorse. Ultimately, you may have no choice but to look at the fundamental design of the application. In this case, all you can hope for from the diagnostics is perhaps an indication as to where the issue starts to show. Then again, that will likely only be a symptom of an underlying flawed design. In my case, it was just enough to get us over a hurdle in the short-term.
 
@@ -143,7 +145,7 @@ Equally, as often quoted _“premature optimization is the root of all evil”_ 
 ---
 Donnacha Forde
 
-https://www.linkedin.com/in/donnachaforde/
+https://www.linkedin.com/in/donnachaforde
 
 
 ## References
