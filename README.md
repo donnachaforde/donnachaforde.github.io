@@ -42,7 +42,7 @@ Here are public repos on GitHub that are in a presentable form.
 
  I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_).  
  
- A summary of the lectures are available [here.](./lectures/README.md)
+ A short summary of the lectures are available [here.](./lectures/README.md)
 
 **Contents**
 

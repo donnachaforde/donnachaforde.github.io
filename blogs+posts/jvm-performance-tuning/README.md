@@ -5,21 +5,22 @@
 
 
 
-A five-part blog on Java Virtual Machine Tuning, published on [blogger.com](https://donnachaforde.blogspot.com), covering:
+A five-part blog on `Java Virtual Machine Tuning` covering:
 
-+ [JVM Concepts](https://donnachaforde.blogspot.com/2015/09/jvm-performance-tuning-part-i-jvm.html)
-+ [The Java Memory Model](https://donnachaforde.blogspot.com/2015/10/jvm-performance-tuning-part-ii-java.html)
-+ [Garbage Collectors](https://donnachaforde.blogspot.com/2015/11/jvm-performance-tuning-part-iii-garbage.html)
-+ [Heap Configuration & JIT](https://donnachaforde.blogspot.com/2016/03/jvm-performance-tuning-part-iv-heap.html)
-+ [JVM Diagnostics](https://donnachaforde.blogspot.com/2017/02/jvm-performance-tuning-part-v-jvm.html)
++ [JVM Concepts](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md) 
++ [The Java Memory Model](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md)
++ [Garbage Collectors](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md)
++ [Heap Configuration & JIT](./Java%20Performance%20Tuning%20-%20Part%20IV%20-%20Heap%20Configuration%20&%20JIT.md)
++ [JVM Diagnostics](./Java%20Performance%20Tuning%20-%20Part%20V%20-%20JVM%20Diagnostics.md) 
 
 
 
 ### Background
-These blogs came about after having to dig into JVM Tuning of the Hotspot VM on a development project I was working, several years ago now. We were still shipping to 32-bit OS and had reached the limits of addressable memory on that architecture. My job was to ensure we could squeeze in our memory requirements under the max threshold - and - improve performance. 
+This blog series came into being after I was forced to do extensive research into JVM Tuning and wanted to 'capture' the knowledge gleamed from that effort. At the time, I was working on a development project that shipped to a 32-bit OS and we'd reached the limits of addressable memory. My job was to ensure we could squeeze our application onto that hardware - and - improve performance. 
 
-I ended up digging much deeper than originally expected. I pretty much read everything that had been published online by Sun and later, Oracle, on JVM Performance Tuning, several interesting articles and a few books. The blogs are my attempt to capture and explain the details before time moved on and I'd naturally start to forget. (JVM Performance Tuning is not my full-time job.)
+I ended up digging much deeper than originally expected and pretty much read everything on JVM Performance Tuning that had been published online by Sun, and later by Oracle. I share what I learned here in the hope it provides a shortcut for other engineers facing into JVM Tuning. 
 
 
 
-> **Note** The links above redirect to pages on Blogger.com. The files in the repo itself are Word docs.
+> [!NOTE]
+> This blog series was originally published on [blogger.com](https://donnachaforde.blogspot.com) between 2015-2017. The articles were subsequently migrated to [GitHub Pages](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/) in 2023 where minor edits and corrections were applied. Any further updates will only be applied here. 
