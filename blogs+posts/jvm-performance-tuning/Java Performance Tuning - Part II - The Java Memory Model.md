@@ -1,6 +1,10 @@
 # JVM Performance Tuning – Part II
 
+
 Now that we have the principal concepts out of the way in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md), I’d like to explain the ‘Java Memory Model’, which is a fancy way to describe how the JVM views the world. 
+
+![](./rcs/duke-learning-curve.png)
+
 
 ## JVM Memory Layout
 In broad terms, JVM memory is often referred to in terms of Heap and Non-Heap. Heap memory consists of the New Generation and the Tenured Generation, as mentioned above. The non-heap consists of PermGen – i.e. Permanent Generation. 
@@ -90,10 +94,13 @@ The size of the JVM will vary according to the implementation you’re using, wh
 
 In my next blog, I’ll explain Garbage Collectors, Memory Sizing and the JIT Compiler.
 
+
 ---
 Donnacha Forde
+
 https://ie.linkedin.com/in/donnachaforde
 
-References
+
+## References
 http://www.infoq.com/articles/Java-PERMGEN-Removed
 https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation
