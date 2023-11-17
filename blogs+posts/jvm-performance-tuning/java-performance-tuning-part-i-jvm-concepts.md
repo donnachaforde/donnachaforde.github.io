@@ -1,3 +1,5 @@
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[jvm-concepts](./java-performance-tuning-part-i-jvm-concepts.md)
+
 # JVM Performance Tuning – Part I
 
 
@@ -16,9 +18,9 @@ I’ll start with basic JVM concepts before going on to cover the Memory Model, 
 Here I explain the Java’s approach to managed memory, garbage collection and the design approach underpinning the HotSpot generational memory model and generation garbage collection.
 
 ### Managed Memory
-Most Java programmers will understand that Java supports a _managed memory model_, which means that Java automatically releases memory allocated on the heap. In other words, memory allocated by the programmer when instantiating objects (with the `new operator`) is automatically de-allocated by the JVM when they are no longer needed (i.e. no longer referenced). 
+Most Java programmers will understand that Java supports a _managed memory model_, which means that Java automatically releases memory allocated on the heap. In other words, memory allocated by the programmer when instantiating objects (with the `new` operator) is automatically de-allocated by the JVM when they are no longer needed (i.e. no longer referenced). 
 
-This contrasts with the C++ memory model where every object allocated on the heap with the `new operator` must be explicitly de-allocated with the `delete operator`.
+This contrasts with the C++ memory model where every object allocated on the heap with the `new` operator must be explicitly de-allocated with the `delete` operator.
 
 The goal of Java here is to avoid classic memory management issues seen in languages like C++, as follows:
 * Memory Leaks – memory not freed and the reference lost.
@@ -88,7 +90,7 @@ One point to note that many Java Programmers seem to be unaware of is the GC bec
 > [!NOTE]
 >The New and Tenured Generations are known by several terms respectively. The _New Generation_ is often referred to as the _Young Generation_ while the _Tenured Generation_ is sometimes referred to as the _Old Generation_. You may sometimes see the _New Generation_ referred to as _Eden_ though technically, as I’ll explain, this is really only one part of the _New Generation_. I will use the terms _New_ and _Tenured_ throughout.
 
-In my [next blog](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md) in this series, I'll focus on JVM Memory Model and explain the various memory areas and the names they're known by.
+In my [next blog](./java-performance-tuning-part-ii-the-java-memory-model.md) in this series, I'll focus on JVM Memory Model and explain the various memory areas and the names they're known by.
 
 ---
 Donnacha Forde

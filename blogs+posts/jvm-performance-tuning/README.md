@@ -5,13 +5,13 @@
 
 
 
-A five-part blog on `Java Virtual Machine Tuning` covering:
+A five-part blog on **Java Virtual Machine Tuning** covering:
 
-+ [JVM Concepts](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md) 
-+ [The Java Memory Model](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md)
-+ [Garbage Collectors](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md)
-+ [Heap Configuration & JIT](./Java%20Performance%20Tuning%20-%20Part%20IV%20-%20Heap%20Configuration%20&%20JIT.md)
-+ [JVM Diagnostics](./Java%20Performance%20Tuning%20-%20Part%20V%20-%20JVM%20Diagnostics.md) 
++ [JVM Concepts](./java-performance-tuning-part-i-jvm-concepts.md) 
++ [The Java Memory Model](./java-performance-tuning-part-ii-the-java-memory-model.md)
++ [Garbage Collectors](./java-performance-tuning-part-iii-garbage-collectors.md)
++ [Heap Configuration & JIT](./java-performance-tuning-part-iv-heap-configuration-and-jit.md)
++ [JVM Diagnostics](./java-performance-tuning-part-v-jvm-diagnostics.md) 
 
 
 
@@ -22,5 +22,5 @@ I ended up digging much deeper than originally expected and pretty much read eve
 
 
 
-> [!NOTE]
+> **Note**
 > This blog series was originally published on [blogger.com](https://donnachaforde.blogspot.com) between 2015-2017. The articles were subsequently migrated to [GitHub Pages](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/) in 2023 where minor edits and corrections were applied. Any further updates will only be applied here. 
