@@ -7,13 +7,11 @@
 
 A five-part blog on `Java Virtual Machine Tuning` covering:
 
-+ [JVM Concepts](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md) - Java memory management & garbage collection.
-+ [The Java Memory Model](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md) - JVM memory layout & nomenclature.
-+ [Garbage Collectors](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md) - Configuring JVM garbage collectors.
-+ [Heap Configuration & JIT](./Java%20Performance%20Tuning%20-%20Part%20IV%20-%20Heap%20Configuration%20&%20JIT.md) - Configuring the JVM Heap & the _Just in Time_ compiler.
-+ [JVM Diagnostics](./Java%20Performance%20Tuning%20-%20Part%20V%20-%20JVM%20Diagnostics.md) - Pulling everything together and performing analysis.
-
-
++ [JVM Concepts](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md) 
++ [The Java Memory Model](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md)
++ [Garbage Collectors](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md)
++ [Heap Configuration & JIT](./Java%20Performance%20Tuning%20-%20Part%20IV%20-%20Heap%20Configuration%20&%20JIT.md)
++ [JVM Diagnostics](./Java%20Performance%20Tuning%20-%20Part%20V%20-%20JVM%20Diagnostics.md) 
 
 
 
