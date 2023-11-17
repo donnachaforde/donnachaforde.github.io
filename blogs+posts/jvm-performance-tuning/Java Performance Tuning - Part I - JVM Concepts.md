@@ -56,10 +56,9 @@ Basically, there is empirical evidence on OO Programming Languages that:
 
 The following diagram illustrates this point. 
 
-![Object Life Expectancy](./rcs/Object%20Life%20Expectancy.png) 
+![Object Life Expectancy](./rcs/object-life-expectancy.png) 
 
-_Source: Java SE 6 HotSpot™ Virtual Machine Garbage Collection Tuning
-http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html_
+_Source: [Java SE 6 HotSpot™ Virtual Machine Garbage Collection Tuning](http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html)_
 
 
  The upshot here is that this observation feeds into the following GC design principles:
