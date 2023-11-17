@@ -98,7 +98,7 @@ In my next blog, I’ll explain Garbage Collectors, Memory Sizing and the JIT Co
 ---
 Donnacha Forde
 
-https://ie.linkedin.com/in/donnachaforde
+https://www.linkedin.com/in/donnachaforde/
 
 
 ## References

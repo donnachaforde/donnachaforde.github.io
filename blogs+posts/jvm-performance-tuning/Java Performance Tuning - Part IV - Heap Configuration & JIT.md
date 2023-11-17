@@ -65,7 +65,7 @@ In my next and last blog this series, I’ll discuss JVM Diagnostics and will il
 ---
 
 Donnacha Forde
-https://ie.linkedin.com/in/donnachaforde
+https://www.linkedin.com/in/donnachaforde/
 
 ## References
 http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html

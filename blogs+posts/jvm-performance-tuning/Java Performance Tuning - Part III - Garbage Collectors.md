@@ -179,7 +179,7 @@ In my next blog in this series, I will discuss Heap Configuration, which goes _â
 ---
 Donnacha Forde
 
-https://ie.linkedin.com/in/donnachaforde
+https://www.linkedin.com/in/donnachaforde/
 
  ## References
 http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html

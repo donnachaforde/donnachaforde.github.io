@@ -81,3 +81,8 @@ With this approach, the GC is able to keep on top of memory levels without adver
 One point to note that many Java Programmers seem to be unaware of is the GC becomes active almost immediately after your Java program starts, clearing out the New Generation. It doesn’t seem to wait till the generation is full – it’s constantly at work, clearing it out. I like to make an analogy with bailing out water from a sinking boat. As long as you’re bailing faster than the water is coming in, you’ll stay afloat. Likewise, as long as the GC is clearing out unreferenced objects faster than you can allocated them, your program will stay running. Later, I’ll talk about diagnostics but when enabled, you can observe this behaviour in the logs. 
 
 >**Note:** The New and Tenured Generations are known by several terms respectively. The New Generation if often referred to as the ‘Young Generation’ while the Tenured Generation is sometimes referred to as the ‘Old Generation’. You may sometimes see the New Generation referred to as ‘Eden’ though technically, as I’ll explain, this is really only one part of the New Generation. I will use the terms ‘New’ and ‘Tenured’ throughout.
+
+---
+Donnacha Forde
+
+https://www.linkedin.com/in/donnachaforde/
