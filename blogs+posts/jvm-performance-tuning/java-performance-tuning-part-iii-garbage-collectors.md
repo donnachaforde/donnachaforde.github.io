@@ -28,7 +28,7 @@ The **Incremental Collector**, also known as the **Train Collector**, is an olde
 ### Parallel Collector
 The **Parallel Collector** is also known as the **Throughput Collector**. It takes advantage of the availability of multiple CPUs in hosts to perform multithreaded GC, which again likely reflects the evolution of hardware at the time. The Parallel GC is still a _‘Stop the World’_ type GC but because it’s multithreaded, it doesn’t do so for as long as the Serial GC.
 
-> [!TIP]
+> **Tip**
 > It might be worth pointing out to younger readers that there was once a time when PCs and Servers shipped with a single processor and ‘cores’ hadn’t yet become available.
 
 ### Parallel Compacting Collector
@@ -167,7 +167,7 @@ In my [next blog](./java-performance-tuning-part-iv-heap-configuration-and-jit.m
 ---
 Donnacha Forde
 
-https://www.linkedin.com/in/donnachaforde/
+https://www.linkedin.com/in/donnachaforde
 
  ## References
 http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html

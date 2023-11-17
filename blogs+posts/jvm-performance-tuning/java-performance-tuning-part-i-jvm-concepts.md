@@ -29,7 +29,8 @@ The goal of Java here is to avoid classic memory management issues seen in langu
 
 By taking over responsibility, Java aims to simply avoid these issues.
 
-> [!TIP]
+> **Tip**
+>
 > Having a better understanding of what the JVM has to do to make this automatic de-allocation possible will help Java programmers consider what they’re doing when instantiating objects and hence, allocating memory.
 
 ### Garbage Collection
@@ -51,7 +52,8 @@ It's the GC that’s responsible for:
 * Ensuring referenced objects remain in memory. 
 * Recovering memory used by objects that are no longer referenced. 
 
-> [!TIP]
+> **Tip**
+>
 > The above is a simple example – in reality, the reference tree can become large and convoluted, with nested references and collections of references. Some Java Profiler and Memory Analyser tools do a good job of unravelling these trees and illustrating the relationships. 
 
 ### Generational Memory Model and Garbage Collection
@@ -87,7 +89,8 @@ With this approach, the GC is able to keep on top of memory levels without adver
 
 One point to note that many Java Programmers seem to be unaware of is the GC becomes active almost immediately after your Java program starts, clearing out the New Generation. It doesn’t seem to wait till the generation is full – it’s constantly at work, clearing it out. I like to make an analogy with bailing out water from a sinking boat. As long as you’re bailing faster than the water is coming in, you’ll stay afloat. Likewise, as long as the GC is clearing out unreferenced objects faster than you can allocated them, your program will stay running. Later, I’ll talk about diagnostics but when enabled, you can observe this behaviour in the logs. 
 
-> [!NOTE]
+> **Note**
+>
 >The New and Tenured Generations are known by several terms respectively. The _New Generation_ is often referred to as the _Young Generation_ while the _Tenured Generation_ is sometimes referred to as the _Old Generation_. You may sometimes see the _New Generation_ referred to as _Eden_ though technically, as I’ll explain, this is really only one part of the _New Generation_. I will use the terms _New_ and _Tenured_ throughout.
 
 In my [next blog](./java-performance-tuning-part-ii-the-java-memory-model.md) in this series, I'll focus on JVM Memory Model and explain the various memory areas and the names they're known by.
@@ -95,7 +98,7 @@ In my [next blog](./java-performance-tuning-part-ii-the-java-memory-model.md) in
 ---
 Donnacha Forde
 
-https://www.linkedin.com/in/donnachaforde/
+https://www.linkedin.com/in/donnachaforde
 
 ## References
 http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html
