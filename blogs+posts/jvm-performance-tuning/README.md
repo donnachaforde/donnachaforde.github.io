@@ -23,4 +23,4 @@ I ended up digging much deeper than originally expected and pretty much read eve
 
 
 > [!NOTE]
-> This blog series was originally published on [blogger.com](https://donnachaforde.blogspot.com) between 2015-2017. The articles were subsequently migrated to [GitHub Pages](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/) in 2023 where edits and corrections have been applied and will continue to be applied. 
+> This blog series was originally published on [blogger.com](https://donnachaforde.blogspot.com) between 2015-2017. The articles were subsequently migrated to [GitHub Pages](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/) in 2023 where minor edits and corrections were applied. Any further updates will only be applied here. 
