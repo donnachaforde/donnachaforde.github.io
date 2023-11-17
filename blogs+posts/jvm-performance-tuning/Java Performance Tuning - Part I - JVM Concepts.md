@@ -16,8 +16,10 @@ I’ll start with basic JVM concepts before going on to cover the Memory Model, 
 Here I explain the Java’s approach to managed memory, garbage collection and the design approach underpinning the HotSpot generational memory model and generation garbage collection.
 
 ### Managed Memory
-Most Java programmers will understand that Java supports a ‘managed’ memory model, which means that Java automatically manages memory allocated on the heap. In other words, memory allocated by the programmer when instantiating objects (with the new operator) is automatically de-allocated by the JVM when they are no longer needed (i.e. no longer referenced). 
-This contrasts with the C++ memory model where every object allocated on the heap with the new operator must be explicitly de-allocated with the delete operator.
+Most Java programmers will understand that Java supports a _managed memory model_, which means that Java automatically releases memory allocated on the heap. In other words, memory allocated by the programmer when instantiating objects (with the `new operator`) is automatically de-allocated by the JVM when they are no longer needed (i.e. no longer referenced). 
+
+This contrasts with the C++ memory model where every object allocated on the heap with the `new operator` must be explicitly de-allocated with the `delete operator`.
+
 The goal of Java here is to avoid classic memory management issues seen in languages like C++, as follows:
 * Memory Leaks – memory not freed and the reference lost.
 * Dangling References – Memory de-allocated before all users (threads) have finished using it.
@@ -25,7 +27,8 @@ The goal of Java here is to avoid classic memory management issues seen in langu
 
 By taking over responsibility, Java aims to simply avoid these issues.
 
-Incidentally, I trust that by having a better understanding of what the JVM has to do to make this automatic de-allocation possible, it will Java programmers consider what they’re doing when instantiating objects and hence, allocating memory.
+> [!TIP]
+> Having a better understanding of what the JVM has to do to make this automatic de-allocation possible will help Java programmers consider what they’re doing when instantiating objects and hence, allocating memory.
 
 ### Garbage Collection
 Again, most Java programmers will be aware that it’s the Garbage Collector (GC) that responsible for cleaning up memory. Garbage is defined as those objects allocated on the heap for which there is no longer any reference pointing to it. This is sometimes referred to as ‘orphaned’ objects. 
@@ -46,15 +49,15 @@ It's the GC that’s responsible for:
 * Ensuring referenced objects remain in memory. 
 * Recovering memory used by objects that are no longer referenced. 
 
-> [!NOTE]
+> [!TIP]
 > The above is a simple example – in reality, the reference tree can become large and convoluted, with nested references and collections of references. Some Java Profiler and Memory Analyser tools do a good job of unravelling these trees and illustrating the relationships. 
 
 ### Generational Memory Model and Garbage Collection
-The key concept to understanding the nature of the GC in the Hotspot JVM is ‘Generational Collection’, which basically means that for performance reasons the GC doesn’t try to do everything in one go. The principal that underpins this approach is an observation known as ‘Weak Generational Hypothesis’ – also known somewhat unkindly as ‘Infant Mortality’. 
+The key concept to understanding the nature of the GC in the Hotspot JVM is _Generational Collection_, which basically means that for performance reasons the GC doesn’t try to do everything in one go. The principal that underpins this approach is an observation known as _Weak Generational Hypothesis_ – also known somewhat unkindly as _Infant Mortality_. 
 
 Basically, there is empirical evidence on OO Programming Languages that:
 
-1.	Most objects die young (e.g. iterator objects merely exist for the duration of a single loop).
+1.	Most objects die young (e.g. iterator objects merely exist for the duration of a loop).
 2.	There are few references held by older objects to younger objects.
 
 The following diagram illustrates this point. 
@@ -65,8 +68,8 @@ _Source: [Java SE 6 HotSpot™ Virtual Machine Garbage Collection Tuning](http:/
 
 
  The upshot here is that this observation feeds into the following GC design principles:
-* The HotSpot JVM adopts a Generational Memory Model.
-* Consequently, the JVM applies Generational  Garbage Collection. 
+* The HotSpot JVM adopts a _Generational Memory Model_.
+* Consequently, the JVM applies _Generational Garbage Collection_. 
 
 What this means is that the JVM divides the Java memory model into the:
 * New Generation – for which there is a minor GC collection.
@@ -78,12 +81,12 @@ Furthermore, the JVM applies a GC ordering policy, as follows:
 
 The strategy being that the GC will continuously purge the Young Generation, which is typically quicker, and will only purge the Tenured Generation, which is typically more expensive, as and when it has no option. 
 
-With this approach, the GC is able to keep on top of memory levels without adversely impacting the operation of the underlying program. As I will discuss further, certain GC policies take a ‘stop the world’ approach which means that the normal operation of the program is suspended while the GC performs its work. Of course this ‘suspension’ is not a good thing and the GC tries to avoid or minimize the effect – this is known as ‘throughput’. 
+With this approach, the GC is able to keep on top of memory levels without adversely impacting the operation of the underlying program. As I will discuss further, certain GC policies take a _‘stop the world’_ approach which means that the normal operation of the program is suspended while the GC performs its work. Of course this ‘suspension’ is not a good thing and the GC tries to avoid or minimize the effect – this is known as ‘throughput’. 
 
 One point to note that many Java Programmers seem to be unaware of is the GC becomes active almost immediately after your Java program starts, clearing out the New Generation. It doesn’t seem to wait till the generation is full – it’s constantly at work, clearing it out. I like to make an analogy with bailing out water from a sinking boat. As long as you’re bailing faster than the water is coming in, you’ll stay afloat. Likewise, as long as the GC is clearing out unreferenced objects faster than you can allocated them, your program will stay running. Later, I’ll talk about diagnostics but when enabled, you can observe this behaviour in the logs. 
 
 > [!NOTE]
->The New and Tenured Generations are known by several terms respectively. The New Generation if often referred to as the ‘Young Generation’ while the Tenured Generation is sometimes referred to as the ‘Old Generation’. You may sometimes see the New Generation referred to as ‘Eden’ though technically, as I’ll explain, this is really only one part of the New Generation. I will use the terms ‘New’ and ‘Tenured’ throughout.
+>The New and Tenured Generations are known by several terms respectively. The _New Generation_ is often referred to as the _Young Generation_ while the _Tenured Generatio_n is sometimes referred to as the _Old Generation_. You may sometimes see the _New Generation_ referred to as _Eden_ though technically, as I’ll explain, this is really only one part of the New Generation. I will use the terms ‘New’ and ‘Tenured’ throughout.
 
 In my [next blog](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md) in this series, I'll focus on JVM Memory Model and explain the various memory areas and the names they're known by.
 
