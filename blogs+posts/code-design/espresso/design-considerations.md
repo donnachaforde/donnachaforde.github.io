@@ -58,8 +58,10 @@ However, after years and years of Java programming, I came round to having a pre
 
 This library was first developed using Visual C++ 6.0. That version of the Microsoft C/C++ compiler had quite a long life and the project was still tied to that version for many years. Eventually, it was upgraded to Visual Studio 2003 (Visual C++ 7), then Visual C++ 8 and Visual C++ 9. Thereafter, it was neglected while I pursued pure Java development and didn't get any attention until Visual Studio 2014 but then was upgraded to Visual Studio 17 and most recently Visual Studio 2019. 
 
+
 ***
-Donnacha Forde - Espresso Library
+_Donnacha Forde_
 
-1995-2021
+_espresso library - 1995-2021_
 
+_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_

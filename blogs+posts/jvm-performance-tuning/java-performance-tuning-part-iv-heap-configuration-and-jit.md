@@ -64,9 +64,9 @@ In my [next and last blog in this series](./java-performance-tuning-part-v-jvm-d
 
 ---
 
-Donnacha Forde
+_Donnacha Forde_
 
-https://www.linkedin.com/in/donnachaforde
+_[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
 
