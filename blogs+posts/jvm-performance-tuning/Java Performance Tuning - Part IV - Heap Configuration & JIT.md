@@ -1,6 +1,9 @@
 # JVM Performance Tuning – Part IV
 In this section, I discuss Heap Configuration and the Java Just-in-Time compiler (JIT) , building upon previous blogs covering principal concepts in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md), the Java Memory Model in [Part II](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md) and Garbage Collectors in [Part III](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md). 
 
+![Duke Tools](./rcs/duke-working-with-tools.png) 
+
+
 ## Heap Layout & Sizing
 In [Part II](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md) I describe how Java organizes memory so we understand that the HotSpot™ VM adopts a generational approach to organizing memory. From [Part III](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md), we understand that the GC tackles garbage collection differently in each of the memory generations, even to the point where we can configure different garbage collectors for the New and Tenured generations respectively. 
 

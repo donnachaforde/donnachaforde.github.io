@@ -1,6 +1,8 @@
 # JVM Performance Tuning – Part III
 Having covered the principal concepts in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md) where we covered Garbage Collection, and the Java Memory Model in [Part II](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md) where we covered generational memory organization, we are now well placed to discuss Garbage Collectors. 
 
+![Duke Pondering](./rcs/duke-pondering.png) 
+
 ## Garbage Collectors
 The HotSpot JVM actually supports a number of different Garbage Collectors, representing different approaches or strategies to the task at hand. It’s an area under constant research and development so in some ways, the various GCs are representative of what is an evolutionary process. Some GCs have given way to others and anyone doing research in this area may find some of the names (especially for the older GCs) a tad confusing. 
 
