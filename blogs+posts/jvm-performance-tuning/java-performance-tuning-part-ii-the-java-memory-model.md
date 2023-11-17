@@ -36,7 +36,8 @@ This is known a ‘PermGen’ and is typically much smaller than both the New an
 For many Java developers, the PermGen is a bit of a mystery. For others, especially those that use reflection, it’s important to understand that the JVM has an internal representation of Java classes, as well as objects. _Jon Masamitsu's Weblog_ does a good job of explaining what it does here: https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation.
 
 
-> [!WARNING] 
+> **Warning**
+> 
 > In Java 8, the concept of PermGen has been removed and a different approach to managing all the ‘metadata’ contained therein has been introduced. See the following article for details: http://www.infoq.com/articles/Java-PERMGEN-Removed. 
 
 Originally, there was no separate space for PermGen and objects and classes were stored together. Apparently, a dedicated PermGen was desirable for certain GCs so it’s somewhat ironic that the latest version of Java (JDK 8) has done away with the dedicated generation.
@@ -105,7 +106,7 @@ In my [next blog](./java-performance-tuning-part-iii-garbage-collectors.md), I�
 ---
 Donnacha Forde
 
-https://www.linkedin.com/in/donnachaforde
+https://www.linkedin.com/in/donnachaforde/
 
 
 ## References
