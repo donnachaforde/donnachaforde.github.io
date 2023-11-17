@@ -5,17 +5,17 @@ In this last section, I attempt to pull together the individual topics covered i
 
 
 Just to remind ourselves, I cover _Basic Principals_ in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md), the _Java Memory Model_ in [Part II](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md),  _Garbage Collectors_ in [Part III](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md), and _Heap Configuration and the JIT_ in [Part IV](./Java%20Performance%20Tuning%20-%20Part%20IV%20-%20Heap%20Configuration%20&%20JIT.md). 
-
 Here we’ll learn that, in practice, these discrete topics impact each other and that tuning is really about getting the balance right. That means that you’ll need to have an understanding of the whole, in order to be confident when addresses the specific. 
 
 ## Memory Size & GC Performance
 In their guide to [Memory Management in the Java Hotspot™ Virtual Machine](http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf) (from 2006) Sun Microsystems remind us of something long-since pointed, which is that:
 
-> “Sufficient available memory is most important factor affecting GC performance.”
-
-And:
-
->“The second most influential factor is the proportion of the heap dedicated to the Young [New] generation.”
+> [!IMPORTANT]  
+> _“Sufficient available memory is most important factor affecting GC performance.”_
+>
+>And:
+>
+>_“The second most influential factor is the proportion of the heap dedicated to the Young [New] generation.”_
 
 These observations still hold true. Ensuring sufficient memory is available – both for holding older objects and to ensure there is room for new objects – is the main factor affecting how your GC behaves and, in turn, how your application performs.  
 
@@ -28,14 +28,17 @@ Like any tuning effort, JVM tuning is all about achieving a balance. To help wit
 * A larger memory heap, with sufficient space allocated to the NewGen, can help avoid Major-Collections, though at the cost of prioritizing performance over memory usage.
 * Larger generations can result in longer GC cycles. 
 
-So, what can we conclude from this? Well, it would seem reasonable that you’ll need a large enough New-Generation so as not to have to resort to having the GC clear out the Tenured-Generation, thereby incurring the cost of a Major-Collection. New objects are allocated in the New-Generation so keeping the memory levels optimal here is key to ensuring smooth performance overall. Of course, long-lived objects will eventually be promoted from the New-Generation to the Tenured-Generation so it also follows that this generation needs to be large enough to hold these mature objects, and still leave some room for expansion. Should the JVM have to trigger a Major-Collection, then it’s likely it really does need the extra space and it’s critical that it can recuperate some memory. Often, depending on the nature and lifecycle of your mature objects, this situation may well be a short precursor to an `OutOfMemory` exception and the termination of your process. 
+So, what can we conclude from this? 
 
-**Ultimately, the ideal scenario we want to achieve is to have the lower-cost Minor GC-cycle run as needed and, if at all possible, avoid the more expensive Major GC-cycles entirely.** 
+Well, it would seem reasonable that you’ll need a large enough New-Generation so as not to have to resort to having the GC clear out the Tenured-Generation, thereby incurring the cost of a Major-Collection. New objects are allocated in the New-Generation so keeping the memory levels optimal here is key to ensuring smooth performance overall. Of course, long-lived objects will eventually be promoted from the New-Generation to the Tenured-Generation so it also follows that this generation needs to be large enough to hold these mature objects, and still leave some room for expansion. Should the JVM have to trigger a Major-Collection, then it’s likely it really does need the extra space and it’s critical that it can recuperate some memory. Often, depending on the nature and lifecycle of your mature objects, this situation may well be a short precursor to an `OutOfMemory` exception and the termination of your process. 
+
+> [!IMPORTANT]  
+> Ultimately, the ideal scenario we want to achieve is to have the lower-cost Minor GC-cycle run as needed and, if at all possible, avoid the more expensive Major GC-cycles entirely.
 
 ### GC Behaviour in Practice
 As a practical observation, you’ll find that the Minor GC-cycles kick-in very soon after the process starts, triggering quite frequently thereafter. This typically doesn’t affect throughput at all whereas you may well see your application pause when a Major GC-cycle is triggered. In fact, unless you explicitly log diagnostic info you may well never really even notice a Minor GC-cycle in effect. You may recall from [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md) that I made an analogy with bailing a sinking boat. While GC strategies vary, the main job is to ensure there is enough memory free to allocate new objects and keep the ship afloat. That’s really what the Minor-GC cycle is doing; clearing out stale memory (i.e. garbage objects) fast enough to make room for fresh memory allocations. It merely needs to make room for new objects before limits are reached and in this regard, GC performance has a direct bearing on memory size. 
 
-However, all this depends on the characteristics of your application and you may well need to do some leg-work to gain that level of understanding. This is where a profiling tool can help you, not so much with the performance profiling per se but with giving you a better overview of what your application is actually doing or at least indicating which parts of the code base are actively exercised. In turn, this can help you learn what sort of objects are being allocated and from where. I like to use [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html), a tool I selected after a short evaluation several years ago. Like all sophisticated tools, it takes a little time and effort to become familiar with and to get the full and proper use out of it. However, one factor that fed into my decision to opt for JProfiler as because I felt that it was the most intuitive profiler to use and I could quickly become effective. As an aside, I’d advise that spending the time and effort needed to understand the tool and the advanced features in particular may well dividends when you find yourself with the need to profile. 
+However, all this depends on the characteristics of your application and you may well need to do some leg-work to gain that level of understanding. This is where a profiling tool can help you, not so much with the performance profiling _per se_ but with giving you a better overview of what your application is actually doing or at least indicating which parts of the code base are actively exercised. In turn, this can help you learn what sort of objects are being allocated and from where. I like to use [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html), a tool I selected after a short evaluation several years ago. Like all sophisticated tools, it takes a little time and effort to become familiar with and to get the full and proper use out of it. However, one factor that fed into my decision to opt for JProfiler is because I felt that it was the most intuitive profiler to use and I could quickly become effective. As an aside, I’d advise that spending the time and effort needed to understand the tool and the advanced features in particular may well pay dividends when you find yourself with the need to profile. 
 
 ### New/Tenured Memory Ratio
 In cases where you don’t have a handle on the characteristics or behaviour of the application, you may want to consider using a trial-and-error approach to determine the optimal ratio between the new and tenured generations. Remember that, rather than configuring the size of the New Generation explicitly, you can configure it as a ratio of the Tenured Generation. 
@@ -60,9 +63,9 @@ The actual logged output will vary according to what GC policy is in use but her
 
 ![JVM GC stats](./rcs/jvm-gc-stats.png)
  
-The first thing to note is that the log will tell you whether the GC cycle is a Minor or a Major collection. Next, it provides before and after details on memory sizes. The exact format can vary but you should be able to work out how much memory was reclaimed by the GC. Finally, it’ll report the time spent performing the GC and it’s worth comparing the scale of the Minor collections versus the Major collection. 
+The first thing to note is that the log will tell you whether the GC cycle is a Minor or a Major collection. Next, it provides _before and after_ details on memory sizes. The exact format can vary but you should be able to work out how much memory was reclaimed by the GC. Finally, it’ll report the time spent performing the GC and it’s worth comparing the scale of the Minor collections versus the Major collection. 
 
-The log output for a full or major GC cycle is highlighted below and you can see that it reports the before and after memory levels of each of the generations. In particular, note that the major GC cycle also examines PermGen.  
+The log output for a full or major GC cycle is highlighted below and you can see that it reports the _before and after_ memory levels of each of the generations. In particular, note that the major GC cycle also examines PermGen.  
 
 ![JVM Full GC stats](./rcs/jvm-gc-stats-fullgc.png)
 
@@ -70,13 +73,13 @@ Next, let’s examine the log output from the minor collection of the New Genera
 
 ![JVM Minor GC stats](./rcs/jvm-gc-stats-minorgc-annotated.png)
 
-The log entries for the Minor GC cycle shows the before-and-after memory levels of the New Gen and the before-and-after levels of the full heap, which allows us to calculate the amount of the garbage collected. 
+The log entries for the Minor GC cycle shows the _before-and-after_ memory levels of the New Gen and the _before-and-after_ levels of the full heap, which allows us to calculate the amount of the garbage collected. 
 
 The logs also report the time taken for the GC cycle, as follows: 
 
 ![JVM Minor GC duration](./rcs/jvm-gc-stats-minorgc-duration.png)
 
-The following article from Sun Microsystems (but now on the Oracle website) does an excellent job of explaining what the diagnostic entries mean and it’s worth studying it to decipher what you can gleam. http://www.oracle.com/technetwork/java/example-141412.html
+The following article from Sun Microsystems (now on the Oracle website) does an excellent job of explaining what the diagnostic entries mean and it’s worth studying it to decipher what you can gleam. http://www.oracle.com/technetwork/java/example-141412.html
 
 ### Diagnostics Analysis
 By gathering these figures over time and then ‘massaging’ them into data, we can devise some key performance indicators and get an indication of how effective our GC policy and Heap-configuration actually is. (In this particular case, I manually massaged the raw data into a format that could be imported into an Excel spreadsheet but, with a little bit of effort, I’ve no doubt that the process could be automated through scripting.)
@@ -126,10 +129,10 @@ And the following shows how Heap Occupancy and GC Effectiveness look over time.
 
 Ultimately, these graphs merely allow us to see the diagnostics data more effectively though, in so doing, it may help spot patterns and identify where we might have to start profiling and investigating deeper. 
 
-## Summary
+## Parting Thoughts
 The JVM diagnostics should really be used to confirm whether your hypotosis – i.e. the particular combination of GC policy, Heap Configuration settings – is actually having the effect you’re hoping for. It should be clearly understood at this point that these tweaks can impact each other and that what you’re looking to achieve is a working balance – i.e. a compromise that’s ‘good enough’. Use the diagnostics to check that by achieving the results in one area, you haven’t created a problem in the other. 
 
-I feel it only fair to point out that there are limits to what you can achieve here. While my investigations have left me convinced that you can nearly always improve on the default JVM settings, the scale of the improvements are likely to be relatively small. If your application ‘runs like dog’ (performs poorly) to begin with, then no amount of tweaking is going to turn it into a racehorse. Ultimately, you may have no choice but to look at the fundamental design of the application. In this case, all you can hope for from the diagnostics is perhaps an indication as to where the issue starts to show. Then again, that will likely only be a symptom of an underlying flawed design. In my case, it was just enough to get us over a hurdle in the short-term.
+I feel it only fair to point out that there are limits to what you can achieve here. While my investigations have left me convinced that you can nearly always improve on the default JVM settings, the scale of the improvements are likely to be relatively small. If your application _‘runs like dog’_ (i.e. performs poorly) to begin with, then no amount of tweaking is going to turn it into a racehorse. Ultimately, you may have no choice but to look at the fundamental design of the application. In this case, all you can hope for from the diagnostics is perhaps an indication as to where the issue starts to show. Then again, that will likely only be a symptom of an underlying flawed design. In my case, it was just enough to get us over a hurdle in the short-term.
 
 Java is great programming environment but, in insulating programmers from the mechanics, many Java programmers have little-to-no understanding of the effects of their code at the machine level (JVM). Performance is often an afterthought. And, it can incredibly difficult to retrofit performance into an application. 
 

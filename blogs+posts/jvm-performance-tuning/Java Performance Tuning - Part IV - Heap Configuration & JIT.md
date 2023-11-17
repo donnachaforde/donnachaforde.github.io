@@ -34,7 +34,7 @@ The following diagram illustrates yet another way to consider heap sizes.
 The _Max Heap Free Ratio_ is merely a way to express the maximum amount of memory available (but not allocated) as a percentage of the total committed. Similarly, the _Min Heap Free Ratio_ is merely a way to express the minimum amount of memory that, as percentage of the total committed, should be available. Both of these ratios are used to instruct the JVM as to how it should behave when allocating and de-allocating memory ahead of or after demand. Clearly, some common sense needs to prevail when specifying these as they essentially refer to the size of _virtual memory_ and can have a direct impact on when the heap is extended or contracted. 
 
 ## Stack Size
-While it may seem obvious at first, Stack Size can affect the overall memory size of Java applications, in particular where there are a large number of threads operating, as is often the case with ‘server’ style Java applications, especially with larger ‘monolithic’ servers. 
+While it may seem obvious at first, _Stack Size_ can affect the overall memory size of Java applications, in particular where there are a large number of threads operating, as is often the case with ‘server’ style Java applications, especially with larger ‘monolithic’ servers. 
 
 The significant point to note is that stack-size is universal – it’s applied to all threads in the application, regardless of whether they’re the particular thread (or group of threads) that require a larger stack. 
 
@@ -43,15 +43,13 @@ To illustrate the point, say your large-scale, enterprise server application uti
 Note that the default stack size varies according to platform, architecture and release. Regardless, an insufficient stack size will simply result in a StackOverflow crash. Often, this can be as a result of recursion or the need to traverse large tree/graphs (using recursion) so it’s often the case that it’s just in the one place and hence one thread that encounters this sort of issue. The quick fix is to increase the stack size but when things are tight, you may have to reconsider how the code operates to see if a less stack-intensive solution can be deployed. 
 
 ## JIT Compiler
-Most Java programmers understand the role and purpose of the JRE (Java Runtime Environment) and that their Java code gets compiled into ‘bytecode’ that’s interpreted at runtime. This aspect of Java attracted a lot of criticism in the early days when compared to performance of native binary, compiled from, say, C++ code. Enter the JIT – the Java _‘just-in-time’_ compiler – an aspect of the JVM that converts bytecode into native code at runtime to achieve performance levels equivalent to natively compiled code. 
+Most Java programmers understand the role and purpose of the _JRE (Java Runtime Environment)_ and that their Java code gets compiled into ‘bytecode’ that’s interpreted at runtime. This aspect of Java attracted a lot of criticism in the early days when compared to performance of native binary, compiled from, say, C++ code. Enter the JIT – the Java _‘just-in-time’_ compiler – an aspect of the JVM that converts bytecode into native code at runtime to achieve performance levels equivalent to natively compiled code. 
 
 The key to understanding this aspect of the JVM is:
 * All code starts out as bytecode but can be compiled into native code when certain thresholds are achieved.
 * There is a cost to performing the JIT compilation. 
 
-Basically, the JIT kicks in when a code section executing count exceeds a certain threshold and this can impact start-up time. For applications with a sensitive start-up period, it may make sense to increase this threshold to put off the JIT compilation costs. 
-
-Alternatively, you could opt to pay that cost up front and gain the benefit over the lifetime of the program. The following JVM options allow you to customize JIT behaviour. 
+Basically, the JIT kicks in when a code section executing count exceeds a certain threshold and this can impact start-up time. For applications with a sensitive start-up period, it may make sense to increase this threshold to put off the JIT compilation costs. Alternatively, you could opt to pay that cost up front and gain the benefit over the lifetime of the program. The following JVM options allow you to customize JIT behaviour. 
 
 | Parameter | Effect |
 | --------- | ------ | 

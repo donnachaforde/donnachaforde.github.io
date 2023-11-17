@@ -1,13 +1,13 @@
 # JVM Performance Tuning – Part II
 
 
-Now that we have the principal concepts out of the way in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md), I’d like to explain the ‘Java Memory Model’, which is a fancy way to describe how the JVM views the world. 
+Now that we have the principal concepts out of the way in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md), I’d like to explain the _Java Memory Model_, which is a fancy way to describe how the JVM views the world. 
 
 ![](./rcs/duke-learning-curve.png)
 
 
 ## JVM Memory Layout
-In broad terms, JVM memory is often referred to in terms of Heap and Non-Heap. Heap memory consists of the New Generation and the Tenured Generation, as mentioned above. The non-heap consists of PermGen – i.e. Permanent Generation. 
+In broad terms, JVM memory is often referred to in terms of _Heap_ and _Non-Heap_. Heap memory consists of the _New Generation_ and the _Tenured Generation_, as explained in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md). The non-heap consists of _PermGen_ – i.e. _Permanent Generation_.
 
 The following diagram illustrates the layout: 
 
@@ -17,28 +17,28 @@ The following diagram illustrates the layout:
 ## New Generation
 This is the heap-location for new objects. It is regarded as the ‘Speed Efficient’ generation and will contain lots of garbage objects. It is typically smaller than the Tenured Generation, usually set at one-quarter the size of the Tenured Generation, which helps make the GC cycle faster. 
 
-The GC cycles for the New Generation are referred to as ‘Minor GC Cycles’ and they occur much more frequently than GC cycles on the Tenured Generation. As the name suggests, Minor GC Cycles of the New Generation are typically much faster than the Major GC Cycles of the Tenured Generation, which facilitates much shorted ‘pause times’. 
+The GC cycles for the New Generation are referred to as _Minor GC Cycles_ and they occur much more frequently than GC cycles on the Tenured Generation. As the name suggests, Minor GC Cycles of the New Generation are typically much faster than the Major GC Cycles of the Tenured Generation, which facilitates much shorted ‘pause times’. 
 
 Generally, your Java application is ‘paused’ while the GC does its job. However, you typically won’t even notice a minor GC cycle in operation. 
 
 ## Tenured Generation
 This is the heap-location for older objects and it is regarded as the ‘Space Efficient’ generation. It is typically larger than the New Generation, occupying most of the heap. 
+The GC cycles for the Tenured Generation are referred to as _Major GC Cycles_. They are much more expensive than GC cycles on the New Generation and should occur much less frequently. I say ‘should’ here because frequent invocation of major GC cycles likely means your application is in trouble. 
 
-The GC cycles for the Tenured Generation are referred to as ‘Major GC Cycles’. They are much more expensive than GC cycles on the New Generation and should occur much less frequently. I say ‘should’ here because frequent invocation of major GC cycles likely means your application is in trouble. 
-
-The JVM will only resort to a major GC cycle when the minor GC cycle fails to free up enough memory. Logically, if the objects residing in the Tenured Generation truly are long-lived, then the GC cycle here won’t free up much memory. I’ve typically seen the GC make a few attempts before firing an `OutOfMemoryException` and killing the application. 
+> [!IMPORTANT]  
+> The JVM will only resort to a major GC cycle when the minor GC cycle fails to free up enough memory. Logically, if the objects residing in the Tenured Generation truly are long-lived, then the GC cycle here won’t free up much memory. I’ve typically seen the GC make a few attempts before firing an `OutOfMemoryException` and killing the application. 
 
 ## Permanent Generation
-This is known a ‘PermGen’ and is typically much smaller than both the New and Tenured Generations. It’s used to hold code-pages and Java classes. It also subject to GC cycles and it’s worth noting that PermGen is collected before the Tenured Generation and that it is collected serially. 
+This is known a ‘PermGen’ and is typically much smaller than both the New and Tenured Generations. It’s used to hold code-pages and Java classes. It also subject to GC cycles and it’s worth noting that PermGen is collected before the Tenured Generation and that it is collected serially. For the most part, it’s pretty insignificant unless your application makes extensive use of `Reflection`. In which case, you may well need to adjust the sizing. 
 
-For the most part, it’s pretty insignificant unless your application makes extensive use of Reflection. In which case, you may well need to adjust the sizing. 
+For many Java developers, the PermGen is a bit of a mystery. For others, especially those that use reflection, it’s important to understand that the JVM has an internal representation of Java classes, as well as objects. _Jon Masamitsu's Weblog_ does a good job of explaining what it does here: https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation.
 
-For many Java developers, the PermGen is a bit of a mystery. For others, especially those that use reflection, it’s important to understand that the JVM has an internal representation of Java classes, as well as objects. Jon Masamitsu's Weblog does a good job of explaining what it does here: https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation.
-
-Originally, there was no separate space for PermGen and objects and classes were stored together. Apparently, a dedicated PermGen was desirable for certain GCs so it’s somewhat ironic that the latest version of Java (JDK 8) has done away with the dedicated generation.
 
 > [!WARNING] 
 > In Java 8, the concept of PermGen has been removed and a different approach to managing all the ‘metadata’ contained therein has been introduced. See the following article for details: http://www.infoq.com/articles/Java-PERMGEN-Removed. 
+
+Originally, there was no separate space for PermGen and objects and classes were stored together. Apparently, a dedicated PermGen was desirable for certain GCs so it’s somewhat ironic that the latest version of Java (JDK 8) has done away with the dedicated generation.
+
 
 ## Eden & Survivor Spaces
 The New Generation is subdivided into a space called ‘Eden’ + 2 x ‘Survivor’ Spaces. Eden is where new objects are created though, on exception, large objects may be created directly in the Tenured Generation.  
@@ -50,7 +50,11 @@ Survivor spaces are used by the GC to cache and promote objects during GC cycles
 Note that the GC toggles the purpose of the two Survivor Spaces. On each iteration, it stores new GC-cycle ‘survivors’ and uses the other  Survivor Space as a staging area for promoting objects to the Tenured Generation.
 
 ## JVM Memory Pools
-If you’re curious, you can take a peek at these various memory sections in action by using the JConsole tool that comes with the JDK install. (On Windows, look for jconsole.exe usually located under C:\Program Files\Java\<jdk version>\bin)
+If you’re curious, you can take a peek at these various memory sections in action by using the `JConsole` tool that comes with the JDK install. 
+
+> [!TIP]
+> On Windows, look for `jconsole.exe` usually located under `C:\Program Files\Java\<jdk version>\bin`
+
 ![](./rcs/jvm-memory-pools.png)
  
 It shows Tenured Generation, Eden Space, Survivor Space in the heap section and Code Cache and PermGen in the non-heap section.
