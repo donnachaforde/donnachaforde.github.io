@@ -108,8 +108,5 @@ _Donnacha Forde_
 
 _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_/
 
-
-## References
-http://www.infoq.com/articles/Java-PERMGEN-Removed
-
-https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation
+---
+_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics.md) for article references._

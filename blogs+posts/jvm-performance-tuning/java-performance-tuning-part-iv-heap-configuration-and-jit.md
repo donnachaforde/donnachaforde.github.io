@@ -70,20 +70,7 @@ _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
 
-## References
-http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html
-
-http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf
-
-http://www.oracle.com/technetwork/tutorials/tutorials-1876574.html
-
-http://www.oracle.com/technetwork/java/ergo5-140223.html
-
-https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/ergonomics.html
-
-http://www.oracle.com/technetwork/java/whitepaper-135217.html
-
-
-
+---
+_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics.md) for article references._
 
 
