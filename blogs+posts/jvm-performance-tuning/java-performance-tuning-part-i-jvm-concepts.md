@@ -95,11 +95,12 @@ One point to note that many Java Programmers seem to be unaware of is the GC bec
 
 In my [next blog](./java-performance-tuning-part-ii-the-java-memory-model.md) in this series, I'll focus on JVM Memory Model and explain the various memory areas and the names they're known by.
 
+
 ---
 _Donnacha Forde_
 
 _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
-## References
-http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html
+---
+_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics.md) for article references._
