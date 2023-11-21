@@ -155,7 +155,7 @@ _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 [InfoQ - Where Has the Java PermGen Gone?](http://www.infoq.com/articles/Java-PERMGEN-Removed) _by Monica Beckwith_
 
-[Presenting the Permanent Generation](https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation) on [Jon Masamitsu's Weblog](https://blogs.oracle.com/jonthecollector/) - (⚠ _link no longer valid and no trace of this article on [blogs.oracle.com](https://blogs.oracle.com)_)
+[Presenting the Permanent Generation](https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation) on [Jon Masamitsu's Weblog](https://blogs.oracle.com/jonthecollector/) - (⚠ _The original URL is no longer valid and there's no trace of the article on [blogs.oracle.com](https://blogs.oracle.com) but there is a copy to be found on the Internet Archive [here](https://web.archive.org/web/20150214225034/http://blogs.oracle.com:80/jonthecollector/entry/presenting_the_permanent_generation)._)
 
 [Java Hotspot VM Options](http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html) -  - _Oracle Java Technical Details_
 
@@ -169,7 +169,7 @@ _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 [The Java HotSpot Performance Engine Architecture](http://www.oracle.com/technetwork/java/whitepaper-135217.html) - _Whitepaper - Oracle Java Technical Details_
 
-[JVM Diagnostics](http://www.oracle.com/technetwork/java/example-141412.html) - _Article by Sun Microsystems (now on Oracle website)_ - _(_ ⚠ _link no longer valid.)_
+[Diagnosing a Garbage Collection Problem](http://www.oracle.com/technetwork/java/example-141412.html) - _Article by Sun Microsystems from 2003_ - _(_ ⚠ _The original article was hosted on Oracle's website at one point but is not long to be found. An archived copy exists on the Internet Archive [here](https://web.archive.org/web/20150320203015/http://www.oracle.com:80/technetwork/java/example-141412.html).)_
 
 
 
