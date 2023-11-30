@@ -9,6 +9,18 @@ In this last section, I attempt to pull together the individual topics covered i
 Just to remind ourselves, I cover _Basic Principals_ in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md), the _Java Memory Model_ in [Part II](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md),  _Garbage Collectors_ in [Part III](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md), and _Heap Configuration and the JIT_ in [Part IV](./Java%20Performance%20Tuning%20-%20Part%20IV%20-%20Heap%20Configuration%20&%20JIT.md). 
 Here we’ll learn that, in practice, these discrete topics impact each other and that tuning is really about getting the balance right. That means that you’ll need to have an understanding of the whole, in order to be confident when addresses the specific. 
 
+## Table of Contents
+1. [Memory Size & GC Performance](#memory-size--gc-performance)
+2. [Achieving the Balance](#achieving-the-balance)
+    - [GC Behaviour in Practice](#gc-behaviour-in-practice)
+    - [New/Tenured Memory Ratio](#newtenured-memory-ratio)
+3. [Garbage Collection Diagnostics](#garbage-collection-diagnostics)
+    - [Diagnostics Analysis](#diagnostics-analysis)
+    - [Comparative Analysis](#comparative-analysis)
+4. [Conclusion & Parting Thoughts](#conclusion--parting-thoughts)
+5. [References](#references)
+
+
 ## Memory Size & GC Performance
 In their guide to [Memory Management in the Java Hotspot™ Virtual Machine](http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf) (from 2006) Sun Microsystems remind us of something long-since pointed, which is that:
 
@@ -22,7 +34,7 @@ In their guide to [Memory Management in the Java Hotspot™ Virtual Machine](htt
 
 These observations still hold true. Ensuring sufficient memory is available – both for holding older objects and to ensure there is room for new objects – is the main factor affecting how your GC behaves and, in turn, how your application performs.  
 
-## Achieving the Balance
+## Achieving the Balance 
 Like any tuning effort, JVM tuning is all about achieving a balance. To help with understanding what might be perceived as conflicting goals, the following observations are worth considering:
 
 * Minor-Collections are typically much faster (by an order of magnitude) than Major-Collections.
@@ -133,7 +145,7 @@ And the following shows how Heap Occupancy and GC Effectiveness look over time.
 
 Ultimately, these graphs merely allow us to see the diagnostics data more effectively though, in so doing, it may help spot patterns and identify where we might have to start profiling and investigating deeper. 
 
-## Parting Thoughts
+## Conclusion & Parting Thoughts
 The JVM diagnostics should really be used to confirm whether your hypothesis – i.e. the particular combination of GC policy, Heap Configuration settings – is actually having the effect you’re hoping for. It should be clearly understood at this point that these tweaks can impact each other and that what you’re looking to achieve is a working balance – i.e. a compromise that’s ‘good enough’. Use the diagnostics to check that by achieving the results in one area, you haven’t created a problem in the other. 
 
 I feel it only fair to point out that there are limits to what you can achieve here. While my investigations have left me convinced that you can nearly always improve on the default JVM settings, the scale of the improvements are likely to be relatively small. If your application _‘runs like dog’_ (i.e. performs poorly) to begin with, then no amount of tweaking is going to turn it into a racehorse. Ultimately, you may have no choice but to look at the fundamental design of the application. In this case, all you can hope for from the diagnostics is perhaps an indication as to where the issue starts to show. Then again, that will likely only be a symptom of an underlying flawed design. In my case, it was just enough to get us over a hurdle in the short-term.
@@ -149,28 +161,30 @@ _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
 ## References
-[Memory Management in the Java HotSpot™ Virtual Machine](http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf) - _Sun Microsystems, April 2006 (PDF)_
+* [Memory Management in the Java HotSpot™ Virtual Machine](http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf) - _Sun Microsystems, April 2006 (PDF)_
 
-[Java SE 6 HotSpot™ Virtual Machine Garbage Collection Tuning](http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html) - _Oracle Java Technical Details_
+* [Java SE 6 HotSpot™ Virtual Machine Garbage Collection Tuning](http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html) - _Oracle Java Technical Details_
 
-[InfoQ - Where Has the Java PermGen Gone?](http://www.infoq.com/articles/Java-PERMGEN-Removed) _by Monica Beckwith_
+* [InfoQ - Where Has the Java PermGen Gone?](http://www.infoq.com/articles/Java-PERMGEN-Removed) _by Monica Beckwith_
 
-[Presenting the Permanent Generation](https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation) on [Jon Masamitsu's Weblog](https://blogs.oracle.com/jonthecollector/) - (⚠ _The original URL is no longer valid and there's no trace of the article on [blogs.oracle.com](https://blogs.oracle.com) but there is a copy to be found on the Internet Archive [here](https://web.archive.org/web/20150214225034/http://blogs.oracle.com:80/jonthecollector/entry/presenting_the_permanent_generation)._)
+* [Presenting the Permanent Generation](https://blogs.oracle.com/jonthecollector/entry/presenting_the_permanent_generation) on [Jon Masamitsu's Weblog](https://blogs.oracle.com/jonthecollector/) 
+    * ⚠ _The original URL is no longer valid and there's no trace of the article on [blogs.oracle.com](https://blogs.oracle.com) but, an archive copy exists on  the Internet Archive [here](https://web.archive.org/web/20150214225034/http://blogs.oracle.com:80/jonthecollector/entry/presenting_the_permanent_generation)._
 
-[Java Hotspot VM Options](http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html) -  - _Oracle Java Technical Details_
+* [Java Hotspot VM Options](http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html) -  - _Oracle Java Technical Details_
 
-[The Most Complete List of -XX Options for Java JVM](http://stas-blogspot.blogspot.co.uk/2011/07/most-complete-list-of-xx-options-for.html)  -_Stas's Blog_
+* [The Most Complete List of -XX Options for Java JVM](http://stas-blogspot.blogspot.co.uk/2011/07/most-complete-list-of-xx-options-for.html)  -_Stas's Blog_
 
-[Getting Started with the G1 Garbage Collector](http://www.oracle.com/technetwork/tutorials/tutorials-1876574.html) - _Oracle Tutorials_
+* [Getting Started with the G1 Garbage Collector](http://www.oracle.com/technetwork/tutorials/tutorials-1876574.html) - _Oracle Tutorials_
 
-[Ergonomics in the 5.0 Java TM Virtual Machine](http://www.oracle.com/technetwork/java/ergo5-140223.html) - _Oracle Java Technical Details_
+* [Ergonomics in the 5.0 Java TM Virtual Machine](http://www.oracle.com/technetwork/java/ergo5-140223.html) - _Oracle Java Technical Details_
 
-[Java HotSpot Virtual Machine Garbage Collection Tuning Guide - Ergonomics](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/ergonomics.html) - _Chapter 2, Oracle Java Documentation_
+* [Java HotSpot Virtual Machine Garbage Collection Tuning Guide - Ergonomics](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/ergonomics.html) - _Chapter 2, Oracle Java Documentation_
 
-[The Java HotSpot Performance Engine Architecture](http://www.oracle.com/technetwork/java/whitepaper-135217.html) - _Whitepaper - Oracle Java Technical Details_
+* [The Java HotSpot Performance Engine Architecture](http://www.oracle.com/technetwork/java/whitepaper-135217.html) - _Whitepaper - Oracle Java Technical Details_
 
-[Diagnosing a Garbage Collection Problem](http://www.oracle.com/technetwork/java/example-141412.html) - _Article by Sun Microsystems from 2003_ - 
-(⚠ _The original URL is no longer valid and the article can no longer be found on the [oracle.com/technical-resources](https://www.oracle.com/technical-resources/) site, but an archived copy exists on the Internet Archive [here](https://web.archive.org/web/20150320203015/http://www.oracle.com:80/technetwork/java/example-141412.html)._)
+* [Diagnosing a Garbage Collection Problem](http://www.oracle.com/technetwork/java/example-141412.html) - _Article by Sun Microsystems from 2003_ 
+ 
+    * ⚠ _The original URL is no longer valid and the article can no longer be found on the [oracle.com/technical-resources](https://www.oracle.com/technical-resources/) site, but an archived copy exists on the Internet Archive [here](https://web.archive.org/web/20150320203015/http://www.oracle.com:80/technetwork/java/example-141412.html)._
 
 
 
