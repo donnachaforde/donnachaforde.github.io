@@ -9,6 +9,14 @@ In this last section, I attempt to pull together the individual topics covered i
 Just to remind ourselves, I cover _Basic Principals_ in [Part I](./Java%20Performance%20Tuning%20-%20Part%20I%20-%20JVM%20Concepts.md), the _Java Memory Model_ in [Part II](./Java%20Performance%20Tuning%20-%20Part%20II%20-%20The%20Java%20Memory%20Model.md),  _Garbage Collectors_ in [Part III](./Java%20Performance%20Tuning%20-%20Part%20III%20-%20Garbage%20Collectors.md), and _Heap Configuration and the JIT_ in [Part IV](./Java%20Performance%20Tuning%20-%20Part%20IV%20-%20Heap%20Configuration%20&%20JIT.md). 
 Here we’ll learn that, in practice, these discrete topics impact each other and that tuning is really about getting the balance right. That means that you’ll need to have an understanding of the whole, in order to be confident when addresses the specific. 
 
+## Table of Contents
+1. [Memory Size & GC Performance](#memory-size-&-gc-performance)
+2. [Achieving the Balance](#achieving-the-balance)
+3. [Garbage Collection Diagnostics](#garbage-collection-diagnostics)
+4. [Conclusion & Parting Thoughts](#conclusion-parting-thoughts)
+5. [References](#references)
+
+
 ## Memory Size & GC Performance
 In their guide to [Memory Management in the Java Hotspot™ Virtual Machine](http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf) (from 2006) Sun Microsystems remind us of something long-since pointed, which is that:
 
@@ -133,7 +141,7 @@ And the following shows how Heap Occupancy and GC Effectiveness look over time.
 
 Ultimately, these graphs merely allow us to see the diagnostics data more effectively though, in so doing, it may help spot patterns and identify where we might have to start profiling and investigating deeper. 
 
-## Parting Thoughts
+## Conclusion & Parting Thoughts
 The JVM diagnostics should really be used to confirm whether your hypothesis – i.e. the particular combination of GC policy, Heap Configuration settings – is actually having the effect you’re hoping for. It should be clearly understood at this point that these tweaks can impact each other and that what you’re looking to achieve is a working balance – i.e. a compromise that’s ‘good enough’. Use the diagnostics to check that by achieving the results in one area, you haven’t created a problem in the other. 
 
 I feel it only fair to point out that there are limits to what you can achieve here. While my investigations have left me convinced that you can nearly always improve on the default JVM settings, the scale of the improvements are likely to be relatively small. If your application _‘runs like dog’_ (i.e. performs poorly) to begin with, then no amount of tweaking is going to turn it into a racehorse. Ultimately, you may have no choice but to look at the fundamental design of the application. In this case, all you can hope for from the diagnostics is perhaps an indication as to where the issue starts to show. Then again, that will likely only be a symptom of an underlying flawed design. In my case, it was just enough to get us over a hurdle in the short-term.
