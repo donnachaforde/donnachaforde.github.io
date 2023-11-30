@@ -5,6 +5,19 @@ Having covered the principal concepts in [Part I](./java-performance-tuning-part
 
 ![Duke Pondering](./rcs/duke-pondering.png) 
 
+## Table of Contents
+1. [Garbage Collectors](#garbage-collectors)
+    - [Serial Collector](#serial-collector)
+    - [Incremental Collector](#serial-collector)
+    - [Parallel Collector](#parallel-collector)
+    - [Parallel Compacting Collector](#parallel-compacting-collector)
+    - [CMS Collector](#cms-collector)
+    - [Garbage First Collector - G1](#garbage-first-collector---g1)
+2. [JVM Ergonomics](#jvm-ergonomics)
+3. [Java JRE Client and Server Versions](#java-jre-client-and-server-versions)
+4. [Explicit Garbage Collection](#explicit-garbage-collection)
+5. [JVM Options](#jvm-options)
+
 ## Garbage Collectors
 The HotSpot JVM actually supports a number of different Garbage Collectors, representing different approaches or strategies to the task at hand. It’s an area under constant research and development so in some ways, the various GCs are representative of what is an evolutionary process. Some GCs have given way to others and anyone doing research in this area may find some of the names (especially for the older GCs) a tad confusing. 
 
