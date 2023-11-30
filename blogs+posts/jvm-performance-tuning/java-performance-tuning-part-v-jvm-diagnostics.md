@@ -169,7 +169,9 @@ _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 [The Java HotSpot Performance Engine Architecture](http://www.oracle.com/technetwork/java/whitepaper-135217.html) - _Whitepaper - Oracle Java Technical Details_
 
-[Diagnosing a Garbage Collection Problem](http://www.oracle.com/technetwork/java/example-141412.html) - _Article by Sun Microsystems from 2003_ - _(_ ⚠ _The original article was hosted on Oracle's website at one point but is not long to be found. An archived copy exists on the Internet Archive [here](https://web.archive.org/web/20150320203015/http://www.oracle.com:80/technetwork/java/example-141412.html).)_
+[Diagnosing a Garbage Collection Problem](http://www.oracle.com/technetwork/java/example-141412.html) - _Article by Sun Microsystems from 2003_ - 
+(⚠ _The original URL is no longer valid and the article can no longer be found on the [oracle.com/technical-resources](https://www.oracle.com/technical-resources/) site, but an archived copy exists on the Internet Archive [here](https://web.archive.org/web/20150320203015/http://www.oracle.com:80/technetwork/java/example-141412.html)._)
+
 
 
 
