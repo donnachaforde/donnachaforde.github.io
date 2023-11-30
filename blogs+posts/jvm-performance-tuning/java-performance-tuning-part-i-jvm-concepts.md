@@ -7,6 +7,13 @@ A few years ago, I had occasion to finally get to grips with the inner workings 
 
 ![Duke Reading](./rcs/duke-reading-drinking-coffee.png)
 
+## Table of Contents
+1. [JVM Concepts](#jvm-concepts)
+    - [Managed Memory](#managed-memory)
+    - [Garbage Collection](#garbage-collection)
+    - [Generational Model & Garbage Collection](#generational-memory-model-and-garbage-collection)
+
+
 
 In some ways, I was fortunate insomuch as I had the time to do some thorough research and I pretty much read every guide and article out of Sun and Oracle on the topic. And when I say ‘read’, I mean ‘studied’. 
 

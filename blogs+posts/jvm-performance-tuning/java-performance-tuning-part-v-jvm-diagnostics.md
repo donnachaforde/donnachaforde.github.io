@@ -10,10 +10,14 @@ Just to remind ourselves, I cover _Basic Principals_ in [Part I](./Java%20Perfor
 Here we’ll learn that, in practice, these discrete topics impact each other and that tuning is really about getting the balance right. That means that you’ll need to have an understanding of the whole, in order to be confident when addresses the specific. 
 
 ## Table of Contents
-1. [Memory Size & GC Performance](#memory-size-&-gc-performance)
+1. [Memory Size & GC Performance](#memory-size--gc-performance)
 2. [Achieving the Balance](#achieving-the-balance)
+    - [GC Behaviour in Practice](#gc-behaviour-in-practice)
+    - [New/Tenured Memory Ratio](#newtenured-memory-ratio)
 3. [Garbage Collection Diagnostics](#garbage-collection-diagnostics)
-4. [Conclusion & Parting Thoughts](#conclusion-parting-thoughts)
+    - [Diagnostics Analysis](#diagnostics-analysis)
+    - [Comparative Analysis](#comparative-analysis)
+4. [Conclusion & Parting Thoughts](#conclusion--parting-thoughts)
 5. [References](#references)
 
 

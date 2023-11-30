@@ -8,6 +8,19 @@ Now that we have the principal concepts out of the way in [Part I](./java-perfor
 ![](./rcs/duke-learning-curve.png)
 
 
+## Table of Contents
+1. [JVM Memory Layout](#jvm-memory-layout)
+2. [New Generation](#new-generation)
+3. [Tenured Generation](#tenured-generation)
+4. [Permanent Generation](#permanent-generation)
+5. [Eden & Survivor Spaces](#eden--survivor-spaces)
+6. [JVM Memory Pools](#jvm-memory-pools)
+7. [Notes on Memory Nomenclature](#notes-on-memory-nomenclature)
+    - [Memory Ratios](#memory-ratios)
+    - [Committed versus Virtual Memory](#committed-versus-virtual-memory)
+    - [Java Memory versus Actual Memory](#java-memory-versus-actual-memory)
+
+
 ## JVM Memory Layout
 In broad terms, JVM memory is often referred to in terms of _Heap_ and _Non-Heap_. Heap memory consists of the _New Generation_ and the _Tenured Generation_, as explained in [Part I](./java-performance-tuning-part-i-jvm-concepts.md). The non-heap consists of _PermGen_ – i.e. _Permanent Generation_.
 
