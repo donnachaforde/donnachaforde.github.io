@@ -3,7 +3,7 @@
 
 # JVM Performance Tuning
 
-
+<img src="./rcs/duke-thumbs-up.png" width="300" height="300" />
 
 A five-part blog on **Java Virtual Machine Tuning** covering:
 
