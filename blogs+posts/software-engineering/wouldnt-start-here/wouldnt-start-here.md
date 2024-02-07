@@ -10,25 +10,26 @@ _Photo Credit: [www.nicepng.com](https://www.nicepng.com/maxp/u2w7w7y3e6t4w7t4/)
 
 
 ### _Abstract_
-_The fragmentation of the target platforms for AV vendors due to the increased diversity of desktop/laptop OS and underlying processor architecture in recent years means that the engineering mechanisms and organizational structures that have evolved over decades may not serve us as well into the future. We must consider the underlying architecture design of our endpoint solutions to determine whether they are fit for purpose for the coming years. Breaking down product siloes and drawing a distinction between those parts of our solutions that are entirely platform specific and those that are generic is perhaps the first step towards adopting a more modular approach and ultimately, even a ‘microservices architecture on the endpoint’, which may well facilitate more effective and more efficient software development of endpoint security solutions._
+_The fragmentation of the traditional target platforms for AV vendors, because of the increased diversity of endpoint OS and underlying processor architecture, in recent years means that the engineering mechanisms and organizational structures that have evolved over decades may not serve us as well into the future. We must consider the underlying architecture design of our endpoint solutions to determine whether they are fit for purpose for the coming years. Breaking down product silos and drawing a distinction between those parts of our solutions that are entirely platform specific and those that are generic is perhaps the first step towards adopting a more modular approach and ultimately, even a ‘microservices architecture on the endpoint’, which may well facilitate more effective and more efficient software development of endpoint security solutions._
 
 # Well, if I were you, I wouldn’t start from here…
 
 So goes the joke about giving directions. And, perhaps the same can be said of Endpoint Architecture in cyber security because the solutions we typically have today are as a result of evolution, not necessarily planning. If you were tasked with designing an architecture to support what's needed today, chances are you very likely wouldn't start from here...
 
-There are two factors generating friction against each other:
+There are two factors creating friction with each other:
 
 1. Historically, AV solutions are more heavily weighted towards Windows than any other OS.
 2. The target market for Endpoint has fragmented.
 
-Let's examine these factors in a bit more detail. 
+
+Let's examine these in a bit more detail. 
 
 ## Wintel Weighting
 
-There are serveral reasons why anti-malware solutions are typically  disproportionally more sophisticated on Windows, specifically on Intel processor architecture. 
+There are serveral reasons why anti-malware solutions are typically  disproportionally more sophisticated on Windows, specifically on Intel processor architecture, than any other desktop/laptop OS. 
 
 1. Historically, Windows has domainated the desktop/laptop space and there's simply a larger target base.
-2. there have been more Windows machines over a long period. Antimalware solutions for Windows are disproportionately more sophisticated than on any other OS.
+2. Further, this domination has existed for quite some time so there have been more Windows machines over a long period. Antimalware solutions for Windows are disproportionately more sophisticated than on any other OS.
 2. Expertise and Organizational Structures 
 2. Protection parity across heterogeneous OS is a misconception. 
 
@@ -68,6 +69,9 @@ Given where many AV companies have come from, it’s practically impossible to r
 
 The upshot is it seems that AV vendors, perhaps more than other software houses, end up with discrete engineering teams supporting Windows, macOS and Linux, without any shared components. Here, Conway’s Law makes its presence felt and the challenge of achieving protection parity clearer. 
 
+### Product Silos 
+Company direction driven by sales.
+
 
 ## Market Fragmentation
 At one time, an AV vendor could afford to target a Windows-only solution and be assured that they had a significant market presence. Today, however, macOS has made a significant inroad into the enterprise desktop market. Linux and even ChromeOS are further eroding this dominance. The upshot is that if an AV vendor wants to meet their customers’ needs and provide a single-vendor solution, then they have to spread their resources and talent-pool across a greater number of heterogeneous platforms and development environments/paradigms. 
@@ -75,6 +79,8 @@ At one time, an AV vendor could afford to target a Windows-only solution and be 
 The expected market adoption of arm64 processors across Windows and macOS further exacerbates this challenge. There are technical differences across the platforms that determine how an engineering organization handles these platforms but, at least for Windows, full native support involves a significant investment across engineering, quality assurance and build & release that is unlikely to see a return for perhaps a number of years until such time that customer demand for that hardware sufficiently increases. 
 
 The upshot is that in order to sell your product today, you have to deal with a more fragmented target platform, be that a different processor architecture or different OS. 
+
+
 
 
 
