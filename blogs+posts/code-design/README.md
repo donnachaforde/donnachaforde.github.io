@@ -2,24 +2,28 @@
 
 
 
-# Blogs on Code Design
+# Design Considerations on the espresso library
 
-I've been trying to develop the habit of blogging about design choices as I work through coding, starting with a project I've recently resurrected. 
+### Introduction
 
-First, I've learnt that thinking can be improved just through the process of _putting pen to paper_. At one point in my career, while sustaining a highly complex system in the field, I adopted a process of summarising bug reports and found the process to be invaluable at wading through all the crud to get to the facts. Nowadays, I adopt much the same process when designing code solutions. Writing things down helps the thought process.
+I've learned that our 'thought process' can be improved by simply _putting pen to paper_ and writing out such things as facts, assumptions, outstanding unknowns, etc. The act of writing or typing out these details seems to act like an assistant to problem solving in a similar way that peer code-review helps the author clarify their logic. 
 
-Second, when working with languages like C++ and Java, but particularly with C++, there are often so many choices on how to achieve a solution that the mind can become boggled. The act of writing down what you what to achieve, why you want to do it - and listing influences on your thought-process - really helps clarify those choices, It also explains the _design journey_ that the code, representing the end-stage, can't quite ever reveal. 
+This lesson became really clear to me at one point in my career when I inherited responsibly for supporting and maintaining a product in the field that had large numbers of cases opened against it. I was the last line of support so the _buck stopped with me_ and typically, by that stage a case could have a long case history, which made it difficult to extract the facts from conjecture. In order to cope with this sort of challenge, I adopted the habit of summarizing the case histories detailing known facts, assumptions and the theories as to the cause. Not only did it provide assurance to all stakeholders, but I found the process to be invaluable at getting to the crux of the issue and I regularly surprised myself in how I was able to arrive at a root-cause by the time I'd finishing my analysis. 
+
+Nowadays, I adopt much the same process when designing code solutions. 
+
+>**Tip -** Writing things down helps the thought process.
+
+Furthermore, when working with languages like C++ and Java (but particularly with C++) there are often so many choices on how to achieve a solution that the mind can easily become boggled. The act of writing down what you what to achieve, why you want to do it - and listing influences on your thought-process - really helps clarify those choices, It also explains the _design journey_ that the code, representing the end-stage, can't quite ever reveal. 
 
 
-### Ruminations on  OO Design
+### Design Ruminations
 
-* [Overview & Design Considerations](./espresso/design-considerations.md)
+* [Design Considerations](./espresso/design-considerations.md)
 * [Creation Pattens](./espresso/object-construction.md)
 * [Employing Manager Objects](./espresso/manager-objects.md)
 
 
-### Performance Improvement
 
-* [Eliminating Heap Memory Allocations (Java)](./toggle-queue.md)
 
 
