@@ -1,7 +1,7 @@
 [home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering](https://donnachaforde.github.io/blogs+posts/software-engineering/)
 
 # Blogs on Software Engineering
-Here are posts and articles covering more general softare engineering topics. 
+Here are posts and articles covering more general software engineering topics. 
 
 
 ## Management & Leadership
