@@ -13,7 +13,7 @@ Here are posts and articles covering more general software engineering topics.
 
 ## API Design
 
-* [Be considerate, but not overly considerate](./api-design/api-design.md) - An example of when being helpful led to the circumvention of the entire API design.
+* [Be considerate, but not overly so](./api-design/api-design.md) - An example of when being overly helpful can be to the detrement of your design.
 
 ## Performance Engineering
 
