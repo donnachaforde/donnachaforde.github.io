@@ -1,32 +1,23 @@
 # API Design - Don't be overly considerate
 
-Try not to be overly considerate to your end users of your API design, lest you find your interface abused. Let me explain by way of an example. 
 
-I was tasked with implementing a feature to our backend management system that would allow the user, or in my case, the Front-end developer, to load a database and have the system run off of this persistence store rather than the live system. It was essentially a tool to run the system in read-only mode and was used to examine customer's systems. 
+When crafting APIs, it's crucial to consider the ergonomics of the interface but resist the temptation to overly prioritize convenience. Providing 'convenience' functions may seem helpful, but it can leave your interface susceptible to misuse. Allow me to illustrate this with an example.
 
-These databases, which were single files consisting of a proprietary store format, were meant to be exported, imported and activated. In addition, because several could be imported, the list of databases needed to be viewed and items could also be removed. 
+I was tasked with implementing a feature in our management system, enabling it to effectively operate in read-only mode using a database instance imported from a customer's environment. 
 
-In summary, that meant the API to the feature had to support the following operations:
+Besides implementing the necessary internal read-only behavior, I needed to provide operations to support the front-end (being developed by another team), such as import, export, activate, list, view and remove a database. 
 
-* import
-* export
-* activate
-* deactivate
-* list
-* remove
+Recognizing that a common use-case involved importing a database followed immediately by activating it, I introduced a helper API called `importAndActivate()`. While seemingly sensible and pretty straightforward to implement, this ultimately led the Front-end Developer to believe that `importAndActivate()` was the sole touch-point needed and they proceeded to create a duplicate feature implementation handling . My API was only invoked when the end-user activated a database, rendering a large part of the solution unused.
 
-The typical usage pattern was that a user would _import_ a database and then _activate_ it so as to browse its contents, etc. Given this typical pattern, it seemed natural to provide a 'convenience' interface that simply combined these steps. So, I added:
+This underscores the importance of designing APIs with essential functionality only, avoiding an excess of convenience that might leave it susceptible to abuse. It's crucial to recognize that other developers may not always follow the typical usage pattern, emphasizing the need to design APIs that are minimalist in nature. 
 
-* importAndActive
+The lesson learned here is encapsulated in the phrase, "never give a sucker an even break". My API was circumvented because of an attempt to be overly helpful. Sometimes, requiring users to make two API calls instead of one is justified if it ensures the comprehensive use of the designed functionalities. The moral of the story is to find the right balance - be helpful, but not overly so.
 
-Now, I'd have to admit some long-standing influence here. Years earlier, having reviewed a more experienced 'C' programmers code, I was impressed with how they'd handled errors and quit the program with an aptly named `flagAndExit()` function that both flagged the error to `stdout` and exited the program with the relevant exit-code. It was the use of the 'conjuction' that stuck. In my case `importAndActive()` made perfect sense and reflected the typical use-case. 
 
-What could possibly go wrong? 
 
-When I was learning to drive and having mastered the mechanics, my father tried to impart some wisdom on being safer on the road by trying to anticipate other drivers' behavior. He used to say "People are liable to do ANYTHING..." and how right he was. There isn't an experienced driver out there that hasn't seen some bizarre, unexpected and unexplainable behavior on the road. 
+>**Aside:**  Up until then, I never fully understood the meaning of that saying ""never give a sucker an even break."".
 
-It must be the human condition. For when I learned how well-designed, thought-out API was used, I just couldn't believe it. The only API that ever got invoked was `importAndActivate()`. None of the other APIs were ever used, which meant the vast majority of the code used to store and manage the database instances was never exercised. Instead, the Front-end developer had built their own solution for storing and managing databases leaving the absolute only API they needed being, you guessed it, `importAndActivate()`. 
+#API #development #lessonslearned 
 
-I could never have guessed that my API would've been circumvented in this way. But, the facts of the matter were that it was only made possible because I tried to be helpful. I've struggled to understand that phrase _"never give a sucker an even break"_ but I think it could be applicable in this case. I simply should not have so helpful. So what if they have to make two API calls instead of one? The use-case was still implemented as a single operation - it didn't really warrant the extra API call. 
 
-The moral of the story... Sure, be helpful, but not overly helpful. 
+
