@@ -11,7 +11,9 @@ Here are posts and articles covering more general software engineering topics.
 * [Becoming a Coach](./coaching/coaching.md) - Considerations on becoming a volunteer Sports Coach.
 
 
+## API Design
 
+* [Be considerate, but not overly so](./api-design/api-design.md) - An example of when being overly helpful can be to the detrement of your design.
 
 ## Performance Engineering
 
