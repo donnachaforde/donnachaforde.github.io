@@ -9,9 +9,7 @@ Blogs & Posts on general topics in Software Engineering, including Management & 
 ### Contents
 
 * [Software Engineering](software-engineering/README.md)
-* [Design Considerations when building the 'espresso library'](code-design/README.md)
+* [Design Ruminations on the 'espresso library'](code-design/README.md)
 * [JVM Performance Tuning](jvm-performance-tuning/README.md)
-
-
 
 
