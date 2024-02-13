@@ -1,6 +1,6 @@
 
 [//]: # (Navigation bread crumbs)
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[repetition](https://donnachaforde.github.io/blogs+posts/software-engineering/lessons-from-sport/repetition)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[repetition](https://donnachaforde.github.io/blogs+posts/software-engineering/repetition/repetition)
 
 
 # Repetition, repetition, repetition…
