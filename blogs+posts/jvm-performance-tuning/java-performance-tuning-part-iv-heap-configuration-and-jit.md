@@ -65,7 +65,7 @@ Basically, the JIT kicks in when a code section executing count exceeds a certai
 
 
 
-In my [next and last blog in this series](./java-performance-tuning-part-v-jvm-diagnostics), I’ll discuss JVM Diagnostics and will illustrate how to work with the JVM to test and verify whether your tuning effects are having the desired effect. I’ll also show you how, with a little bit of grunt effort, how you can visualize and interpret diagnostic information to a greater level of depth than many profiling or memory monitoring tools. 
+In my [next and last blog](./java-performance-tuning-part-v-jvm-diagnostics) in this series, I’ll discuss JVM Diagnostics and will illustrate how to work with the JVM to test and verify whether your tuning effects are having the desired effect. I’ll also show you how, with a little bit of grunt effort, how you can visualize and interpret diagnostic information to a greater level of depth than many profiling or memory monitoring tools. 
 
 ---
 
