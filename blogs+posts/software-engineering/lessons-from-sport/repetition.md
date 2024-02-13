@@ -1,18 +1,15 @@
 
 [//]: # (Navigation bread crumbs)
-
 [home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[repetition](https://donnachaforde.github.io/blogs+posts/software-engineering/lessons-from-sport/repetition)
 
 
-
 # Repetition, repetition, repetition…
-## Lessons from sport that translate to engineering
 
 ![image](./Sovereign's-Cup-2021-KYC.jpg)
-
 _Photo Credit: [www.sovereignscup.com](https://www.sovereignscup.com)_
 
 
+### Lessons from sport that translate to engineering
 
 Earlier this summer, I took part in the bi-annual Sovereign’s Cup sailing regatta held in Kinsale, sailing on a Class-I yacht. Our crew mostly partake in weekly club-racing so this event is a step-up and an opportunity to experience racing at another level.
  
