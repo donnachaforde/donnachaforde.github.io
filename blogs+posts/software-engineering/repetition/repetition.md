@@ -1,6 +1,4 @@
-
-[//]: # (Navigation bread crumbs)
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[repetition](https://donnachaforde.github.io/blogs+posts/software-engineering/repetition/repetition)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[repetition](./)
 
 
 # Repetition, repetition, repetition…

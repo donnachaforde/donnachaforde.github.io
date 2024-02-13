@@ -1,4 +1,4 @@
-[home/](/README.md)[blogs+posts/](../../README.md)[software-engineering/](../README.md)[design-considerations](./design-considerations.md)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[design-considerations](./design-considerations)
 
 # Design Considerations - espresso lib 
 Ruminations on the design and evolution of the espresso library. 

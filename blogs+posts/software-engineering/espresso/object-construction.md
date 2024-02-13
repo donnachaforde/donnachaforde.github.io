@@ -1,4 +1,5 @@
-[home/](/README.md)[blogs+posts/](../../README.md)[software-engineering/](../README.md)[object-construction](./object-construction)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[object-construction](./object-construction)
+
 
 # Object Construction
 The thought process around object construction when using the espresso library constructs. 

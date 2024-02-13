@@ -1,4 +1,6 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[toggle-queue](./toggle-queue)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[toggle-queue](./)
+
+
 
 # Toggle Queue
 A design pattern (in Java) for queue objects that's a little kinder to the Garbage Collector (GC).

@@ -1,4 +1,4 @@
-[home/](/README.md)[blogs+posts/](../../README.md)[software-engineering/](../README.md)[utilizing-manager-objects](./manager-objects.md)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[manager-objects](./manager-objects)
 
 # Utilizing Manager Objects
 The rationale behind the introduction of the 'Manager' object in espresso.   

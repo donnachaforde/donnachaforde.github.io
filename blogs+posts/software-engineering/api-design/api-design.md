@@ -1,4 +1,5 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[api-design](./api-design)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[api-design](./visual-studio-build-output-tips)
+
 
 # API Design - Don't be Overly Considerate
 

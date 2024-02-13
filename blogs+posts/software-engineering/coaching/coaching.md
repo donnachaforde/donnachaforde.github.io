@@ -1,8 +1,5 @@
 
-[//]: # (Navigation bread crumbs)
-
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[coaching](https://donnachaforde.github.io/blogs+posts/software-engineering/coaching/coaching)
-
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[coaching](./visual-studio-build-output-tips)
 
 
 # Becoming a Coach
