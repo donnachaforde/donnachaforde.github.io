@@ -19,9 +19,9 @@ Furthermore, when working with languages like C++ and Java (but particularly wit
 
 ### Design Ruminations
 
-* [Design Considerations](./espresso/design-considerations.md)
-* [Creation Pattens](./espresso/object-construction.md)
-* [Employing Manager Objects](./espresso/manager-objects.md)
+* [Design Considerations](./espresso/design-considerations)
+* [Creation Pattens](./espresso/object-construction)
+* [Employing Manager Objects](./espresso/manager-objects)
 
 
 
