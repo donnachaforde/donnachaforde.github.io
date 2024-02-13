@@ -105,3 +105,12 @@ Ultimately, what might initially appeared as scary with hundreds of errors just 
 The visual studio build actually writes this information to it’s own logs in a dedicated directory under the project output called \<project-name>.tlog (same location as the temporary project files described above). The same compiler command revealed by not suppressing the start-up banner is logged to cat `CL.command.1.tlog`.
 
 Unfortunately, the corresponding linker file – i.e. `link.command.1.tlog` – doesn’t contain any text. Both files seem to start with a binary signature so they don’t work with tools like grep. (I understand they are ‘Unicode’ files.)
+
+
+***
+_Donnacha Forde_
+
+_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+
+
+
