@@ -3,8 +3,7 @@
 
 <img src="donnacha-headshot.jpeg" width="250" height="250" class="center"/>
 
-Welcome to my **GitHub Homepage** where you'll find everything I've made available online. There are Posts & Blogs I've written as well links to code samples and 'hobby horse' projects. You'll also find an outline of the University course I've delivered on _Software Architecture & Design_ at [MTU](www.mtu.ie) and at the bottom of the page, there's a link to my LinkedIn profile. 
-
+Welcome to my **GitHub Pages** where you'll find everything I've made available online. There are Posts & Blogs I've written on all things related to Software Engineering as well links to code samples and 'hobby horse' projects. You'll also find an outline of the University course I've delivered on _Software Architecture & Design_ at [MTU](www.mtu.ie). 
 
 
 
@@ -18,12 +17,12 @@ Welcome to my **GitHub Homepage** where you'll find everything I've made availab
 
 
 
-## [Code](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
+## [Code on GitHub](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
 Here are public repos on GitHub that are in a presentable form.
 
-* [espresso lib](https://github.com/donnachaforde/espresso) - A hobby-horse project - i.e. an easy-to-use command-line parser to simplify CLI development. 
+* [espresso lib](https://github.com/donnachaforde/espresso) - A hobby-horse project - i.e. an easy-to-use command-line parser for CLI applications. 
 
-* [espresso tools](https://github.com/donnachaforde/espresso-tools) - A collection of useful CLI tools that leverages the espresso library. 
+* [espresso tools](https://github.com/donnachaforde/espresso-tools) - A collection of useful CLI tools, which leverages the espresso library. 
 
 * [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
 
