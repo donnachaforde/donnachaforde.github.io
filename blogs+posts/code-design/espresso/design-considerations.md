@@ -1,4 +1,4 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[design-considerations](/blogs+posts/code-design/espresso/design-considerations.md)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[design-considerations](/blogs+posts/code-design/espresso/design-considerations)
 
 # Design Considerations - espresso lib 
 Ruminations on the design and evolution of the espresso library. 
@@ -42,7 +42,7 @@ This really challenged my assumptions about the library writing to stdout. I did
 
 Years later, when working with Java and learning about Spring's Inversion of Control (IOC) design pattern, I learnt about the concept of separating function down to it's core parts. For example, I realized that rendering output is quite distinct from argument parsing. This allowed me to provide a `stdout` renderer as standard but provided a means for other developers to devise a compatible renderer for their environment. 
 
-I detailed the design thought process in a separate article on [object construction](./object-construction.md). 
+I detailed the design thought process in a separate article on [object construction](./object-construction). 
 
 
 

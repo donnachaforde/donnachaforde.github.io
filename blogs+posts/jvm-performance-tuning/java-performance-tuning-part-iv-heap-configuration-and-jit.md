@@ -1,7 +1,7 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[jvm-heap-config-and-jit](./java-performance-tuning-part-iv-heap-configuration-and-jit.md)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[jvm-heap-config-and-jit](./java-performance-tuning-part-iv-heap-configuration-and-jit)
 
 # JVM Performance Tuning – Part IV
-In this section, I discuss Heap Configuration and the Java Just-in-Time compiler (JIT) , building upon previous blogs covering principal concepts in [Part I](./java-performance-tuning-part-i-jvm-concepts.md), the Java Memory Model in [Part II](./java-performance-tuning-part-ii-the-java-memory-model.md) and Garbage Collectors in [Part III](./java-performance-tuning-part-iii-garbage-collectors.md). 
+In this section, I discuss Heap Configuration and the Java Just-in-Time compiler (JIT) , building upon previous blogs covering principal concepts in [Part I](./java-performance-tuning-part-i-jvm-concepts), the Java Memory Model in [Part II](./java-performance-tuning-part-ii-the-java-memory-model) and Garbage Collectors in [Part III](./java-performance-tuning-part-iii-garbage-collectors). 
 
 
 ![Duke Tools](./rcs/duke-working-with-tools.png) 
@@ -12,11 +12,11 @@ In this section, I discuss Heap Configuration and the Java Just-in-Time compiler
 3. [JIT Compiler](#jit-compiler)
 
 ## Heap Layout & Sizing
-In [Part II](./java-performance-tuning-part-ii-the-java-memory-model.md) I describe how Java organizes memory so we understand that the HotSpot™ VM adopts a generational approach to organizing memory. From [Part III](./java-performance-tuning-part-iii-garbage-collectors.md), we understand that the GC tackles garbage collection differently in each of the memory generations, even to the point where we can configure different garbage collectors for the New and Tenured generations respectively. 
+In [Part II](./java-performance-tuning-part-ii-the-java-memory-model) I describe how Java organizes memory so we understand that the HotSpot™ VM adopts a generational approach to organizing memory. From [Part III](./java-performance-tuning-part-iii-garbage-collectors), we understand that the GC tackles garbage collection differently in each of the memory generations, even to the point where we can configure different garbage collectors for the New and Tenured generations respectively. 
 
 An interesting point to note is that most monitoring tools display memory levels in a single graph – which is a good thing – but you should understand that memory levels are going to alter independently in each of the generations. (The Java Console tool does actually show a graph illustrating the memory levels of each memory section.) The following diagram is somewhat confusing but it attempts to illustrate this point, and show where some of the terms referencing limits and ratios apply. 
 
-To help with this, I’ve effectively turned the diagrams in [Part II](./java-performance-tuning-part-iii-garbage-collectors.md) on-end, which showed memory laid out from left-to-right, to show the layout from bottom-to-top. 
+To help with this, I’ve effectively turned the diagrams in [Part II](./java-performance-tuning-part-iii-garbage-collectors) on-end, which showed memory laid out from left-to-right, to show the layout from bottom-to-top. 
 
 ![JVM Heap Layout](./rcs/jvm-heap-layout.png)
  
@@ -65,7 +65,7 @@ Basically, the JIT kicks in when a code section executing count exceeds a certai
 
 
 
-In my [next and last blog in this series](./java-performance-tuning-part-v-jvm-diagnostics.md), I’ll discuss JVM Diagnostics and will illustrate how to work with the JVM to test and verify whether your tuning effects are having the desired effect. I’ll also show you how, with a little bit of grunt effort, how you can visualize and interpret diagnostic information to a greater level of depth than many profiling or memory monitoring tools. 
+In my [next and last blog in this series](./java-performance-tuning-part-v-jvm-diagnostics), I’ll discuss JVM Diagnostics and will illustrate how to work with the JVM to test and verify whether your tuning effects are having the desired effect. I’ll also show you how, with a little bit of grunt effort, how you can visualize and interpret diagnostic information to a greater level of depth than many profiling or memory monitoring tools. 
 
 ---
 
@@ -76,6 +76,6 @@ _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
 ---
-_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics.md) for article references._
+_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics) for article references._
 
 

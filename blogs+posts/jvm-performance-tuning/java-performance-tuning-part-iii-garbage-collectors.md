@@ -1,7 +1,7 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[garbage-collectors](./java-performance-tuning-part-iii-garbage-collectors.md)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[garbage-collectors](./java-performance-tuning-part-iii-garbage-collectors)
 
 # JVM Performance Tuning – Part III
-Having covered the principal concepts in [Part I](./java-performance-tuning-part-i-jvm-concepts.md) where we covered Garbage Collection, and the Java Memory Model in [Part II](./java-performance-tuning-part-ii-the-java-memory-model.md) where we covered generational memory organization, we are now well placed to discuss Garbage Collectors. 
+Having covered the principal concepts in [Part I](./java-performance-tuning-part-i-jvm-concepts) where we covered Garbage Collection, and the Java Memory Model in [Part II](./java-performance-tuning-part-ii-the-java-memory-model) where we covered generational memory organization, we are now well placed to discuss Garbage Collectors. 
 
 ![Duke Pondering](./rcs/duke-pondering.png) 
 
@@ -176,7 +176,7 @@ The *G1 Collector* can be enabled as follows:
 
 A more complete set of JVM options is published on the Oracle site [here](http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html). 
 
-In my [next blog](./java-performance-tuning-part-iv-heap-configuration-and-jit.md) in this series, I will discuss Heap Configuration, which goes _‘hand-in-glove’_ with your GC tuning, Stack Size and the JIT compiler options. In practice, if you’re going to tune the GC, you’ll need to have a handle on these concepts as, at times, one has implications on the other and you’ll need to understand these. Otherwise, you may well find your JVM rejecting your choice of options. 
+In my [next blog](./java-performance-tuning-part-iv-heap-configuration-and-jit) in this series, I will discuss Heap Configuration, which goes _‘hand-in-glove’_ with your GC tuning, Stack Size and the JIT compiler options. In practice, if you’re going to tune the GC, you’ll need to have a handle on these concepts as, at times, one has implications on the other and you’ll need to understand these. Otherwise, you may well find your JVM rejecting your choice of options. 
 
 ---
 _Donnacha Forde_
@@ -185,6 +185,6 @@ _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
 ---
-_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics.md) for article references._
+_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics) for article references._
 
 
