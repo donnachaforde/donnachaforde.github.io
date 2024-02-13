@@ -6,7 +6,7 @@ Here are posts and articles covering more general software engineering topics.
 
 ## Management & Leadership
 
-* [Repetition, Repetition, Repetition](./lessons-from-sport/repetition.md) - Lessons from Sports Management that cross over to software engineering.
+* [Repetition, Repetition, Repetition](./lessons-from-sport/repetition) - Lessons from Sports Management that cross over to software engineering.
 * [I think you'll find it's more complicated than that](./more-complicated/more-complicated.md) - Knowledge Transfer opportunities in Agile ceremonies.
 * [Becoming a Coach](./coaching/coaching.md) - Considerations on becoming a volunteer Sports Coach.
 
