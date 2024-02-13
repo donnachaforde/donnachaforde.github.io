@@ -10,7 +10,7 @@
 
 ![image](./rc/Course-Title.jpg)
 
-I developed the course material over the summer of 2017 and delivered it in Q4 2017 and again in Q4 2018 (with minor revisions). The order of the lectures is relevant insomuch as lectures 02-04 are foundational and used to provide context for the rest of the course. The exact running order of the remaining lectures varied a little to accomodate logistics and guest speakers but the following reflects how the course progresses over the semester.
+I developed the course material over the summer of 2017 and delivered it in Q4 2017 and again in Q4 2018 (with minor revisions). The order of the lectures is relevant insomuch as lectures 02-04 are foundational and used to provide context for the rest of the course. The exact running order of the remaining lectures varied a little to accommodate logistics and guest speakers but the following reflects how the course progresses over the semester.
 
 ---
 
@@ -38,7 +38,7 @@ _The following links reference PDF docs._
 
 5. [Databases & Persistency](published/05%20-%20Databases%20%26%20Persistency.pdf)
 
-	I cover how SQL-Server databases emerged in the '80's and '90's to become central to most modern applications before going on to examine non-SQL databases. I also take a look at distributed-database architecuture, two-phase commit and database replication.  
+	I cover how SQL-Server databases emerged in the '80's and '90's to become central to most modern applications before going on to examine non-SQL databases. I also take a look at distributed-database architecture, two-phase commit and database replication.  
 
 6. [A Quick Recap on Object-Oriented Design](published/06%20-%20A%20Quick%20Recap%20on%20Object-Oriented%20Design.pdf)
 
