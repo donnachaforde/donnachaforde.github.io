@@ -14,7 +14,6 @@ Here you'll find Posts & Blogs I've penned as well as Talks I've delivered, link
 
 * [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
 
-
 * [Design Ruminations on the 'espresso library'](./blogs%2Bposts/code-design) - Ruminations on lower-level Object-Oriented code design.
 
 * [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
