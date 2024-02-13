@@ -23,7 +23,7 @@ So, don't just go through the motions of what you think Agile says you should be
 ***
 _Donnacha Forde_
 
-_August 2003_
+_August 2023_
 
 _[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
