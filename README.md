@@ -61,8 +61,8 @@ _The following links reference PDF docs._
 
 
 
-## [About Me](https://about.me/donnacha.forde)
-Read more about me [here](about.md) and on [LinkedIn.com](https://www.linkedin.com/in/donnachaforde/)
+## [About Me](./about.md)
+Read more about me [here]((https://about.me/donnacha.forde)) and on [LinkedIn.com](https://www.linkedin.com/in/donnachaforde/)
 
 
 _Donnacha Forde_
