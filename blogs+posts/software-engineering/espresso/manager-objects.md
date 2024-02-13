@@ -1,7 +1,6 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[manager-objects](./manager-objects)
+[home/](/README.md)[blogs+posts/](../../README.md)[software-engineering/](../README.md)[utilizing-manager-objects](./manager-objects.md)
 
-
-# Employing Manager Objects
+# Utilizing Manager Objects
 The rationale behind the introduction of the 'Manager' object in espresso.   
 
 

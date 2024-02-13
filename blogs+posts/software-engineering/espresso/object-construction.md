@@ -1,12 +1,12 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[object-construction](./object-construction)
+[home/](/README.md)[blogs+posts/](../../README.md)[software-engineering/](../README.md)[object-construction](./object-construction)
 
 # Object Construction
-The thought process around object construction. 
+The thought process around object construction when using the espresso library constructs. 
 
 
 ## Introduction
 
-In this blog, I explore construction patterns for initializing the library. As described in my top-level blog, my goal was to provide a way to initialize the library for writing to stdout without excluding alternative rendering. 
+In this blog, I explore construction patterns for initializing the library. As described in [ design influences and considerations](./design-considerations.md), my goal was to provide a way to initialize the library for writing to `stdout` without excluding alternative rendering. 
 
 
 
@@ -36,7 +36,7 @@ Taking the programmer's experience of the library into consider, I wanted a clea
 	args.addAlias(...);
 	args.addAlias(...);
 
-Next, I wanted the user to declare a manager object that, under the covers, defined the relationship between the args and the arg-renderer. Early on, I let the user define the Argument-Manager directly but once I had incorporated the ability to render the args in more ways than stdout, a factory made more sense. 
+Next, I wanted the user to declare a manager object that, under the covers, defined the relationship between the args and the arg-renderer. Early on, I let the user define the Argument-Manager directly but once I had incorporated the ability to render the args in more ways than `stdout`, a factory made more sense. 
 
 Originally, the code would have had to be declared as follows:
 
@@ -88,7 +88,7 @@ Frustrated that I was going to be forced to rewrite the code to use dynamically 
 
 I read several books on Developer Productivity and came across many references and examples describing how people had a light-bulb moment while away from the keyboard. 
 
-It occurred to me that I could use the `static` keyword to declare the stdout renderer. 
+It occurred to me that I could use the `static` keyword to declare the `stdout` renderer. 
 
 Because of the way the language has evolved, C++ reuses keywords so last time I checked `static` had 3 distinct uses. But, when used within a function or method, it meant that instance was only created once and never destroyed. 
 
