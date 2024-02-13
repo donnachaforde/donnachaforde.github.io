@@ -1,18 +1,16 @@
 
 
 <p align="center">
-    <img src="donnacha-headshot.jpeg" width="300" height="300"/>
+    <img src="donnacha-headshot.jpeg" width="250" height="250"/>
 </p>
 
 Welcome to my **GitHub Pages** where you'll find everything I've made available online. There are Posts & Blogs I've written on all things related to Software Engineering as well links to code samples and 'hobby horse' projects. You'll also find an outline of the University course I've delivered on _Software Architecture & Design_ at [MTU](www.mtu.ie). 
 
 
 
-## [Posts & Blogs](https://donnachaforde.github.io/blogs+posts)
+## [Blogs & Posts](https://donnachaforde.github.io/blogs+posts)
 
 * [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
-
-* [Designing the 'espresso library'](./blogs%2Bposts/code-design) - Ruminations on Object-Oriented design.
 
 * [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
 
