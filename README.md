@@ -11,7 +11,7 @@ Welcome to my **GitHub Pages** where you'll find everything I've made available 
 
 * [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
 
-* [Design Ruminations on the 'espresso library'](./blogs%2Bposts/code-design) - Ruminations on lower-level Object-Oriented code design.
+* [Designing the 'espresso library'](./blogs%2Bposts/code-design) - Ruminations on Object-Oriented design.
 
 * [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
 
