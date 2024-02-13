@@ -1,4 +1,4 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[design-considerations](./design-considerations.md)
+[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[code-design/](https://donnachaforde.github.io/blogs+posts/code-design/)[design-considerations](/blogs+posts/code-design/espresso/design-considerations.md)
 
 # Design Considerations - espresso lib 
 Ruminations on the design and evolution of the espresso library. 
