@@ -38,20 +38,19 @@ So, as theme, I wanted ultimately flexibility.
 
 When working with C++ and taking an object-oriented approach, there are lots of ways to devise a solution. It occurred to me that while I originally developed the library for use with CMD-line tools, some Windows developers have a preference, if not a natural instinct, to devise tool solutions using the Windows UI. So, while you may well launch the command from the CMD-line with optional arguments, it actually launches a Windows GUI. 
 
-This really challenged my assumptions about the library writing to stdout. I didn't want to limit its scope so I set about catering to this facet - i.e. separating argument parsing logic from writing output to stdout. My initial attempt was to use class inheritance to separate 'common' logic into an abstract base class and pushing the parts leveraging stdout into a concrete class. This succeeded in achieving the design goal but it didn't sit well with me as an elegant solution. 
+This really challenged my assumptions about the library writing to stdout. I didn't want to limit its scope so I set about catering to this facet - i.e. separating argument parsing logic from writing output to stdout. My initial attempt was to use class inheritance to separate 'common' logic into an abstract base class and pushing the parts leveraging `stdout` into a concrete class. This succeeded in achieving the design goal but it didn't sit well with me as an elegant solution. 
 
-Years later, when working with Java and learning about Spring's Inversion of Control (IOC) design pattern, I learnt about the concept of separating function down to it's core parts. For example, I realized that rendering output is quite distinct from argument parsing. This allowed me to provide a stdout renderer as standard but provided a means for another developer to devise a compatible renderer for there environment. 
+Years later, when working with Java and learning about Spring's Inversion of Control (IOC) design pattern, I learnt about the concept of separating function down to it's core parts. For example, I realized that rendering output is quite distinct from argument parsing. This allowed me to provide a `stdout` renderer as standard but provided a means for other developers to devise a compatible renderer for their environment. 
 
-I detailed the design thought process in a separate article on [construction](./object-construction.md). 
+I detailed the design thought process in a separate article on [object construction](./object-construction.md). 
 
-Another design journey lead me down a track that led to the implementation of the [MVC pattern](./object-construction.md). 
 
 
 ## Style, Conventions and External Influences
 
-When I first devised the espresso library, I was strongly influenced by the Visual C++ naming conventions, using camelCase with a leading capital letter. I always thought this more aesthetically pleasing that the use of underscores in names.
+When I first devised the espresso library, I was strongly influenced by the Visual C++ naming conventions, using CamelCase (with a leading capital letter). I always thought this more aesthetically pleasing that the use of underscores in names, commonly_seen_in UNIX systems programming circles. However, after years and years of Java programming, I came round to having a preference for camelCase (without' the leading uppercase letter). 
 
-However, after years and years of Java programming, I came round to having a preference for camelCase 'without' the leading uppercase letter. I tend to use a 'light' version of Hungarian notation so I found my new preference to be compatible with this. 
+Also, I've was strongly influenced by the book [Writing Solid Code](https://www.amazon.co.uk/Writing-Solid-Code-Techniques-Programming/dp/1556155514) _by Steve Maguire_ early on in my career where [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation) was explained and I've been using a 'light' version ever since. 
 
 
 ## IDE History
