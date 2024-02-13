@@ -13,7 +13,7 @@ Here are posts and articles covering more general software engineering topics.
 
 ## API Design
 
-* [Be considerate, but not overly so](./api-design/api-design) - An example of when being overly helpful can be to the detrement of your design.
+* [Be considerate, but not overly so](./api-design/api-design) - An example of when being overly helpful can be to the detriment of your design.
 
 ## Performance Engineering
 
@@ -23,9 +23,9 @@ Here are posts and articles covering more general software engineering topics.
 
 ## Developing C++ with Visual Studio
 
-* [Hard Won Lessons](./hard-won-lessons/compiler-warnings) - Lessons learned from ignoring Compiler Warnings
+* [Hard Won Lessons](./hard-won-lessons/compiler-warnings) - Lessons learned from ignoring Compiler Warnings.
 
-* [Visual Studio Build Output Tips](./visual-studio-builds/visual-studio-build-output-tips) - Some practical tips for handling verbose Visual Studio build output.
+* [Visual Studio Build Output Tips](./visual-studio-builds/visual-studio-build-output-tips) - Some practical tips for handling verbose build output in Visual Studio.
 
 
 
