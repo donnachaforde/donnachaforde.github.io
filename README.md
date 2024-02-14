@@ -8,7 +8,7 @@ Welcome to my **GitHub Pages** where you'll find everything I've made available 
 
 
 
-## [Blogs & Posts](https://donnachaforde.github.io/blogs+posts)
+## [Blogs & Posts](./blogs+posts/)
 
 * [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
 
@@ -34,7 +34,7 @@ Here are public repos on GitHub that are in a presentable form.
 
 
 
-## [Lectures](https://donnachaforde.github.io/lectures/)
+## [Lectures](./lectures/)
 
  I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_).  
  
