@@ -1,4 +1,4 @@
-[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[repetition](./repetition)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[repetition](./)
 
 
 # Repetition, repetition, repetition…

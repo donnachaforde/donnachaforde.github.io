@@ -1,4 +1,4 @@
-[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[visual-studio-builds](./visual-studio-build-output-tips)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[visual-studio-builds](./)
 
 
 # Visual Studio Build-Debugging Tips

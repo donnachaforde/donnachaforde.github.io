@@ -1,4 +1,4 @@
-[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[compiler-warnings](./compiler-warnings)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[compiler-warnings](./)
 
 
 # Hard-won Lessons: Don’t ignore compiler warnings…

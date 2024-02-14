@@ -1,5 +1,5 @@
 
-[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[coaching](./coaching)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[coaching](./)
 
 
 # Becoming a Coach
