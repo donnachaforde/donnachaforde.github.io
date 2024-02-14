@@ -1,4 +1,4 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[more-complicated](https://donnachaforde.github.io/blogs+posts/software-engineering/more-complicated/more-complicated.html)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[more-complicated](./)
 
 # I think you'll find it's a bit more complicated than that...
 
@@ -23,7 +23,7 @@ So, don't just go through the motions of what you think Agile says you should be
 ***
 _Donnacha Forde_
 
-_August 2003_
+_August 2023_
 
 _[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 

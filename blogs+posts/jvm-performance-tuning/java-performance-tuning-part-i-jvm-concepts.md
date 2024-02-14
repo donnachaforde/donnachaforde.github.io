@@ -1,9 +1,10 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[jvm-concepts](./java-performance-tuning-part-i-jvm-concepts.md)
+[home/](../../)[blogs+posts/](../)[jvm-performance-tuning/](./)[jvm-concepts](./java-performance-tuning-part-i-jvm-concepts)
+
 
 # JVM Performance Tuning – Part I
 
 
-A few years ago, I had occasion to finally get to grips with the inner workings of the HotSpot JVM, specifically Java 6 and Java 7. I’d worked with Java for years and had a reasonable understanding of how memory management was handled. And, I’d spent a previous life as a C/C++ programmer so again, I had a decent understanding of heap memory management. At the time, we were in something of a bind with regard to our performance & scalability goals for our impending version release and I really needed to understand the JVM so as to tune it from both a memory size and overall performance. 
+Some years ago, I had occasion to finally get to grips with the inner workings of the HotSpot JVM, specifically Java 6 and Java 7. I’d worked with Java for years and had a reasonable understanding of how memory management was handled. And, I’d spent a previous life as a C/C++ programmer so again, I had a decent understanding of heap memory management. At the time, we were in something of a bind with regard to our performance & scalability goals for our impending version release and I really needed to understand the JVM so as to tune it from both a memory size and overall performance. 
 
 ![Duke Reading](./rcs/duke-reading-drinking-coffee.png)
 
@@ -100,7 +101,7 @@ One point to note that many Java Programmers seem to be unaware of is the GC bec
 >
 >The New and Tenured Generations are known by several terms respectively. The _New Generation_ is often referred to as the _Young Generation_ while the _Tenured Generation_ is sometimes referred to as the _Old Generation_. You may sometimes see the _New Generation_ referred to as _Eden_ though technically, as I’ll explain, this is really only one part of the _New Generation_. I will use the terms _New_ and _Tenured_ throughout.
 
-In my [next blog](./java-performance-tuning-part-ii-the-java-memory-model.md) in this series, I'll focus on JVM Memory Model and explain the various memory areas and the names they're known by.
+In my [next blog](./java-performance-tuning-part-ii-the-java-memory-model) in this series, I'll focus on JVM Memory Model and explain the various memory areas and the names they're known by.
 
 
 ---
@@ -110,4 +111,4 @@ _[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
 
 
 ---
-_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics.md) for article references._
+_See [Part V](./java-performance-tuning-part-v-jvm-diagnostics) for article references._
