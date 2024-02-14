@@ -7,7 +7,7 @@ _Photo Credit: [pxhere.com/](https://pxhere.com/en/photo/680859)_
 
 
 
->**TL;DR -** Writing things down helps clarify the thought process.
+>**TL;DR -** Writing things down helps clarify the thought process and gets you to your 'Eureka' moment quicker.
 
 
 I've learned with experience that our 'thought process' can be improved by simply _putting pen to paper_ and writing out such things as the facts, assumptions, outstanding unknowns, etc. about the domain or issue at hand. The act of writing or typing out these details seems to act like an assistant to problem solving in a similar way that peer code-review helps the author clarify their logic. 
