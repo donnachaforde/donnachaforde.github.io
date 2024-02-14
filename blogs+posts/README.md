@@ -1,6 +1,5 @@
 
-[home/](https://donnachaforde.github.io)[blogs+posts](https://donnachaforde.github.io/blogs+posts/)
-
+[home/](../)[blogs+posts](./)
 
 # Blogs & Posts
 
