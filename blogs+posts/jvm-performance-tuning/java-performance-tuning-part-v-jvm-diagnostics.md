@@ -1,5 +1,5 @@
 
-[home/](../../../)[blogs+posts/](../../)[jvm-performance-tuning/](../)[jvm-diagnostics](./java-performance-tuning-part-v-jvm-diagnostics)
+[home/](../../)[blogs+posts/](../)[jvm-performance-tuning/](./)[jvm-diagnostics](./java-performance-tuning-part-v-jvm-diagnostics)
 
 # JVM Performance Tuning – Part V
 In this last section, I attempt to pull together the individual topics covered in the previous blogs and offer some general advice for approaching tuning and how to verify your tweaks are having the desired effect. 

@@ -1,6 +1,4 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning/](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)[jvm-concepts](./java-performance-tuning-part-i-jvm-concepts)
-
-[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[api-design](./api-design)
+[home/](../../)[blogs+posts/](../)[jvm-performance-tuning/](./)[jvm-concepts](./java-performance-tuning-part-i-jvm-concepts)
 
 
 # JVM Performance Tuning – Part I

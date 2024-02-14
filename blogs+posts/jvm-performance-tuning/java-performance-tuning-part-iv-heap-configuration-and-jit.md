@@ -1,4 +1,4 @@
-[home/](../../../)[blogs+posts/](../../)[jvm-performance-tuning/](../)[jvm-heap-config-and-jit](./java-performance-tuning-part-iv-heap-configuration-and-jit)
+[home/](../../)[blogs+posts/](../)[jvm-performance-tuning/](./)[jvm-heap-config-and-jit](./java-performance-tuning-part-iv-heap-configuration-and-jit)
 
 
 # JVM Performance Tuning – Part IV

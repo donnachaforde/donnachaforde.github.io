@@ -1,4 +1,3 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[jvm-performance-tuning](https://donnachaforde.github.io/blogs+posts/jvm-performance-tuning/)
 
 [home/](../../)[blogs+posts/](../)[jvm-performance-tuning](./)
 

@@ -1,4 +1,4 @@
-[home/](../../../)[blogs+posts/](../../)[jvm-performance-tuning/](../)[garbage-collectors](./java-performance-tuning-part-iii-garbage-collectors)
+[home/](../../)[blogs+posts/](../)[jvm-performance-tuning/](./)[garbage-collectors](./java-performance-tuning-part-iii-garbage-collectors)
 
 
 # JVM Performance Tuning – Part III
