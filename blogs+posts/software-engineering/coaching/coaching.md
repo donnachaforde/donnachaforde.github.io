@@ -1,5 +1,5 @@
 
-[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[coaching](./visual-studio-build-output-tips)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[coaching](./coaching)
 
 
 # Becoming a Coach

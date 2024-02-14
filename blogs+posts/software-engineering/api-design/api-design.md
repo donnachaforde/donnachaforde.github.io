@@ -1,4 +1,4 @@
-[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[api-design](./visual-studio-build-output-tips)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[api-design](./api-design)
 
 
 # API Design - Don't be Overly Considerate
