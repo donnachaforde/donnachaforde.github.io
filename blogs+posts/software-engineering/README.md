@@ -22,9 +22,9 @@ Here are posts and articles covering more general software engineering topics.
 
 ## Designing the 'espresso' Library
 
-* [Design Considerations & Influences](./espresso/design-considerations)
-* [Object Creation Patterns](./espresso/object-construction)
-* [Utilizing Manager Objects](./espresso/manager-objects)
+* [Design Considerations & Influences](./espresso/design-considerations) - Thoughts and influences on the design of the espresso library.
+* [Object Creation Patterns](./espresso/object-construction) - Discussion on constructors and factory classes, as applied to the espresso library.
+* [Utilizing Manager Objects](./espresso/manager-objects) - Discussion on the advantages of deploying a manager object and the separation of function. 
 
 ## Developing C++ with Visual Studio
 
