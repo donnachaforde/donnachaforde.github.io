@@ -1,14 +1,11 @@
 [home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[think-on-paper](./)
 
-
+# Think on Paper
 <img src="https://c.pxhere.com/photos/84/94/office_startup_business_home_office_businessman_notebook_laptop_computer-764432.jpg!d">
 
 _Photo Credit: [pxhere.com/](https://pxhere.com/en/photo/680859)_
 
 
-
-
-# Think on Paper
 
 >**TL;DR -** Writing things down helps clarify the thought process.
 
