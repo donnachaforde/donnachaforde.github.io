@@ -56,9 +56,6 @@ The concept of Zero Trust Security has become popular both for devices on the ne
 There has been a general shift away from traditional signature-based solutions towards signature-less solutions, employing not only advanced behavioural detection and AI but forms of virtualization (e.g. sandbox detection) and remote detonation earning them the term _Next-Gen AV_ or NGAV. 
 
 
-### Other Technologies
-
-As well as Endpoint Protection and Endpoint Detection & Response solutions, security on devices can be improved by deploying additional technologies, such as Firewalls, DNS Filtering, E-mail Protection, Data Loss Prevention (DLP). 
 
 
 ## Protection Components
@@ -88,7 +85,8 @@ There are internal technology components to antivirus solutions that have evolve
 
 ## Additional Technologies 
 
-Additionally, security can be enhanced by deploying additional technologies to complement antivirus solutions, as follows:
+As well as Endpoint Protection and Endpoint Detection & Response solutions, security on devices can be improved by deploying additional technologies, such as Firewalls, DNS Filtering, E-mail Protection, Data Loss Prevention (DLP). The following is a brief description of the primary technologies deployed, some of which are included in an _Antivirus_ solution as standard.
+
 
 | Technology | Description |
 | ---------- | ----------- |
