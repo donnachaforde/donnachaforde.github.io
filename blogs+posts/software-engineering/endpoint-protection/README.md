@@ -38,7 +38,7 @@ Code Signing using Public/Private key encryption and Trusted Identification usin
 
 Antivirus software started to employ behaviour-based analysis to detect malware. This consisted of both static and dynamic analysis. The former consisted of statically analyzing the code instructions in the executable to determine if there was malicious routines or unusual references to system files, etc. The latter consisted of run-time interrogation of what the program does after the process started, including what you might describe as _just-in-time_ checking of operations to determine if it was malicious. Of course, this decade saw the explosion of the internet and the additional threats it brought with it so features such as e-mail protection and network protection (e.g. firewalls) began to be incorporated into solutions. Rules-based engines were used to keep up with the rate of malware discovery, by way of providing a faster and more flexible mechanism to deploy detection logic to the endpoint. 
 
-The rate at which new malware samples emerge means that signature-based checks are limited to the extent that updates can be applied and distributed to millions of devices, usually in the form of daily updates. To help with the scalability challenge, protection is extended by also employing heuristic checking along the lines of... _"if it walks like a duck, talks like a duck, well then, it's probably a duck!"_. If an executable looks like malware and acts like malware, then it's probably malware, at least until it is _safelisted_. Advanced Rules-Engines backed by dynamic scripts were introduced to perform these checks. As possible detections are made and as more is learned about both malware and goodware, rules are constantly refined and pushed out to the endpoint. This means that substantial infrastructure is required to enable rules analysis, trial and testing and distribution. 
+The rate at which new malware samples emerge means that signature-based checks are limited to the extent that updates can be applied and distributed to millions of devices, usually in the form of daily updates. To help with the scalability challenge, protection is extended by also employing heuristic checking along the lines of... _"if it walks like a duck, talks like a duck, well then, it's probably a duck!"_. If an executable looks like malware and acts like malware, then it's probably malware, at least until it is _safelisted_. Advanced Rules-Engines backed by dynamic scripts were introduced to perform these checks. As possible detections are made and as more is learned about both malware and _goodware_, rules are constantly refined and pushed out to the endpoint. This means that substantial infrastructure is required to enable rules analysis, trial and testing and distribution. 
 
 
 ### 2010's
@@ -64,8 +64,8 @@ As well as Endpoint Protection and Endpoint Detection & Response solutions, secu
 ## Protection Components
 The following is a glossary of the various technologies that go into protecting modern day desktops and laptops.
 
- Technology    | Description |
-| -------- | ------- |
+| Component | Description |
+| --------- | ----------- |
 | Antivirus  | Typically means 'basic' checking of an executable by examining its signature or performing static analysis checks. |
 | Advanced Protection  | This usually means a form of advanced antivirus or next-gen antivirus that uses heuristics and other methods other than signature-based mechanisms to detect malware. |
 | Realtime Protection  | Performing dynamic analysis and checking executables at runtime, either just as the process is starting or monitoring behavior for a period after starting. |
@@ -79,8 +79,8 @@ The following is a glossary of the various technologies that go into protecting 
 ## Internal  Components
 There are internal technology components to antivirus solutions that have evolved over time as well. 
 
- Technology    | Description |
-| -------- | ------- |
+| Technology | Description |
+| ---------- | ----------- |
 | Self Protection  | This describes the ability of an antivirus solution to defend itself from either accidental or deliberate attempts to disable and/or remove it from the host.  |
 | Hooking  | This describes the ability of an antivirus solution to embed itself in other running programs and intercept (i.e. 'hook') certain system calls before they get executed. It enables the protection software to examine the type of calls being made and analyze the 'intentions' of the program in real-time to determine whether the operation should be allowed to proceed. For example, certain operating system calls might be blocked when referencing certain resources. In fact, 'Hooking' can be used to effect _Self Protection_ by intercepting function calls to delete the AV executable files. 
 
@@ -89,8 +89,9 @@ There are internal technology components to antivirus solutions that have evolve
 ## Additional Technologies 
 
 Additionally, security can be enhanced by deploying additional technologies to complement antivirus solutions, as follows:
- Technology    | Description |
-| -------- | ------- |
+
+| Technology | Description |
+| ---------- | ----------- |
 | Web Protection  | This usually refers to in-browser protection that a) Blocks pop-ups in your browser window, b) Prevents the user for going to known bad or malicious websites and c) either blocks or checks file downloads for viruses. Additionally, some solutions build in measures to deal with unwanted adware. The internet is a primary source of malware so a good Web Protection or Browser Guard solution offers a great deal of endpoint protection by removing malware before it ever gets on the host. |
 | Firewall  | Firewalls can be both on the network and on a personal device and act as a filter for network traffic, either blocking or allowing certain IP addresses, blocking or allowing certain ports or blocking or allowing certain protocols on a port. For example, a firewall can restrict communication to HTTP/HTTPS traffic only on port 80, which means internet traffic is allowed but nothing else (e.g. FTP, SNMP). |
 | DNS Filtering  | Communication with another host, be it directly or via a Web Browser, will most typically require the resolution of a _Domain Name_. By deploying a secure DNS Filter, users can be kept safe by preventing the resolution of known bad domains. Further, the use of predetermined lists of _allowed_ and _blocked_ sites restricts access and keeps users safe. |
