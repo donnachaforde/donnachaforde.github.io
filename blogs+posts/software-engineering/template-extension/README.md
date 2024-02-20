@@ -1,8 +1,11 @@
 [home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[template-extension](./)
 
 
-
 ## A Note on Template Extension
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" width="300" height="300" >
+
+_Photo Credit: [wikimedia](https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg)_
 
 In C++, _class_ and _template class_ are different things, which show up in the way that each are used to model the problem domain. I like to use language like _"you inherit from a class"_ but _"you extend a template"_. Sure, both are physically extending the thing but the effect is that you expand the function of a class whereas you restrict the function of a template (at least in the STL). 
 
