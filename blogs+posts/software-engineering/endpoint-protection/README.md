@@ -7,6 +7,10 @@
 
 _Photo Credit: [pxhere.com](https://pxhere.com/en/photo/916984)_
 
+### Abstract
+_This article gives an overview of the evolution of antimalware technology, emphasizing the complexity and sophistication involved in modern endpoint protection and detection solutions and the extent of the infrastructure and processes deployed to support them. It begins by highlighting the broad range of technologies encompassed by the term "Antivirus" and traces the historical development of antimalware solutions from pre-1990s, discussing the challenges of signature-based detection and the subsequent adoption of hash-based signatures in the 2000s. The scalability challenges faced by the industry are explored, leading to the adoption of machine learning, behavioral analysis, and cloud infrastructure in the 2010s. The article concludes by exploring recent trends in the 2020s, such as the XDR, the Zero Trust Security model and the role of artificial intelligence (AI) in addressing the growing scale of new malware samples._
+
+_The article aims to convey the depth of antimalware technology, the evolution of the industry in response to changing threat landscapes, and the ongoing challenges faced in the constant battle between malware and antimalware. It underscores the need for a nuanced understanding of the complex infrastructure, engineering processes, and threat research involved in keeping individuals and businesses safe from cyber threats._
 
 ### Introduction
 Most people don't realize how many discrete technologies go into modern-day endpoint protection solutions. The term _Antivirus_ or AV has become overloaded and arguably, doesn't quite describe the array of protection, detection and correction measures deployed to your device. More often within cybersecurity circles, _Antivirus_ really just means traditional, signature-based antivirus protection, which scans, detects, quarantines and removes known malware from your host. There is often a remediation aspect to AV, which involves 'cleaning' or undoing the effects of the known malware. Remediation is another overloaded term so in this instance, this form of remediation is often referred to as _basic remediation_. 
@@ -64,11 +68,17 @@ By the mid-2010s, Ransomware had became a thing - a worldwide problem - leading 
 
 
 ### 2020's
+
+#### XDR & ML
 While it remains to be determined how the remainder of this decade pans out, we can see that there has been a greater emphasis on Endpoint Detection and Response as a measure to detect malware after the fact. The range of source information that feeds the backend models continues to grow, earning it the title of XDR. The focus on data science continues and recent inroads in AI have been added to help recognize patterns both on the endpoint itself and in the large models in the backend. Managed Detection and Response has become a service to serve SMEs that typically, don't have the resources to manage their own SOCs. 
 
+#### Zero Trust & IAM
 The concept of Zero Trust Security has become popular both for devices on the network and for users. The network is assumed to have been compromised and there is a greater emphasis on _Identity and Access Management_ (IAM) to ensure every user on every device is authenticated. Further, the need to protect the user's identity over the user's device has become of practical importance. 
 
-There has been a general shift away from traditional signature-based solutions towards signature-less solutions, employing not only advanced behavioural detection and AI but forms of virtualization (e.g. sandbox detection) and remote detonation earning them the term _Next-Gen AV_ or NGAV. 
+#### Next-Gen & AI
+The fact of the matter is that rate of production of new, unique malware samples has become so prevalent that the signature-based infrastructure cannot cope with the scale and the focus has switched again to _Generic Analysis_. These rely on advanced behavioural detection using Rules Engines and ML but the promise is that AI will be able to provide the necessary smarts and overcome this scalability challenge. In the meantime, other strategies employing virtualization (e.g. sandbox detection), emulation and remote detonation as well as techniques to _let it run but monitor it_ are employed that not only audit behaviour to make a determination but use this audit data to effect a _perfect undo_ to reverse the actions the _greyware_ took before conviction. 
+
+
 
 
 ### Summary
@@ -83,7 +93,7 @@ The following is a glossary of the various technologies that go into protecting 
 | --------- | ----------- |
 | Antivirus  | Typically means 'basic' checking of an executable by examining its signature or performing static analysis checks. |
 | Advanced Protection  | This usually means a form of advanced antivirus or next-gen antivirus that uses heuristics and other methods other than signature-based mechanisms to detect malware. |
-| Realtime Protection  | Performing dynamic analysis and checking executables at runtime, either just as the process is starting or monitoring behavior for a period after starting. |
+| Realtime Protection  | Performing dynamic analysis and checking executables at runtime, either just as the process is starting or monitoring behavior for a period after starting. (This is also referred to as On-access Scanning OAS.)|
 | Rootkit Scanning  | The ability to detect and prevent attempts by malware to gain elevated privileges on a host.  |
 | Anti-ransomware  | This is antimalware software developed to specifically detect and in some cases remediate ransomware. |
 | MBR & Disk Sector Protection  | The ability to detect and prevent attempts to write to the _Master Boot Record_ or the Disk Sector of the file system. These are elevated functions that the vast majority of normal software applications do not need to directly access. |
@@ -99,6 +109,7 @@ There are internal technology components to antivirus solutions that have evolve
 | Self Protection  | This describes the ability of an antivirus solution to defend itself from either accidental or deliberate attempts to disable and/or remove it from the host.  |
 | Hooking  | This describes the ability of an antivirus solution to embed itself in other running programs and intercept (i.e. 'hook') certain system calls before they get executed. It enables the protection software to examine the type of calls being made and analyze the 'intentions' of the program in real-time to determine whether the operation should be allowed to proceed. For example, certain operating system calls might be blocked when referencing certain resources. In fact, 'Hooking' can be used to effect _Self Protection_ by intercepting function calls to delete the AV executable files. 
 | On-access Scanning | This is the technology under the hood that enabled real-time protection where a process is scanned as it is being accessed - i.e. OAS. This is actually quite a technically challenging task because not only does it involve working around the normal operation of the OS starting a process, such that various checks can be performed, but it has often had to achieve this with little or no cooperation from the OS vendor.|
+| AV Engine | Depending on the design, AV solutions split the tasks of _scanning_ and _determination_ into various scanners that do the job of gathering info (e.g. File, E-mail, etc.) and the internal engine that consumes this data and makes a determination on whether the object under evaluation is good or bad.  |
 
 
 
@@ -125,6 +136,11 @@ _Donnacha Forde_
 _[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
 
+## Acknowledgements
+
+I consulted my friend and ex-colleague from McAfee, [Jon Edwards](https://www.linkedin.com/in/jonathan-edwards-99640140/), to review an early draft of this article and he provided clarifications, corrections and additional details that improved the accuracy and the historical timeline. Thanks Jon - you're a walking encyclopedia on engineering antimalware solutions going way back to the days of [Dr. Soloman's](https://en.wikipedia.org/wiki/Dr_Solomon%27s_Antivirus). 
+
+
 ## References
 
 [Cybersecurity 101 - Hashing](https://www.sentinelone.com/cybersecurity-101/hashing/) _by SentinelOne_
@@ -135,5 +151,4 @@ _[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
 
 
-## Credits
 
