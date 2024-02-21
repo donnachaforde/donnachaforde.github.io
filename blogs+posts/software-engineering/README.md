@@ -15,6 +15,12 @@ Here are posts and articles covering more general software engineering topics.
 * [Think on Paper](./think-on-paper) - Clarifying your thought process and helping your decision making.
 
 
+## Cybersecurity
+
+* [Platform Challenges for AV Vendors](./wouldnt-start-here/) - An examination of the challenges faced by AV vendors in meeting modern day platform needs. 
+
+
+
 ## Design
 
 * [Be considerate in your API design, but not overly so](./api-design) - An example of when being overly helpful can be to the detriment of your API design.
