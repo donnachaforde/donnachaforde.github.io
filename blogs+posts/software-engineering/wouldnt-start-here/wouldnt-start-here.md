@@ -1,7 +1,6 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[wouldn't-start-here](./wouldnt-start-here.md)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[wouldn't-start-here](./)
 
-
-
+# Well, I wouldn’t start from here…
 
 
 <img src="https://www.nicepng.com/png/detail/201-2016290_windows-mac-linux-logo.png" alt="Windows Mac Linux Logo@nicepng.com" >
@@ -12,9 +11,8 @@ _Photo Credit: [www.nicepng.com](https://www.nicepng.com/maxp/u2w7w7y3e6t4w7t4/)
 ### _Abstract_
 _The fragmentation of the traditional target platforms for AV vendors, because of the increased diversity of endpoint OS and underlying processor architecture, in recent years means that the engineering mechanisms and organizational structures that have evolved over decades may not serve us as well into the future. We must consider the underlying architecture design of our endpoint solutions to determine whether they are fit for purpose for the coming years. Breaking down product silos and drawing a distinction between those parts of our solutions that are entirely platform specific and those that are generic is perhaps the first step towards adopting a more modular approach and ultimately, even a ‘microservices architecture on the endpoint’, which may well facilitate more effective and more efficient software development of endpoint security solutions._
 
-# Well, if I were you, I wouldn’t start from here…
-
-So goes the joke about giving directions. And, perhaps the same can be said of Endpoint Architecture in cyber security because the solutions we typically have today are as a result of evolution, not necessarily planning. If you were tasked with designing an architecture to support what's needed today, chances are you very likely wouldn't start from here...
+## Introduction
+"Well, I wouldn't start from here..." So goes the joke about giving directions. Something similar can be said of Endpoint Architecture in cyber security because the solutions we typically have today are as a result of evolution, not necessarily planning. If you were tasked with designing an architecture to support what's needed today, chances are you very likely wouldn't start from here...
 
 There are two factors creating friction with each other:
 
@@ -26,9 +24,9 @@ Let's examine these in a bit more detail.
 
 ## Wintel Weighting
 
-There are serveral reasons why anti-malware solutions are typically  disproportionally more sophisticated on Windows, specifically on Intel processor architecture, than any other desktop/laptop OS. 
+There are several reasons why anti-malware solutions are typically  disproportionally more sophisticated on Windows, specifically on Intel processor architecture, than any other desktop/laptop OS. 
 
-1. Historically, Windows has domainated the desktop/laptop space and there's simply a larger target base.
+1. Historically, Windows has dominated the desktop/laptop space and there's simply a larger target base.
 2. Further, this domination has existed for quite some time so there have been more Windows machines over a long period. Antimalware solutions for Windows are disproportionately more sophisticated than on any other OS.
 2. Expertise and Organizational Structures 
 2. Protection parity across heterogeneous OS is a misconception. 
@@ -37,7 +35,6 @@ There are serveral reasons why anti-malware solutions are typically  disproporti
 
 
  Let’s examine how that evolution has affected our solutions today…
-
 
 
 ### Malware has Disproportionately Targeted Windows
@@ -57,13 +54,13 @@ There's customer-led demand to achieve closer parity in endpoint protection acro
 
 On the other hand, it’d have to be acknowledged that certain features available today on Windows are not available on macOS for other reasons, which have more to do with the dynamics of staffing and resources. Given the extent of the knowledgebase within an organization on Windows, it’s understandable when we see an innovative feature emerge for Windows but then don’t immediately see the equivalent for macOS or even Linux. That, in part, relates to the availability of talent, the depth of experience internal to the organization and therefore, the extent to which it can innovate on other endpoint platforms.  
 
-Of course, market-share is a factor too that gets reflected in the allocation of resources with Windows still dominating with ~70-80% of the desktop/laptop market and macOS having somewhere between 7.5-20% (depending in which stats you look at – see references below). If you project relative revenue earnings and in turn, engineering funding by this sort of distribution, then you can begin to understand why it becomes a challenge to achieve ‘partity’. The smaller, less-resourced teams cannot achieve the same delivery velocity.
+Of course, market-share is a factor too that gets reflected in the allocation of resources with Windows still dominating with ~70-80% of the desktop/laptop market and macOS having somewhere between 7.5-20% (depending in which stats you look at – see references below). If you project relative revenue earnings and in turn, engineering funding by this sort of distribution, then you can begin to understand why it becomes a challenge to achieve ‘parity’. The smaller, less-resourced teams cannot achieve the same delivery velocity.
 
 
 ### Organizational Evolution
-Another factor that affects organisational structure is the evolution of engineering organizations over time. Unlike products originally intended to sell across platforms from the get-go, security solutions have historically tended to start with Windows, then get replicated on macOS or other platforms. I say ‘replicated’ because the evolution of those organizational structures practically prohibits porting code across platforms. 
+Another factor that affects organizational structure is the evolution of engineering organizations over time. Unlike products originally intended to sell across platforms from the get-go, security solutions have historically tended to start with Windows, then get replicated on macOS or other platforms. I say ‘replicated’ because the evolution of those organizational structures practically prohibits porting code across platforms. 
 
-For example, if an engineering team starts a project intially targeting the Windows platform then, even if they’re using a programming language that lends itself to portability (e.g. C/C++), unless there is an overarching design philosophy to produce portable code, it’s quite difficult to develop code and libraries that don’t just become ‘polluted’ with OS specific constructs. By and large, compiler vendors are the same entity as the OS vendors and they seem to do their best to lock you in to developing for their platform. You have to work pretty hard and take certain measures to ensure your C/C++ code, their dependencies and your build system are cross-platform compatible. You may have to pass up on using platform specific features. 
+For example, if an engineering team starts a project initially targeting the Windows platform then, even if they’re using a programming language that lends itself to portability (e.g. C/C++), unless there is an overarching design philosophy to produce portable code, it’s quite difficult to develop code and libraries that don’t just become ‘polluted’ with OS specific constructs. By and large, compiler vendors are the same entity as the OS vendors and they seem to do their best to lock you in to developing for their platform. You have to work pretty hard and take certain measures to ensure your C/C++ code, their dependencies and your build system are cross-platform compatible. You may have to pass up on using platform specific features. 
 
 Given where many AV companies have come from, it’s practically impossible to retrospectively adapt their solutions stacks to be portable. I should clarify that the context here relates to all the code that ‘could’ be common across platforms. For the most part, this is everything other than the ‘business logic’ of protection itself because, as we’ve discussed, that’s more often tied to the underlying OS. So, we’re talking about pretty much everything else, which might be categorized as supporting services (e.g. telemetry, logging, licensing, policy enforcement, version control, content updates, etc.). 
 
@@ -82,8 +79,6 @@ The upshot is that in order to sell your product today, you have to deal with a 
 
 
 
-
-
 ## Summary
 The challenge today for AV vendors is that the ground has shifted under our feet. Where once a Windows only solution may have been sufficient for the majority of customers, the steady rise in the adoption of MacBooks coupled with the more niche deployment of Linux variants plus the rapid adoption of Chromebooks, particularly in educational settings, means that providing a holistic solution to customers requires greater effort all round, across product management, engineering, threat-research, quality-assurance, etc. Understandably, customers want to engage a single vendor for their entire deployed base, be it a mix of Windows, macOS, ChromeOS and Linux, not to mention mobile. 
 
@@ -94,19 +89,21 @@ The upshot from the protection-provider’s perspective is that the entire organ
 The overarching question then must be whether endpoint architecture  has a part to play in influencing the design such that code production, maintenance and field support can be made easier and more cost-effective. Today, we pretty much entirely have a ‘shared nothing’ model due to the way the field has evolved. As discussed, considerable parts of any AV solution have to be ‘shared nothing’ due to the nature of the problem domain and target platform but does that mean we cannot have a ‘shared something’ model?
 
 
-### References
+
+***
+Donnacha Forde
+
+_2023-2024_
+
+_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+
+
+
+
+## References
 * ARS Technica - _[The word's second most popular desktop operating system isn't macOS anymore.](https://arstechnica.com/gadgets/2021/02/the-worlds-second-most-popular-desktop-operating-system-isnt-macos-anymore/)_
 
 * Global Stats statcounter - _[Desktop Operating System Market Share Worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide/)_
 
 
-
-
-
-***
-Donnacha Forde
-
-_September 2023_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
