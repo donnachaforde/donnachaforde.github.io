@@ -2,4 +2,5 @@
 *~*.pptx
 *~*.docx
 
-
+# Ignore VS Code directory
+.vscode
