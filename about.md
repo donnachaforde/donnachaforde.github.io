@@ -1,9 +1,7 @@
-[github.com](https://github.com/donnachaforde/donnachaforde.github.io) [github.io](https://donnachaforde.github.io)
+[home/](https://donnachaforde.github.io)[about](./about.md)
 
 ### About
 
-My [about.me](https://about.me/donnacha.forde) page has my social media links and some profile details. 
+See my [about.me](https://about.me/donnacha.forde) page or view my professional career history on [LinkedIn](https://www.linkedin.com/in/donnachaforde). 
 
-My professional career history is outlined on LinkedIn [here](https://www.linkedin.com/in/donnachaforde). 
-
-> **Note** -  I like to keep my LinkedIn contacts real in the sense that I actually like to know my connections. Consquently, I don't generally accept blank connection invitations, especially anything resembling a mailshot, though I remain open to genuine connection requests. 
+> **Note** -  Regarding LinkedIn connection requests, I like to 'keep it real' in the sense that I actually know who my connections are. Consequently, I generally don't accept blank connection invitations though I remain open to genuine network connections. 

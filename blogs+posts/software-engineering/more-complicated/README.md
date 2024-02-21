@@ -1,4 +1,4 @@
-[home/](https://donnachaforde.github.io)[blogs+posts/](https://donnachaforde.github.io/blogs+posts/)[software-engineering/](https://donnachaforde.github.io/blogs+posts/software-engineering/)[more-complicated](https://donnachaforde.github.io/blogs+posts/software-engineering/more-complicated/more-complicated.html)
+[home/](../../../)[blogs+posts/](../../)[software-engineering/](../)[more-complicated](./)
 
 # I think you'll find it's a bit more complicated than that...
 
@@ -21,11 +21,11 @@ So, don't just go through the motions of what you think Agile says you should be
 
 
 ***
-Donnacha Forde
+_Donnacha Forde_
 
-August 2003
+_August 2023_
 
-[LinkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)
+_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
 > **Note:**
 _The quote above attributed to Ben Goldacre is from his [book](https://www.amazon.co.uk/Think-Youll-Find-More-Complicated/dp/0007505140) with the same title. He's also known for his book titled [Bad Science](https://www.amazon.co.uk/Bad-Science-Ben-Goldacre/dp/000728487X), which is a good read for anyone remotely interested in science or the scientific method._

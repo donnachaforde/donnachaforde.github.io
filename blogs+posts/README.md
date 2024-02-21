@@ -1,23 +1,14 @@
 
-[home/](https://donnachaforde.github.io)[blogs+posts](https://donnachaforde.github.io/blogs+posts/)
-
+[home/](../)[blogs+posts](./)
 
 # Blogs & Posts
 
-This is still a _work in progress_ that I'm using to collate articles I've written previously. 
-
-
-The blog on JVM Performance Tuning is a complete set that's actually published on blogger.com and redirects to that hosting site. 
-The posts under Code Design focus on code design specifically whereas the posts under Software Engineering have a broader and more general scope. 
-
-
+Blogs & Posts on general topics in Software Engineering, including Management & Leadership, Design, Performance Engineering and practical lessons from using development tools.
 
 ### Contents
 
-* [Software Engineering](software-engineering/README.md)
-* [Code Design](code-design/README.md)
-* [JVM Performance Tuning](jvm-performance-tuning/README.md)
+* [Software Engineering](./software-engineering/)
 
-
+* [JVM Performance Tuning](jvm-performance-tuning/)
 
 
