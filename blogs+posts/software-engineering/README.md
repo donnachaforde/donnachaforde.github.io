@@ -17,7 +17,7 @@ Here are posts and articles covering more general software engineering topics.
 
 ## Cybersecurity
 
-* [Platform Challenges for AV Vendors](./wouldnt-start-here/) - An examination of the challenges faced by AV vendors in meeting modern day platform needs. 
+* [Platform Challenges facing AV Vendors](./wouldnt-start-here/) - An examination of the challenges faced by AV vendors in meeting modern day platform needs. 
 
 
 
