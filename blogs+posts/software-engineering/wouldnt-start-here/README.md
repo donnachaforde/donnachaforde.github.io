@@ -10,11 +10,11 @@
 _The fragmentation of the traditional target platforms for AV vendors, because of the increased diversity of endpoint OS and underlying processor architecture, in recent years means that the engineering mechanisms and organizational structures that have evolved over decades may not serve us as well into the future. We must consider the underlying architecture design of our endpoint solutions to determine whether they are fit for purpose for the coming years. Breaking down product silos and drawing a distinction between those parts of our solutions that are entirely platform specific and those that are generic is perhaps the first step towards adopting a more modular approach and ultimately, even a ‘microservices architecture on the endpoint’, which may well facilitate more effective and more efficient software development of endpoint security solutions._
 
 ## Introduction
-"Well, I wouldn't start from here..." So goes the old joke about giving directions to tourists... Perhaps something similar could be said of Endpoint Architecture in cybersecurity solutions because what we typically have today are as a result of evolution, not necessarily planning. If you were tasked with designing an architecture to support what's needed today, chances are what you'd design would differ greatly than what we have today. In other words, you wouldn't want to start from here... but of course, that is the reality for many AV vendors.
+"Well, I wouldn't start from here..." So goes the old joke about giving directions to tourists. Perhaps something similar could be said of Endpoint Architecture in cybersecurity solutions because what we typically have today are as a result of evolution, not necessarily planning. If you were tasked with designing an architecture to support what's needed today, chances are what you'd design would differ greatly than what we have today. In other words, you wouldn't want to start from here... but of course, that is the reality for many AV vendors.
 
-There are two primary factors at play, which even grate with each other to an extent:
+There are two related factors at play here:
 
-1. Historically, AV solutions have been more heavily weighted towards Windows than any other OS.
+1. AV solutions have been historically weighted towards Windows more than any other OS.
 
 2. The target market for Endpoint has fragmented.
 
@@ -25,7 +25,7 @@ Let's examine these in a bit more detail.
 
 There are several reasons why anti-malware solutions are disproportionally more sophisticated on Windows, specifically on Intel processor architecture, than any other desktop/laptop OS. 
 
-1. Malware has predominantly targeted Windows because it has the largest user-base and has had so for quite some time.
+1. Malware has predominantly targeted Windows because it has the largest user-base and has had been for quite some time.
 
 2. Achieving protection parity across heterogeneous OS is a misconception.
 
@@ -36,7 +36,7 @@ There are several reasons why anti-malware solutions are disproportionally more 
 
 To a large extent, the _Malware business_ is a numbers game and as malware authors need their malicious software to actually be triggered, they target the largest user base to maximize the probability of that happening. The greater the number, the greater the chances of achieving their goal. It's no surprise then that most malware targets the family of Windows OS, more specifically Windows on Intel Architecture (i.e. Wintel).
 
-A corollary to that is that the _Antimalware business_ is demand-lead and the attention, expertise and resources contained therein has to focus on the greatest threats. While we've seen the industry innovate solutions for the network and, in more recent years, the cloud, the focus for the longest time has been on Endpoint Protection (EP), with EP for Windows having the richest feature set. Further, it should come as no surprise that the supporting infrastructure, Engineering, Research Teams, etc. underpinning those features has the greatest depth of expertise on Windows, developed and honed over time as a consequence of uncovering and understanding the tactics and techniques employed by malware authors as both parties play out a _cat-and-mouse game_.
+A corollary to that is that the _Antimalware business_ is demand-lead and the attention, expertise and resources contained therein has to focus on the greatest threats. It could be argued that historically, the main focus for the longest time has been on Endpoint Protection, with the richest feature set specifically targeting Windows. It comes as no surprise that the supporting infrastructure, Engineering, Research Teams, etc. underpinning those features has the greatest depth of expertise on Windows, developed and honed over time as a consequence of uncovering and understanding the tactics and techniques employed by malware authors as both parties play out a _cat-and-mouse_ game of evasion and detection. 
 
 The upshot is that because malware has predominantly targeted Windows, that's where the greater part of antimalware resources are focused.
 
@@ -44,9 +44,9 @@ The upshot is that because malware has predominantly targeted Windows, that's wh
 
 
 ### Protection Parity is a Misconception
-There's customer-led demand to achieve closer parity in endpoint protection across desktop OS. In practice, this usually means parity between Windows and macOS because Linux on the desktop is comparatively niche. Apple's inroads into the enterprise desktop and laptop space over the last decade or so has rendered customers seeking a more uniform solution that provides protection in some equal measure across Windows and macOS. This is a grey area because most protection features are tightly-coupled to the underlying OS or shore-up a vulnerabilities specific to the OS. Windows and macOS are fundamentally different operating systems so protection mechanisms built for Windows most likely just don't map directly to macOS because the underlying constructs in the two OS are different. 
+There's customer-led demand to achieve closer parity in endpoint protection across desktop OS. In practice, this usually means parity between Windows and macOS because Linux on the desktop is comparatively niche. Apple's inroads into the enterprise desktop and laptop space over the last decade or so has rendered customers seeking a more uniform solution that provides protection in some equal measure across Windows and macOS. This is a grey area because most protection features are tightly-coupled to the underlying OS or shore-up a vulnerabilities specific to the OS. Windows and macOS are fundamentally different operating systems so protection mechanisms built for Windows most likely just won't map directly to macOS because the underlying constructs in the two OS are different. 
 
-On the other hand, it’d have to be acknowledged that certain features available today on Windows are not available on macOS for other reasons, which have more to do with the dynamics of staffing and resources. Given the extent of the knowledgebase within an organization on Windows, it’s understandable when we see an innovative feature emerge for Windows but then don’t immediately see the equivalent for macOS or even Linux. That, in part, relates to the availability of talent, the depth of experience internal to the organization and therefore, the extent to which it can innovate on other endpoint platforms.  
+On the other hand, it’d have to be acknowledged that certain features available today targeting Windows are not available on macOS for other reasons, which have more to do with the dynamics of staffing and resources. Given the extent of the knowledgebase within an organization on Windows, it’s understandable when we see an innovative features emerge for Windows but then don’t immediately see the equivalent for macOS or even Linux. That, in part, relates to the availability of talent, the depth of experience internal to the organization and therefore, the extent to which it can innovate on other endpoint platforms.  
 
 Of course, internal resource allocation reflects market-share directly and with Windows still dominating ~70-80% of the desktop/laptop market, it's easy to infer where most of the Research, Engineering and Operations resources will be focused. (Note: macOS has somewhere between 7.5-20% depending on which stats you look at – see references below). With relatively fewer resources allocated to macOS, Linux (even just focusing on the main distros) and more recently, ChromeOS, you can begin to understand why it becomes a challenge to achieve ‘parity’. The smaller, less-well resourced teams simply cannot achieve the same delivery velocity.
 
@@ -86,7 +86,7 @@ The upshot is that in order to sell your product today, you have to deal with a 
 
 
 ## Summary
-The challenge today for AV vendors is that the ground has shifted under our feet. Where once a Windows-only solution might have been sufficient for the majority of customers, the steady rise in the adoption of MacBooks coupled with the more niche deployment of Linux variants plus the rapid adoption of Chromebooks, particularly in educational settings, and the need to proliferation of mobile devices means that providing a holistic solution to customers requires greater effort all round, across product management, engineering, threat-research, quality-assurance, etc. Understandably, customers want to engage a single vendor for their entire deployed base, be it a mix of Windows, macOS, ChromeOS, Linux, iOS and Android.  
+The challenge today for AV vendors is that the ground has shifted under our feet. Where once a Windows-only solution might have been sufficient for the majority of customers, the steady rise in the adoption of MacBooks coupled with the more niche deployment of Linux variants plus the rapid adoption of Chromebooks, particularly in educational settings, and the proliferation of mobile devices means that providing a holistic solution to customers requires greater effort all round, across product management, engineering, threat-research, quality-assurance, etc. Understandably, customers want to engage a single vendor for their entire deployed base, be it a mix of Windows, macOS, ChromeOS, Linux, iOS and Android.  
 
 The upshot from the protection-provider’s perspective is that the entire organization has to be geared up to bring products and solutions to market across these platforms. Where once there was a single target platform – and as a consequence, a single testbed, a single build & release platform, there are now multiple. 
 
