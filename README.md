@@ -1,5 +1,3 @@
-[home](./)
-
 <p align="center">
     <img src="./resources/donnacha-headshot.jpeg" width="250" height="250"/>
 </p>
