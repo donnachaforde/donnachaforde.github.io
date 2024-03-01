@@ -30,6 +30,7 @@ _The article aims to convey the depth of antimalware technology, the evolution o
         * [Detection & Response](#detection--response)
         * [Ransomware](#ransomware)
     * [2020's](#2020s)
+        * [Fileless Malware & Live-off-the-Land (LOL)](#fileless-malware--live-off-the-land-lol)
         * [XDR & ML](#xdr--ml)
         * [Zero Trust & IAM](#zero-trust--iam)
         * [Next-Gen & AI](#next-gen--ai)
@@ -100,8 +101,13 @@ More specific 'Detection & Response' solutions emerged as the industry began to 
 #### Ransomware
 By the mid-2010s, Ransomware had became a thing - a worldwide problem - leading to anti-ransomware (ARW) solutions to detect and block ransomware behaviour as well as measures to roll-back and undo the effects of ransomware. Of course, this decade also saw the rise in Cloud Computing and, as well as utilizing cloud to support Endpoint Protection, protecting assets in the cloud itself became necessary as the threat landscape changed. 
 
-
 ### 2020's
+
+#### Fileless Malware & Live-off-the-Land (LOL)
+The start of the 2020's saw a new type of threat emerge that involved exercising code or running a script that wasn't stored in a file, most often seen as in-memory malware. This form of attack is challenging for AV vendors because it completely bypasses the file-centric paradigm that formed the basis of previous solutions, such as whitelisting, signature-based detection or other pattern-matching techniques. Instead, the focus has to shift to the runtime check and/or behaviour analysis to detect the process as malicious. 
+
+Additionally, this form of attack is often associated with what is referred to as 'Live off the Land' attacks that involves leveraging _known-good_ tools, commands and utilities to do its bidding. This poses challenges for traditional AV solutions because while each individual process is in itself 'good', it's the combined, over-all affect of the chain of events (or process chain) that is malicious. Endpoint protection solutions have to consider each part of the process chain in context of what has gone before, what its parent process and other ancestors are, etc. Here, _Process Genealogy_ plays a crucial role in providing that context by maintaining a record of parent processes up the ancestry tree. Of course, this space is another place where malware authors and antimalware defenders play a game of _cat and mouse_ with malware authors doing their utmost to obfuscate parent-child relationships and AV solutions applying _smarts_ to detect those same relationships. 
+
 
 #### XDR & ML
 While it remains to be determined how the remainder of this decade pans out, we can see that there has been a greater emphasis on Endpoint Detection and Response as a measure to detect malware after the fact. The range of source information that feeds the backend models continues to grow, earning it the title of XDR. The focus on data science continues and recent inroads in AI have been added to help recognize patterns both on the endpoint itself and in the large models in the backend. Managed Detection and Response has become a service to serve SMEs that typically, don't have the resources to manage their own SOCs. 
