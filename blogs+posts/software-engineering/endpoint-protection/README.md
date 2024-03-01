@@ -12,6 +12,40 @@ _This article gives an overview of the evolution of antimalware technology, emph
 
 _The article aims to convey the depth of antimalware technology, the evolution of the industry in response to changing threat landscapes, and the ongoing challenges faced in the constant battle between malware and antimalware. It underscores the need for a nuanced understanding of the complex infrastructure, engineering processes, and threat research involved in keeping individuals and businesses safe from cyber threats._
 
+### Contents
+
+* [Introduction](#introduction)
+* [The Evolution of Antimalware](#the-evolution-of-antimalware)
+    * [Pre-1990's](#pre-1990s)
+    * [1990s](#1990s)
+        * [Hand-written Signatures](#hand-written-signatures)
+        * [Scalability Challenges](#scalability-challenges) 
+    * [2000's](#2000s)
+        * [Hash-based Signatures](#hash-based-signatures)
+        * [Backend Infrastructure](#backend-infrastructure)
+        * [Trust](#trust)
+        * [Machine Learning & Behavioural Analysis](#machine-learning--behavioural-analysis)
+    * [2010's](#2010s)
+        * [Supporting Cloud Infrastructure](#supporting-cloud-infrastructure)
+        * [Detection & Response](#detection--response)
+        * [Ransomware](#ransomware)
+    * [2020's](#2020s)
+        * [XDR & ML](#xdr--ml)
+        * [Zero Trust & IAM](#zero-trust--iam)
+        * [Next-Gen & AI](#next-gen--ai)
+* [Summary](#summary)
+* [Acknowledgements](#acknowledgements)
+    * [Corrections & Additions](#corrections--additions)
+* [References](#references)
+* [Appendix I - Endpoint Protection Components](#appendix-i---endpoint-protection-components) 
+    * [Protection Components](#protection-components)
+    * [Internal  Components](#internal-components)
+* [Appendix II - Additional Cybersecurity Solutions](#appendix-ii---additional-cybersecurity-solutions)
+    * [Additional Technologies](#additional-technologies)
+
+
+
+
 ### Introduction
 Most people don't realize how many discrete technologies go into modern-day endpoint protection solutions. The term _Antivirus_ or AV has become overloaded and arguably, doesn't quite describe the array of protection, detection and correction measures deployed to your device. More often within cybersecurity circles, _Antivirus_ really just means traditional, signature-based antivirus protection, which scans, detects, quarantines and removes known malware from your host. There is often a remediation aspect to AV, which involves 'cleaning' or undoing the effects of the known malware. Remediation is another overloaded term so in this instance, this form of remediation is often referred to as _basic remediation_. 
 
@@ -85,6 +119,30 @@ The fact of the matter is that rate of production of new, unique malware samples
 
 I wrote this article to try to illustrate the depth and sophistication of antimalware technology at work in protecting devices - and - the extent of the infrastructure deployed to support those functions, not to mention the engineering processes and threat research done to keep individuals and businesses safe. I wanted to explain that there's a lot packed in, and modern antimalware solutions have evolved as malware evolved and the threat landscape changed. In that sense, it's really a case of co-evolution: how both malware and antimalware has evolved. Of course, malware authors always have an upperhand in this cat and mouse game because they get to move first and they only need to be successful on occasion. For the most part, antimalware can really only react to the threat as it emerges but needs to successful all the time. 
 
+
+***
+_Donnacha Forde_
+
+_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+
+
+## Acknowledgements
+
+I consulted my friend and ex-colleague from McAfee, [Jon Edwards](https://www.linkedin.com/in/jonathan-edwards-99640140/), to review an early draft of this article and he provided clarifications, corrections and additional details that improved the accuracy and the historical timeline. Thanks Jon - you're a walking encyclopedia on engineering antimalware solutions going way back to the days of [Dr. Soloman's](https://en.wikipedia.org/wiki/Dr_Solomon%27s_Antivirus). 
+
+### Corrections & Additions
+Feel free to connect and message me on [LinkedIn](https://www.linkedin.com/in/donnachaforde/) to correct errors or to suggest obvious omissions. 
+
+## References
+
+[Cybersecurity 101 - Hashing](https://www.sentinelone.com/cybersecurity-101/hashing/) _by SentinelOne_
+
+[Code Signing](https://en.wikipedia.org/wiki/Code_signing) - Wikipedia
+
+[Antivirus Software](https://en.wikipedia.org/wiki/Antivirus_software) - Wikipedia
+
+
+
 ## Appendix I - Endpoint Protection Components 
 Details on the various components making up AV solutions.
 
@@ -118,6 +176,8 @@ The following is a glossary of notable internal technologies that make modern da
 
 As well as Endpoint Protection and Endpoint Detection & Response solutions, security on devices can be improved by deploying additional technologies, such as Firewalls, DNS Filtering, E-mail Protection, Data Loss Prevention (DLP). The following is a brief description of the primary technologies deployed, some of which are included in an _Antivirus_ solution as standard.
 
+### Additional Technologies
+
 
 | Technology | Description |
 | ---------- | ----------- |
@@ -128,28 +188,6 @@ As well as Endpoint Protection and Endpoint Detection & Response solutions, secu
 | E-mail Protection  | Malware often finds its way on to devices through attachments via email so e-mail protect is an important tool to reduced this threat vector. Depending on its implementation, it may block email or remove suspect attachment, highlight or block SPAM or malicious emails and generally reduce the threat from this avenue. |
 | DLP  | While _Data Loss Prevention_ mechanisms are more often employed by organizations to prevent their IP being leaked, actively blocking things like removable USB devices offers a degree of protection by preventing the distribution and activation of malware through this route.  |
 | Risk & Compliance  | Compliance tools work by determining which devices in an organization are compliant and managing those that are not. In this context, compliance might mean that certain policies and/or settings are enabled or it might mean that certain OS patches have been applied or that certain OS version upgrades have occurred.  |
-
-
-
-***
-_Donnacha Forde_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
-
-
-## Acknowledgements
-
-I consulted my friend and ex-colleague from McAfee, [Jon Edwards](https://www.linkedin.com/in/jonathan-edwards-99640140/), to review an early draft of this article and he provided clarifications, corrections and additional details that improved the accuracy and the historical timeline. Thanks Jon - you're a walking encyclopedia on engineering antimalware solutions going way back to the days of [Dr. Soloman's](https://en.wikipedia.org/wiki/Dr_Solomon%27s_Antivirus). 
-
-
-## References
-
-[Cybersecurity 101 - Hashing](https://www.sentinelone.com/cybersecurity-101/hashing/) _by SentinelOne_
-
-[Code Signing](https://en.wikipedia.org/wiki/Code_signing) - Wikipedia
-
-[Antivirus Software](https://en.wikipedia.org/wiki/Antivirus_software) - Wikipedia
-
 
 
 
