@@ -12,6 +12,41 @@ _This article gives an overview of the evolution of antimalware technology, emph
 
 _The article aims to convey the depth of antimalware technology, the evolution of the industry in response to changing threat landscapes, and the ongoing challenges faced in the constant battle between malware and antimalware. It underscores the need for a nuanced understanding of the complex infrastructure, engineering processes, and threat research involved in keeping individuals and businesses safe from cyber threats._
 
+### Contents
+
+* [Introduction](#introduction)
+* [The Evolution of Antimalware](#the-evolution-of-antimalware)
+    * [Pre-1990's](#pre-1990s)
+    * [1990s](#1990s)
+        * [Hand-written Signatures](#hand-written-signatures)
+        * [Scalability Challenges](#scalability-challenges) 
+    * [2000's](#2000s)
+        * [Hash-based Signatures](#hash-based-signatures)
+        * [Backend Infrastructure](#backend-infrastructure)
+        * [Trust](#trust)
+        * [Machine Learning & Behavioural Analysis](#machine-learning--behavioural-analysis)
+    * [2010's](#2010s)
+        * [Supporting Cloud Infrastructure](#supporting-cloud-infrastructure)
+        * [Detection & Response](#detection--response)
+        * [Ransomware](#ransomware)
+    * [2020's](#2020s)
+        * [Fileless Malware & Live-off-the-Land (LOL)](#fileless-malware--live-off-the-land-lol)
+        * [XDR & ML](#xdr--ml)
+        * [Zero Trust & IAM](#zero-trust--iam)
+        * [Next-Gen & AI](#next-gen--ai)
+* [Summary](#summary)
+* [Acknowledgements](#acknowledgements)
+    * [Corrections & Additions](#corrections--additions)
+* [References](#references)
+* [Appendix I - Endpoint Protection Components](#appendix-i---endpoint-protection-components) 
+    * [Protection Components](#protection-components)
+    * [Internal  Components](#internal-components)
+* [Appendix II - Additional Cybersecurity Solutions](#appendix-ii---additional-cybersecurity-solutions)
+    * [Additional Technologies](#additional-technologies)
+
+
+
+
 ### Introduction
 Most people don't realize how many discrete technologies go into modern-day endpoint protection solutions. The term _Antivirus_ or AV has become overloaded and arguably, doesn't quite describe the array of protection, detection and correction measures deployed to your device. More often within cybersecurity circles, _Antivirus_ really just means traditional, signature-based antivirus protection, which scans, detects, quarantines and removes known malware from your host. There is often a remediation aspect to AV, which involves 'cleaning' or undoing the effects of the known malware. Remediation is another overloaded term so in this instance, this form of remediation is often referred to as _basic remediation_. 
 
@@ -66,8 +101,13 @@ More specific 'Detection & Response' solutions emerged as the industry began to 
 #### Ransomware
 By the mid-2010s, Ransomware had became a thing - a worldwide problem - leading to anti-ransomware (ARW) solutions to detect and block ransomware behaviour as well as measures to roll-back and undo the effects of ransomware. Of course, this decade also saw the rise in Cloud Computing and, as well as utilizing cloud to support Endpoint Protection, protecting assets in the cloud itself became necessary as the threat landscape changed. 
 
-
 ### 2020's
+
+#### Fileless Malware & Live-off-the-Land (LOL)
+The start of the 2020's saw a new type of threat emerge that involved exercising code or running a script that wasn't stored in a file, most often seen as in-memory malware. This form of attack is challenging for AV vendors because it completely bypasses the file-centric paradigm that formed the basis of previous solutions, such as whitelisting, signature-based detection or other pattern-matching techniques. Instead, the focus has to shift to the runtime check and/or behaviour analysis to detect the process as malicious. 
+
+Additionally, this form of attack is often associated with what is referred to as 'Live off the Land' attacks that involves leveraging _known-good_ tools, commands and utilities to do its bidding. This poses challenges for traditional AV solutions because while each individual process is in itself 'good', it's the combined, over-all affect of the chain of events (or process chain) that is malicious. Endpoint protection solutions have to consider each part of the process chain in context of what has gone before, what its parent process and other ancestors are, etc. Here, _Process Genealogy_ plays a crucial role in providing that context by maintaining a record of parent processes up the ancestry tree. Of course, this space is another place where malware authors and antimalware defenders play a game of _cat and mouse_ with malware authors doing their utmost to obfuscate parent-child relationships and AV solutions applying _smarts_ to detect those same relationships. 
+
 
 #### XDR & ML
 While it remains to be determined how the remainder of this decade pans out, we can see that there has been a greater emphasis on Endpoint Detection and Response as a measure to detect malware after the fact. The range of source information that feeds the backend models continues to grow, earning it the title of XDR. The focus on data science continues and recent inroads in AI have been added to help recognize patterns both on the endpoint itself and in the large models in the backend. Managed Detection and Response has become a service to serve SMEs that typically, don't have the resources to manage their own SOCs. 
@@ -81,12 +121,38 @@ The fact of the matter is that rate of production of new, unique malware samples
 
 
 
-### Summary
+## Summary
 
 I wrote this article to try to illustrate the depth and sophistication of antimalware technology at work in protecting devices - and - the extent of the infrastructure deployed to support those functions, not to mention the engineering processes and threat research done to keep individuals and businesses safe. I wanted to explain that there's a lot packed in, and modern antimalware solutions have evolved as malware evolved and the threat landscape changed. In that sense, it's really a case of co-evolution: how both malware and antimalware has evolved. Of course, malware authors always have an upperhand in this cat and mouse game because they get to move first and they only need to be successful on occasion. For the most part, antimalware can really only react to the threat as it emerges but needs to successful all the time. 
 
 
-## Protection Components
+***
+_Donnacha Forde_
+
+_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+
+
+## Acknowledgements
+
+I consulted my friend and ex-colleague from McAfee, [Jon Edwards](https://www.linkedin.com/in/jonathan-edwards-99640140/), to review an early draft of this article and he provided clarifications, corrections and additional details that improved the accuracy and the historical timeline. Thanks Jon - you're a walking encyclopedia on engineering antimalware solutions going way back to the days of [Dr. Soloman's](https://en.wikipedia.org/wiki/Dr_Solomon%27s_Antivirus). 
+
+### Corrections & Additions
+Feel free to connect and message me on [LinkedIn](https://www.linkedin.com/in/donnachaforde/) to correct errors or to suggest obvious omissions. 
+
+## References
+
+[Cybersecurity 101 - Hashing](https://www.sentinelone.com/cybersecurity-101/hashing/) _by SentinelOne_
+
+[Code Signing](https://en.wikipedia.org/wiki/Code_signing) - Wikipedia
+
+[Antivirus Software](https://en.wikipedia.org/wiki/Antivirus_software) - Wikipedia
+
+
+
+## Appendix I - Endpoint Protection Components 
+Details on the various components making up AV solutions.
+
+### Protection Components
 The following is a glossary of the various technologies that go into protecting modern day desktops and laptops.
 
 | Component | Description |
@@ -101,8 +167,8 @@ The following is a glossary of the various technologies that go into protecting 
 
 
 
-## Internal  Components
-There are internal technology components to antivirus solutions that have evolved over time as well. 
+### Internal  Components
+The following is a glossary of notable internal technologies that make modern day endpoint protection  possible.
 
 | Technology | Description |
 | ---------- | ----------- |
@@ -112,10 +178,11 @@ There are internal technology components to antivirus solutions that have evolve
 | AV Engine | Depending on the design, AV solutions split the tasks of _scanning_ and _determination_ into various scanners that do the job of gathering info (e.g. File, E-mail, etc.) and the internal engine that consumes this data and makes a determination on whether the object under evaluation is good or bad.  |
 
 
-
-## Additional Technologies 
+## Appendix II - Additional Cybersecurity Solutions
 
 As well as Endpoint Protection and Endpoint Detection & Response solutions, security on devices can be improved by deploying additional technologies, such as Firewalls, DNS Filtering, E-mail Protection, Data Loss Prevention (DLP). The following is a brief description of the primary technologies deployed, some of which are included in an _Antivirus_ solution as standard.
+
+### Additional Technologies
 
 
 | Technology | Description |
@@ -127,28 +194,6 @@ As well as Endpoint Protection and Endpoint Detection & Response solutions, secu
 | E-mail Protection  | Malware often finds its way on to devices through attachments via email so e-mail protect is an important tool to reduced this threat vector. Depending on its implementation, it may block email or remove suspect attachment, highlight or block SPAM or malicious emails and generally reduce the threat from this avenue. |
 | DLP  | While _Data Loss Prevention_ mechanisms are more often employed by organizations to prevent their IP being leaked, actively blocking things like removable USB devices offers a degree of protection by preventing the distribution and activation of malware through this route.  |
 | Risk & Compliance  | Compliance tools work by determining which devices in an organization are compliant and managing those that are not. In this context, compliance might mean that certain policies and/or settings are enabled or it might mean that certain OS patches have been applied or that certain OS version upgrades have occurred.  |
-
-
-
-***
-_Donnacha Forde_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
-
-
-## Acknowledgements
-
-I consulted my friend and ex-colleague from McAfee, [Jon Edwards](https://www.linkedin.com/in/jonathan-edwards-99640140/), to review an early draft of this article and he provided clarifications, corrections and additional details that improved the accuracy and the historical timeline. Thanks Jon - you're a walking encyclopedia on engineering antimalware solutions going way back to the days of [Dr. Soloman's](https://en.wikipedia.org/wiki/Dr_Solomon%27s_Antivirus). 
-
-
-## References
-
-[Cybersecurity 101 - Hashing](https://www.sentinelone.com/cybersecurity-101/hashing/) _by SentinelOne_
-
-[Code Signing](https://en.wikipedia.org/wiki/Code_signing) - Wikipedia
-
-[Antivirus Software](https://en.wikipedia.org/wiki/Antivirus_software) - Wikipedia
-
 
 
 
