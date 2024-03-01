@@ -81,12 +81,14 @@ The fact of the matter is that rate of production of new, unique malware samples
 
 
 
-### Summary
+## Summary
 
 I wrote this article to try to illustrate the depth and sophistication of antimalware technology at work in protecting devices - and - the extent of the infrastructure deployed to support those functions, not to mention the engineering processes and threat research done to keep individuals and businesses safe. I wanted to explain that there's a lot packed in, and modern antimalware solutions have evolved as malware evolved and the threat landscape changed. In that sense, it's really a case of co-evolution: how both malware and antimalware has evolved. Of course, malware authors always have an upperhand in this cat and mouse game because they get to move first and they only need to be successful on occasion. For the most part, antimalware can really only react to the threat as it emerges but needs to successful all the time. 
 
+## Appendix I - Endpoint Protection Components 
+Details on the various components making up AV solutions.
 
-## Protection Components
+### Protection Components
 The following is a glossary of the various technologies that go into protecting modern day desktops and laptops.
 
 | Component | Description |
@@ -101,8 +103,8 @@ The following is a glossary of the various technologies that go into protecting 
 
 
 
-## Internal  Components
-There are internal technology components to antivirus solutions that have evolved over time as well. 
+### Internal  Components
+The following is a glossary of notable internal technologies that make modern day endpoint protection  possible.
 
 | Technology | Description |
 | ---------- | ----------- |
@@ -112,8 +114,7 @@ There are internal technology components to antivirus solutions that have evolve
 | AV Engine | Depending on the design, AV solutions split the tasks of _scanning_ and _determination_ into various scanners that do the job of gathering info (e.g. File, E-mail, etc.) and the internal engine that consumes this data and makes a determination on whether the object under evaluation is good or bad.  |
 
 
-
-## Additional Technologies 
+## Appendix II - Additional Cybersecurity Solutions
 
 As well as Endpoint Protection and Endpoint Detection & Response solutions, security on devices can be improved by deploying additional technologies, such as Firewalls, DNS Filtering, E-mail Protection, Data Loss Prevention (DLP). The following is a brief description of the primary technologies deployed, some of which are included in an _Antivirus_ solution as standard.
 
