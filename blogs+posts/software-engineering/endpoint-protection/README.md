@@ -61,6 +61,8 @@ In a sense, the Antimalware industry was born pretty much right after the idea o
 ### Pre-1990's
 Early scan solutions to detect known viruses and remove them were developed, though these were specifically written to target known viruses. In the days before the internet became commonplace, viruses were more likely spread by sharing infected floppy disks. AV software was distributed similarly and was often installed after the fact to detect & clean. This meant doing a on-demand scan (ODS) of your computer. 
 
+In the very early days, several AV companies distributed file-hash updates via a weekly fax with content of all the hashes available on floppy-disc. That fax distribution mechanism was replaced by email and later, became manually downloadable content and eventually automatically downloaded content. 
+
 ### 1990's
 This was the decade that witnessed the PC and Client/Server revolution so it should come as no surprise that it was also the period that saw a significant increase in the number and complexity of malware. Companies like McAfee and Norton emerged offering solutions initially based on hand-generated signatures, then later automated hash-based signature detection but, by the end of the next decade, had shifted to more advanced-heuristic methods in order to detect malware at scale. 
 
