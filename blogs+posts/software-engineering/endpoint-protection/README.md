@@ -146,6 +146,9 @@ _[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
 I consulted my friend and ex-colleague from McAfee, [Jon Edwards](https://www.linkedin.com/in/jonathan-edwards-99640140/), to review an early draft of this article and he provided clarifications, corrections and additional details that improved the accuracy and the historical timeline. Thanks Jon - you're a walking encyclopedia on engineering antimalware solutions going way back to the days of [Dr. Soloman's](https://en.wikipedia.org/wiki/Dr_Solomon%27s_Antivirus). 
 
+I revised this article in April 2025 after requesting feedback from my colleague [John Teddy](https://www.linkedin.com/in/john-teddy-552a6a/) whom was also at McAfee throughout much of the period covered by the article. His corrections and clarifications have helped greatly both with the article's accuracy and with providing background context. Thanks John - just brilliant to get your input.  
+
+
 ### Corrections & Additions
 Feel free to connect and message me on [LinkedIn](https://www.linkedin.com/in/donnachaforde/) to correct errors or to suggest obvious omissions. 
 
