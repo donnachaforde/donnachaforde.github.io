@@ -59,25 +59,26 @@ The point is that modern solutions are a collection of technologies developed ov
 In a sense, the Antimalware industry was born pretty much right after the idea of self-reproducing software (or virus) came to light. In this context, the term _virus_ merely meant that a piece of software could replicate and distribute copies of itself, not that it was necessarily malicious. However, it wasn't long before malicious software, either intentionally or unintentionally, emerged and the term _virus_ became synonymous with malicious software - or _malware_. In particular, towards the end of the '80s, there was a rise in malicious viruses targeting IBM PCs.
 
 ### Pre-1990's
-Early scan solutions to detect known viruses and remove them were developed, though these were specifically written to target known viruses. In the days before the internet became commonplace, viruses were more likely spread by sharing infected floppy disks. AV software was distributed similarly and was often installed after the fact to detect & clean. This meant doing a on-demand scan (ODS) of your computer. 
+Early scan solutions to detect known viruses and remove them were developed, though these were specifically written to target known viruses. In the days before the internet became commonplace, viruses were more likely spread by sharing infected floppy disks. AV software and content was distributed similarly and was often installed after the fact to detect & clean. This meant doing a on-demand scan (ODS) of your computer. 
 
 In the very early days, several AV companies distributed file-hash updates via a weekly fax with content of all the hashes available on floppy-disc. That fax distribution mechanism was replaced by email and later, became manually downloadable content and eventually automatically downloaded content. 
 
 ### 1990's
-This was the decade that witnessed the PC and Client/Server revolution so it should come as no surprise that it was also the period that saw a significant increase in the number and complexity of malware. Companies like McAfee and Norton emerged offering solutions initially based on hand-generated signatures, then later automated hash-based signature detection but, by the end of the next decade, had shifted to more advanced-heuristic methods in order to detect malware at scale. 
+This was the decade that witnessed the PC and Client/Server revolution so it should come as no surprise that it was also the period that saw a significant increase in the number and complexity of malware. Companies like McAfee and Norton emerged offering solutions initially based on hand-generated signatures, then later automated hash-based signature detection but, by the end of the decade, had shifted to more advanced-heuristic methods in order to detect malware at scale. 
 
 #### Hand-written Signatures
 In the early days, signatures were hand-written to exactly identify a virus instance. The AV engines understood file formats and the signature contained instructions on what to look for inside the file. Thus began the game of cat-and-mouse played between malware authors and antimalware vendors, which involved narrowing the time-period from the point the virus was released into the wild to the time AV companies could generate and issue a new signature to detect it. Malware authors tried to evade detection by making the virus code more complex and thus harder to generate a signature for it or by using polymorphic code to constantly generate new versions of itself, albeit only slightly altered. Malware authors also tried to widen the playing field by using other types of files, other than executables, and developed viruses for Word Documents, Office macros, VBA Scripts, etc. Both executable malware and macro viruses became 'parasitic', which means they attached themselves to genuine executables and macros in order to hide and evade detection. 
+
+
+#### Hash-based Signatures
+
+Hash-based signature-based detection works on the basis of 'calculating the hash' for a given file, usually a binary file representing an executable. It uses a well-known hashing algorithm (e.g. MD5, SHA256) to generate a unique, fixed-length string. In turn, this acts as a key identifier for an executable file, regardless of what filename it was given or perhaps what other file attributes were changed. When a file gets scanned by AV software, either as part of a scheduled scan or on-demand when the executable file is being invoked, the hash is calculated and this key is used to check whether the binary executable is known malware. This involves checking it against a database registry of known malware, usually shipped with the AV install and subsequently updated or, in some instances, checked using a remote lookup. 
 
 #### Scalability Challenges 
 The overarching problem though, was one of scale. The rate at which new malware samples emerged overwhelmed the ability of AV vendors to address it. There were humans in the system writing signatures and there was simply too much malware to analyze. It was time to use automation to contend with the scale of the problem. 
 
 
 ### 2000's
-
-#### Hash-based Signatures
-
-Hash-based signature-based detection works on the basis of 'calculating the hash' for a given file, usually a binary file representing an executable. It uses a well-known hashing algorithm (e.g. MD5, SHA256) to generate a unique, fixed-length string. In turn, this acts as a key identifier for an executable file, regardless of what filename it was given or perhaps what other file attributes were changed. When a file gets scanned by AV software, either as part of a scheduled scan or on-demand when the executable file is being invoked, the hash is calculated and this key is used to check whether the binary executable is known malware. This involves checking it against a database registry of known malware, usually shipped with the AV install and subsequently updated or, in some instances, checked using a remote lookup. 
 
 #### Backend Infrastructure
 
