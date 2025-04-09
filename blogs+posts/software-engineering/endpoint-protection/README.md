@@ -79,6 +79,7 @@ The overarching problem though, was one of scale. The rate at which new malware 
 
 
 ### 2000's
+This decade saw the advent of polymorphic malware, principally to avoid the detection techniques of AV. 
 
 #### Backend Infrastructure
 
@@ -98,7 +99,7 @@ The rate at which new malware samples emerge means that signature-based checks a
 #### Supporting Cloud Infrastructure
 The threat landscape continued to evolve and with that, the sophistication and persistence of threats increased. Big Data and Machine Learning emerged as new technologies in the wider industry and were employed by AV vendors in the backend as a way to perform dynamic behavioural analysis off the target machine. System events related to a programs runtime behaviour were relayed to a data-lake where logic produced by Data Scientists could examine behaviour pattens against large numbers of samples and use statistical analysis to convict 'greyware'. 
 
-#### Detection & Response
+#### Endpoint Detection & Response (EDR)
 More specific 'Detection & Response' solutions emerged as the industry began to acknowledge that it couldn't achieve 100% protection all the time. In what was a general application of dynamic protection, detection and response used Machine Learning deployed in cloud-based services to examine runtime behaviour and highlight _indicators of compromise_ (IOC) to dedicated Security Operations Analysts. By this time, large organizations and government bodies deployed dedicated Security Operations Centres (SOC) with dedicated analysts to monitor management environments in order to discover and remove malware inside their networks. 
 
 #### Ransomware
@@ -113,7 +114,10 @@ Additionally, this form of attack is often associated with what is referred to a
 ### 2020's
 
 #### XDR & ML
-While it remains to be determined how the remainder of this decade pans out, we can see that there has been a greater emphasis on Endpoint Detection and Response as a measure to detect malware after the fact. The range of source information that feeds the backend models continues to grow, earning it the title of XDR. The focus on data science continues and recent inroads in AI have been added to help recognize patterns both on the endpoint itself and in the large models in the backend. Managed Detection and Response has become a service to serve SMEs that typically, don't have the resources to manage their own SOCs. 
+The greater emphasis on EDR over the last ten years has natuarlly enough seen this techology, which focuses on detecting malware after the fact, evolve into eXtended Detection & Response (XDR). Detections are improved by expanding the range of source information beyond endpoint events to include things like firewall events, email events, network traffic, etc. Event correlation adds more _colour to the picture_ and helps analysts determine malware and identify attacks. The range of event sources and the relative weighting on these events are likely unique to each organization. 
+
+The focus on data science continues and recent inroads into AI have been added to help recognize patterns both on the endpoint itself and in the large models in the backend cloud. Managed Detection and Response has become a service to serve SMEs that typically, don't have the resources to manage their own SOCs. 
+
 
 #### Zero Trust & IAM
 The concept of Zero Trust Security has become popular both for devices on the network and for users. The network is assumed to have been compromised and there is a greater emphasis on _Identity and Access Management_ (IAM) to ensure every user on every device is authenticated. Further, the need to protect the user's identity over the user's device has become of practical importance. 
