@@ -19,20 +19,24 @@ _The article aims to convey the depth of antimalware technology, the evolution o
     * [Pre-1990's](#pre-1990s)
     * [1990s](#1990s)
         * [Hand-written Signatures](#hand-written-signatures)
+        * [Hash-based Signatures](#hash-based-signatures)
         * [Scalability Challenges](#scalability-challenges) 
     * [2000's](#2000s)
-        * [Hash-based Signatures](#hash-based-signatures)
-        * [Backend Infrastructure](#backend-infrastructure)
-        * [Trust](#trust)
-        * [Machine Learning & Behavioural Analysis](#machine-learning--behavioural-analysis)
+        * [Cloud Infrastructure](#cloud-infrastructure)
+        * [Signing](#signing)
+        * [Static Machine Learning](#static-machine-learning)
     * [2010's](#2010s)
+        * [Rules Engines](#rules-engines)
         * [Supporting Cloud Infrastructure](#supporting-cloud-infrastructure)
-        * [Detection & Response](#detection--response)
+        * [Trust & Performance](#trust--performance)
+        * [Endpoint Detection & Response](#endpoint-detection--response-edr)
         * [Ransomware](#ransomware)
         * [Fileless Malware & Live-off-the-Land (LOL)](#fileless-malware--live-off-the-land-lol)
+        * [Machine Learning & Behavioural Analysis](#machine-learning--behavioural-analysis)
     * [2020's](#2020s)
         * [XDR & ML](#xdr--ml)
-        * [Zero Trust & IAM](#zero-trust--iam)
+        * [Zero Trust, IAM & PoPL](#zero-trust-iam--popl)
+        * [Anomaly Detection](#anomaly-detection)
         * [Next-Gen & AI](#next-gen--ai)
 * [Summary](#summary)
 * [Acknowledgements](#acknowledgements)
@@ -43,7 +47,6 @@ _The article aims to convey the depth of antimalware technology, the evolution o
     * [Internal  Components](#internal-components)
 * [Appendix II - Additional Cybersecurity Solutions](#appendix-ii---additional-cybersecurity-solutions)
     * [Additional Technologies](#additional-technologies)
-
 
 
 
@@ -69,9 +72,7 @@ This was the decade that witnessed the PC and Client/Server revolution so it sho
 #### Hand-written Signatures
 In the early days, signatures were hand-written to exactly identify a virus instance. The AV engines understood file formats and the signature contained instructions on what to look for inside the file. Thus began the game of cat-and-mouse played between malware authors and antimalware vendors, which involved narrowing the time-period from the point the virus was released into the wild to the time AV companies could generate and issue a new signature to detect it. Malware authors tried to evade detection by making the virus code more complex and thus harder to generate a signature for it or by using polymorphic code to constantly generate new versions of itself, albeit only slightly altered. Malware authors also tried to widen the playing field by using other types of files, other than executables, and developed viruses for Word Documents, Office macros, VBA Scripts, etc. Both executable malware and macro viruses became 'parasitic', which means they attached themselves to genuine executables and macros in order to hide and evade detection. 
 
-
 #### Hash-based Signatures
-
 Hash-based signature-based detection works on the basis of 'calculating the hash' for a given file, usually a binary file representing an executable. It uses a well-known hashing algorithm (e.g. MD5, SHA256) to generate a unique, fixed-length string. In turn, this acts as a key identifier for an executable file, regardless of what filename it was given or perhaps what other file attributes were changed. When a file gets scanned by AV software, either as part of a scheduled scan or on-demand when the executable file is being invoked, the hash is calculated and this key is used to check whether the binary executable is known malware. This involves checking it against a database registry of known malware, usually shipped with the AV install and subsequently updated or, in some instances, checked using a remote lookup. 
 
 #### Scalability Challenges 
@@ -142,11 +143,8 @@ The concept of Zero Trust Security has become popular both for devices on the ne
 #### Anomaly Detection
 Another shift in technique for AV vendors is _anomaly detection_, which seeks to identify potential malicious, but not necessarily deterministic, actions in the sea of activity that warrants closer inspection. This may involve deeper scanning or inspection and may be combined with other non-deterministic clues to generate a deterministic detection. The challenge here is to apply the correct statistical analysis on what might be colossal volumes of data to identify true outliers.  
 
-
 #### Next-Gen & AI
 The fact of the matter is that rate of production of new, unique malware samples has become so prevalent that the signature-based infrastructure cannot cope with the scale and the focus has switched again to _Generic Analysis_. These rely on advanced behavioural detection using Rules Engines and ML but the promise is that AI will be able to provide the necessary smarts and overcome this scalability challenge. In the meantime, other strategies employing virtualization (e.g. sandbox detection), emulation and remote detonation as well as techniques to _let it run, but monitor_ are employed that not only audit behaviour to make a determination but use this audit data to effect a _perfect undo_ to reverse the actions the _greyware_ took before conviction. 
-
-
 
 
 ## Summary
