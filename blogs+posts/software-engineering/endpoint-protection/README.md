@@ -35,7 +35,7 @@ _The article aims to convey the depth of antimalware technology, the evolution o
         * [Machine Learning & Behavioural Analysis](#machine-learning--behavioural-analysis)
     * [2020's](#2020s)
         * [XDR & ML](#xdr--ml)
-        * [Zero Trust, IAM & PoPL](#zero-trust-iam--popl)
+        * [Zero Trust, IAM & PoLP](#zero-trust-iam--polp)
         * [Anomaly Detection](#anomaly-detection)
         * [Next-Gen & AI](#next-gen--ai)
 * [Summary](#summary)
@@ -138,7 +138,7 @@ The greater emphasis on EDR over the last ten years has naturally enough seen th
 
 The focus on data science continues and recent inroads into AI have been added to help recognize patterns both on the endpoint itself and in the large models in the backend cloud. Managed Detection and Response has become a service to serve SMEs that typically, don't have the resources to manage their own SOCs. 
 
-#### Zero Trust, IAM & PoPL
+#### Zero Trust, IAM & PoLP
 The concept of Zero Trust Security has become popular both for devices on the network and for users. The network is assumed to have been compromised and there is a greater emphasis on _Identity and Access Management_ (IAM) to ensure every user on every device is authenticated. There is also renewed emphasis on the _Principle of Least Privilege_ (PoLP), which restricts users' and systems' access to the minimum resources needed to complete their work, to reduce the attack surface and the risk of data breach or to mitigate the effects of a compromised account. Further, the need to protect the user's identity over the user's device has become of practical importance. 
 
 #### Anomaly Detection
