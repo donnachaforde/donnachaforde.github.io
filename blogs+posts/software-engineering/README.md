@@ -1,7 +1,18 @@
 [home/](../../)[blogs+posts/](../)[software-engineering](./)
 
+
 # Blogs on Software Engineering
 Here are posts and articles covering more general software engineering topics. 
+
+## Contents
+
+- [Management & Leadership](#management--leadership)
+- [Cybersecurity](#cybersecurity)
+- [Design](#design)
+- [Performance Engineering](#performance-engineering)
+- [Designing the 'espresso' Library](#designing-the-espresso-library)
+- [Developing C++ with Visual Studio](#developing-c-with-visual-studio)
+
 
 
 ## Management & Leadership
