@@ -7,7 +7,7 @@ Welcome to my **GitHub Pages** where you'll find everything I've made available 
 ## Contents
 
 - [Blogs & Posts](#blogs--posts) — Articles on software engineering, JVM tuning, and more
-- [Code on GitHub](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) — Public repositories and code samples
+- [Code on GitHub](#code-on-github) — Public repositories and code samples
 - [Lectures](#lectures) — University course materials and lecture PDFs
 - [About me](#about-me)  — Personal info and contact links
 
@@ -18,7 +18,7 @@ Welcome to my **GitHub Pages** where you'll find everything I've made available 
 
 * [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
 * [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
-* [Espresso Library](./blogs+posts/software-engineering/espresso/) — Documentation and articles for the lightweight CLI argument parser
+* [Espresso Library](./blogs+posts/software-engineering/espresso/) — Articles on the design for a lightweight CLI argument parser
 
 
 
