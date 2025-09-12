@@ -12,6 +12,6 @@ Blogs & Posts on general topics in Software Engineering, including Management & 
 
 * [JVM Performance Tuning](jvm-performance-tuning/) - In-depth guides and notes on Java JVM performance, memory and diagnostics.
 
-* [Espresso Library](./software-engineering/espresso/) - Musings on the design of `espresso`, a lightweight library for managing command line arguments in CLI tools.
+* [Espresso Library](./software-engineering/espresso/) - Musings on the design of `libespresso`, a lightweight library for managing command line arguments in CLI tools.
 
 
