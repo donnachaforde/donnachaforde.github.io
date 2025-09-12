@@ -12,7 +12,7 @@ Welcome to the Espresso library landing page. This section contains articles and
 ## About Espresso
 
 
-Espresso is a small, lightweight library designed to handle the management of command line arguments. It provides a simple and efficient way to parse, validate, and organize command line inputs for your applications, making it easier to build robust CLI tools with minimal overhead.
+Espresso is a small, lightweight library designed to handle the management of command line arguments. It provides a simple and efficient way to parse, validate and organize command line inputs for your applications, making it easier to build robust CLI tools with minimal overhead.
 
 The articles here explore the motivations, trade-offs, and implementation details behind key architectural decisions in Espresso.
 
