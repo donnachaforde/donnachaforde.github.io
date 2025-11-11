@@ -17,7 +17,7 @@ There are many factors behind a successful team, but these practical habits stan
 4.	**Give engineers long, contiguous blocks** -  
 A fragmented schedule kills an engineer's momentum. Engineers need those long blocks to get into the zone and tackle complex problems. As Paul Graham explained in [Maker’s Schedule, Manager’s Schedule](https://www.paulgraham.com/makersschedule.html), managers think in half-hour slots, but engineers need hours at a stretch. 
 
-5.	**Respect flow** – Studies have shown that it takes around 15-20 minutes to achieve a state of concentration. This is where the the real work and breakthroughs happen. And, the length of time you manage to stay in that state is known as ‘flow’. Any interruptions, even trivial ones, reset the clock and prevent that state of deep focus ever being achieved. 
+5.	**Respect flow** – Studies have shown that it takes around 15-20 minutes to achieve a state of concentration. This is where the real work and breakthroughs happen. And, the length of time you manage to stay in that state is known as ‘flow’. Any interruptions, even trivial ones, reset the clock and prevent that state of deep focus ever being achieved. 
 
 6.	**Resist breaking the standup cycle** - If you’ve asked an engineer to get something done by tomorrow or they've stated they're working on it today, then let them get on with it. Repeated check-ins and requests for updates only creates disruption. 
 
