@@ -14,6 +14,8 @@ Here are posts and articles covering more general software engineering topics.
 
 * [Think on Paper](./think-on-paper) - Clarifying your thought process and helping your decision making.
 
+* [7 Simple Habits That Made My Engineering Teams Thrive](./practical-management-tips) - Practical habits that helped my engineering teams increase productivity and deliver at extraordinary speed without burning out.
+
 
 ## Cybersecurity
 
