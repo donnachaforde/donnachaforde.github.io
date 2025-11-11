@@ -14,8 +14,7 @@ There are many factors behind a successful team, but these practical habits stan
 
 3.	**Protect morning periods** - For most engineers, mornings are prime productivity time. Avoid booking meetings then, so they can tackle their hardest problems when they’re freshest. This can be a challenge in organizations that operate across multiple time zones, so if you do have to arrange, say, a standup meeting in someone's morning, try to preserve the rest of that productive block. 
 
-4.	**Give engineers long, contiguous blocks** -  
-A fragmented schedule kills an engineer's momentum. Engineers need those long blocks to get into the zone and tackle complex problems. As Paul Graham explained in [Maker’s Schedule, Manager’s Schedule](https://www.paulgraham.com/makersschedule.html), managers think in half-hour slots, but engineers need hours at a stretch. 
+4.	**Give engineers long, contiguous blocks** - A fragmented schedule kills an engineer's momentum. Engineers need those long blocks to get into the zone and tackle complex problems. As Paul Graham explained in [Maker’s Schedule, Manager’s Schedule](https://www.paulgraham.com/makersschedule.html), managers think in half-hour slots, but engineers need hours at a stretch. 
 
 5.	**Respect flow** – Studies have shown that it takes around 15-20 minutes to achieve a state of concentration. This is where the real work and breakthroughs happen. And, the length of time you manage to stay in that state is known as ‘flow’. Any interruptions, even trivial ones, reset the clock and prevent that state of deep focus ever being achieved. 
 
