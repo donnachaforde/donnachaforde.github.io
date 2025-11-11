@@ -24,11 +24,10 @@ On reflection, up to that point, I'd never quite understood the meaning of the s
 
 
 
-
-#api #design #api-design #interface #lessons-learned 
-
 ***
 _Donnacha Forde_
 
 _[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
+
+#api #software-design #api-design #interface-design #lessons-learned #software-engineering
