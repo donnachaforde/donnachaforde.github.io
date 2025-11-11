@@ -1,19 +1,38 @@
-The secret to my success…
+# The secret of my success… Part I
 
-The period 2016-2021 was and intense and insanely successful period for my engineering teams. Looking back, that time where I directly led engineering teams at the coal-face was highly concentrated with successful project deliveries in crazy fast timelines. 
+Between 2016 and 2021, my engineering teams went through one of the most intense — and successful — periods of my career. We delivered projects at breakneck speed, and looking back, that stretch of time at the coalface taught me what really drives engineering performance.
 
-While there are a multitude of factors that go into making engineering teams successful, I’d like to share the most important practical tips. These require no specific talent yet directly contribute to team performance and almost every organization could put them into practice.
+There are many factors behind a successful team, but these practical habits stand out. They don’t require special talent, just discipline — and almost any organization can put them into practice.
 
-1.	Keep your standups short and on point. – Yeah, there are lots of things the team will want to cover but there may well be people in the standup that don’t need to be involved and just want to get back to work. 
+1.	**Keep standups short and on point** – Standups are for alignment, not debate. Keep the team focused because while engineers often feel compelled to justify themselves, others don't need the details and just want to get back to work. 
 
-2.	Book team discussion meetings for immediately after your team standup. – If you do need discussion time, book it as a separate meeting and let people opt in to attend it. 
+> [!TIP]
+> One team I managed struggled to keep the standup short, despite abundant encouragement. In the end, I introduced an egg-timer set to a two-minute interval. The egg-timer was passed around the standup, reset for each team member as the gave their update. If the alarm triggered while you were holding the egg-timer, the forfeit was to buy the team coffee from the expensive espresso bar. Needless to say, it only ever timed out once and standups never, ever went longer than 15 mins. Problem solved!
 
-3.	Do not book meetings with engineers in the morning time. – For most people, though not all, the morning period is the most productive of the day so let them have it to work on their most challenging tasks. 
+2.	**Move discussions to follow-up meetings** - If a deeper conversation is needed, book it right after the standup. Let the right people opt in, instead of holding everyone hostage.
 
-4.	Ensure your engineers have contiguous blocks of time. If you need to arrange, say, two meetings on different topics and can keep each to 30 mins, then it’s better to book these meetings back to back rather than splitting the engineers’ schedules. There is a very good post on the difference between a manager’s schedule and an engineer's schedule (called the Manager vs Maker) that explains that, as a manager covering a wide range of aspects important to the project, you’ll tend to view your calendar as a series of short half-hour meetings. But, if you apply this model to meetings with your team, then you run the risk of inadvertently splitting the change for them to work in contiguous blocks on hard problems. 
 
-5.	Respect Flow – It takes around 15-20 minutes to achieve a state of concentration. The length of time you manage to stay in that state is known as ‘flow’. Consequently, any interruption, no matter how trivial, every 10-15 mins will mean that you never achieve a state of concentration. And, that concentrated mind is where your engineers need to be to get anything substantial done. 
+3.	**Protect Morning Periods** - For most engineers, mornings are prime productivity time. Avoid booking meetings then, so they can tackle their hardest problems when they’re freshest. This can be a challenge in organizations that operate across multiple time zones, so if you do have to arrange, say, a standup meeting in someone's morning, try to preserve the rest of that block. 
 
-6.	Respect the sanctity of the standup – if you’ve asked an engineering to get something done by tomorrow, then let them alone to get on with it. You run the risk of interrupting their progress if you’re looking for an update before the next standup. 
+4.	**Give engineers long, contiguous blocks** -  
+A fragmented schedule kills an engineer's momentum. As Paul Graham explained in [Maker’s Schedule, Manager’s Schedule](https://www.paulgraham.com/makersschedule.html), managers think in half-hour slots, but engineers need hours at a stretch. Back-to-back short meetings are better than ones scattered across the day that splits those contiguous blocks of time. Engineers need those long blocks to get into the zone and make tackle complex problems.
 
-7.	Give your team aircover. – Protect your team from the need for incessant updates. As the manager, that’s your job. In most software organizations, there seems to be more people not directly involved in producing code than those that are. That means the organization’s demand for information and updates can overwhelm the team that are  actually responsible for producing the artefacts. Updates come from through you - and you alone. Discourage others from bypassing you and instruct you team to politely direct inquiries to you. Apart from missing out on important conversations, the aim is to preserve those contiguous blocks of time. 
+
+5.	**Respect Flow** – Studies have shown that it takes around 15-20 minutes to achieve a state of concentration. The length of time you manage to stay in that state is known as ‘flow’. Any interruptions, even trivial ones, reset the clock and prevent that state of deep focus ever being achieved. And, that's where the real work gets done. 
+
+6.	**Resist Breaking the Standup Cycle** - If you’ve asked an engineering to get something done by tomorrow, then let them get on with it. Repeated check-ins and requests for updates only creates disruption. 
+
+7.	**Provide Air Cover** - As a manager, your job is to absorb the noise. Most organizations have more people asking for updates than producing code. Shield your team from constant interruptions by being the single point of contact. Let them focus on building while you handle the information flow. Updates come from through you - and you alone. Don't tolerate others bypassing you and instruct your team to politely direct inquiries to you. 
+
+
+
+It might seem rather basic but these simple practices helped my teams increase productivity and deliver at extraordinary speed without burning out. They’re not complicated — they just require consistency and discipline.
+
+In Part II, I’ll share how we built culture, trust, and technical excellence on top of this foundation.
+
+***
+_Donnacha Forde_
+
+_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+
+#management #software-engineering #productivity #engineering-leadership 
