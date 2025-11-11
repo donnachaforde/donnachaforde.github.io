@@ -12,24 +12,17 @@ _Photo Credit: [pxhere.com](https://pxhere.com/en/photo/680859)_
 
 ### Getting the Balance Right
 
-When crafting APIs, it's crucial to consider the ergonomics of the interface but resist the temptation to overly prioritize convenience. Providing 'convenience' functions may seem helpful, but it can leave your interface susceptible to misuse. Allow me to illustrate this with an example.
+When crafting a set of APIs, it's crucial to consider the ergonomics of the interface but resist the temptation to overly prioritize convenience. Providing 'convenience' functions may seem helpful, but it can leave your interface susceptible to misuse. Allow me to illustrate this with an example.
 
-Several years back when I was working as a Lead Engineer, I was tasked with implementing a feature in our management system, enabling it to effectively operate in read-only mode using a database instance imported from a customer's environment. 
-Besides implementing the necessary internal read-only behavior, I needed to provide operations to support the front-end (being developed by another team), such as import, export, activate, list, view and remove a database. 
+Several years ago, when I was working as a Lead Engineer on a systems management project, I was tasked with implementing a feature that would effectively operate the system in read-only mode based on using a database instance imported from a customer's environment. Besides implementing the internal measures necessary to exhibit the read-only behavior, I provided the backend logic needed to manage these databases, such as import, export, activate, list, view and remove a database. Another team member, a Front-end Developer, was responsible for integrating this functionality into the user interface.
 
-Recognizing that a common use-case involved importing a database followed immediately by activating it, I introduced a helper API called `importAndActivate()`. While seemingly sensible and pretty straightforward to implement, this ultimately led the Front-end Developer to believe that `importAndActivate()` was the only touch-point needed and they proceeded to create pretty much a duplicate implementation. My API was only invoked when the end-user activated a database, rendering a large part of the solution unused.
+Recognizing that a common use-case involved importing a database and immediately activating it, I introduced a helper API `importAndActivate()` that performed both these operations in one call. While this seemed sensible at the time and was straightforward to implement, it ultimately allowed the Front-end Developer to conclude that it was the only call in the entire API set that they needed. In turn, they proceeded to duplicate all the logic relating to managing the databases described above, rendering large parts of my implementation redundant. This proved hugely problematic as the architecture reflected an infrastructure layer that was effectively circumvented by the Front-end Developer's approach and it generated significant technical debt.
 
 This underscores the importance of designing APIs with essential functionality only, avoiding an excess of convenience that might leave it susceptible to abuse. It's crucial to recognize that other developers may not always follow the typical usage pattern, emphasizing the need to design APIs that are minimalist in nature. 
 
-The lesson learned here is encapsulated in the phrase, "never give a sucker an even break". My API was circumvented because of an attempt to be overly helpful. Sometimes, requiring users to make two API calls instead of one is justified if it ensures the comprehensive use of the designed functionalities. The moral of the story is to find the right balance - be helpful, but not overly so.
+On reflection, up to that point, I'd never quite understood the meaning of the saying _"never give a sucker an even break"_. I guess it means that being overly accommodating can sometimes backfire. Forcing the user of my API to make two calls instead of one would have been justified if it ensured that all the designed functionalities were used appropriately. The key takeaway here is to strike a balance - be helpful, but not excessively so.
 
 
-
->**Aside:**  Up until then, I never fully understood the meaning of that saying ""never give a sucker an even break."".
-
-
-
-#api #design #interface #lessonslearned 
 
 ***
 _Donnacha Forde_
@@ -37,5 +30,4 @@ _Donnacha Forde_
 _[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
 
-
-
+#api #software-design #api-design #interface-design #lessons-learned #software-engineering
