@@ -1,4 +1,4 @@
-# The secret of my success… Part I
+# 7 Simple Habits That Made My Engineering Teams Thrive
 
 Between 2016 and 2021, my engineering teams went through one of the most intense — and successful — periods of my career. We delivered projects at breakneck speed, and looking back, that stretch of time at the coalface taught me what really drives engineering performance.
 
@@ -28,7 +28,7 @@ A fragmented schedule kills an engineer's momentum. As Paul Graham explained in 
 
 It might seem rather basic but these simple practices helped my teams increase productivity and deliver at extraordinary speed without burning out. They’re not complicated — they just require consistency and discipline.
 
-In Part II, I’ll share how we built culture, trust, and technical excellence on top of this foundation.
+In my next article on Management, I’ll share how we built culture, trust, and technical excellence on top of this foundation.
 
 ***
 _Donnacha Forde_
