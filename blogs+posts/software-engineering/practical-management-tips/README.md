@@ -1,13 +1,17 @@
-# 7 Simple Habits That Made My Engineering Teams Thrive
+# 7 Simple Steps That Helped My Engineering Teams Thrive
 
-Between 2016 and 2021, my engineering teams went through one of the most intense — and successful — periods of my career. We delivered projects at breakneck speed, and looking back, that period at the coalface taught me what really drives engineering performance.
+<img src="https://get.pxhere.com/photo/african-american-african-descent-american-analyzing-attentively-black-blond-board-brainstorming-briefing-business-businesspeople-businesswoman-businesswomen-caucasian-colleagues-communication-concentration-creative-discussing-discussion-european-ideas-listening-meeting-meeting-room-note-office-place-of-work-planning-pointing-presentation-professional-speaking-sticky-note-sticky-notepaper-talking-team-teamwork-thoughtful-togetherness-westerner-woman-working-workplace-conversation-collaboration-job-management-business-school-1452795.jpg">
+
+_Photo Credit: [pxhere.com](https://pxhere.com/en/photo/1452795)_
+
+
+
+Between 2016 and 2021, my engineering teams went through one of the most intense - and successful - periods of my career. We delivered projects at breakneck speed, and looking back, that period at the coalface taught me what really drives engineering team performance.
 
 There are many factors behind a successful team, but these practical habits stand out. They don’t require special talent, just discipline — and almost any organization can put them into practice.
 
 1.	**Keep standups short and on point** – Standups are for alignment, not debate. Keep the team focused because while engineers often feel compelled to justify themselves, others don't need the details and just want to get back to work. 
 
-> [!TIP]
-> One team I managed struggled to keep the standup short, despite abundant encouragement. In the end, I introduced an egg-timer set to a two-minute interval. The egg-timer was passed around the standup, reset for each team member as they gave their update. If the alarm triggered while you were holding the egg-timer, the forfeit was to buy the team coffee from the expensive espresso bar. Needless to say, it only ever timed out once and standups never, ever went longer than 15 mins. Problem solved!
 
 2.	**Move discussions to follow-up meetings** - If a deeper conversation is needed, book it right after the standup. Let the right people opt in, instead of holding everyone hostage.
 
@@ -24,6 +28,8 @@ There are many factors behind a successful team, but these practical habits stan
 
 
 It might seem rather basic but these simple practices helped my teams increase productivity and deliver at extraordinary speed without burning out. They’re not complicated — they just require consistency and discipline.
+
+> **Tip:** Despite an abundance of encouragement, one team struggled to keep the standup short. In the end, I introduced an egg-timer that got passed around as each person gave their update. The egg-timer was set to a two-minute interval each time and if it went off while you were holding it, you had to do the forfeit (i.e. coffee run to the local cafe). Needless to say, standups ran to time after that.
 
 In my next article on management, I’ll share how we built culture, trust, autonomy and technical excellence beyond these practical habits.
 
