@@ -4,13 +4,21 @@
 
 Welcome to my **GitHub Pages** where you'll find everything I've made available online. There are Posts & Blogs I've written on all things related to Software Engineering as well links to code samples and 'hobby horse' projects. You'll also find an outline of the University course I've delivered on _Software Architecture & Design_ at [MTU](www.mtu.ie). 
 
+## Contents
+
+- [Blogs & Posts](#blogs--posts) — Articles on software engineering, JVM tuning, and more
+- [Code on GitHub](#code-on-github) — Public repositories and code samples
+- [Lectures](#lectures) — University course materials and lecture PDFs
+- [About me](#about-me)  — Personal info and contact links
+
+
 
 
 ## [Blogs & Posts](./blogs+posts/)
 
 * [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
-
 * [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
+* [Espresso Library](./blogs+posts/software-engineering/espresso/) — Articles on the design for a lightweight CLI argument parser
 
 
 
@@ -18,17 +26,11 @@ Welcome to my **GitHub Pages** where you'll find everything I've made available 
 Here are public repos on GitHub that are in a presentable form.
 
 * [espresso lib](https://github.com/donnachaforde/espresso) - A hobby-horse project - i.e. an easy-to-use command-line parser for CLI applications. 
-
 * [espresso tools](https://github.com/donnachaforde/espresso-tools) - A collection of useful CLI tools, which leverages the espresso library. 
-
 * [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
-
 * [Hello World!](https://github.com/donnachaforde/example-hello-world) - Various implementations of the famous K&R "Hello World!" in different languages.
-
 * [Bash Shell Profile](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
-
 * [GitHub Repos](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
-
 
 
 
@@ -58,9 +60,18 @@ _The following links reference PDF docs._
 
 
 
-## [About Me](./about.md)
-Read more about me [here]((https://about.me/donnacha.forde)) and on [LinkedIn.com](https://www.linkedin.com/in/donnachaforde/)
 
+
+
+## About Me
+
+I'm a passionate software engineer and educator with experience across architecture, design and development of robust systems. I enjoy sharing practical insights through blogs, lectures and open-source projects. My interests include distributed system, API design and for kicks, building tools that make developers' lives easier.
+
+I also have extensive management and leadership experience, having led engineering teams and mentored professionals in both technical and organizational growth. I believe in fostering collaborative environments and empowering others to achieve their best.
+
+You can learn more about my professional background on [LinkedIn](https://www.linkedin.com/in/donnachaforde) or visit my [about.me](https://about.me/donnacha.forde) page.
+
+I value authentic connections and welcome genuine opportunities to collaborate or network.
 
 _Donnacha Forde_
 

@@ -49,7 +49,12 @@ Also, I've was strongly influenced by the book [Writing Solid Code](https://www.
 
 ### IDE History
 
-This library was first developed using Visual C++ 6.0. That version of the Microsoft C/C++ compiler had quite a long life and the project was still tied to that version for many years. Eventually, it was upgraded to Visual Studio 2003 (Visual C++ 7), then Visual C++ 8 and Visual C++ 9. Thereafter, it was neglected while I pursued pure Java development and didn't get any attention until Visual Studio 2014 but then was upgraded to Visual Studio 17 and most recently Visual Studio 2019. 
+
+This library was first developed using Visual C++ 6.0. That version of the Microsoft C/C++ compiler had quite a long life and the project was still tied to that version for many years. Eventually, it was upgraded to Visual Studio 2003 (Visual C++ 7), then Visual C++ 8 and Visual C++ 9. Thereafter, it was neglected while I pursued pure Java development and didn't get any attention until Visual Studio 2014 but then was upgraded to Visual Studio 17 and most recently Visual Studio 2019. Support for Visual Studio 2022 is on the todo list. 
+
+In addition to Windows support, the project now builds on macOS using CMake, making it easy to configure and build on Apple Silicon and Intel Macs, as well as other platforms supported by CMake (like Linux). This will eventually replace the basic `makefile` used to build on those platform.
+
+
 
 
 ***
