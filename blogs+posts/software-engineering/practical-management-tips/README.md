@@ -6,9 +6,9 @@ _Photo Credit: [pxhere.com](https://pxhere.com/en/photo/1452795)_
 
 
 
-Between 2016 and 2021, my engineering teams went through one of the most intense - and successful - periods of my career. We delivered projects at breakneck speed, and looking back, that period at the coalface taught me what really drives engineering team performance.
+Between 2016 and 2021, my engineering teams went through one of the most intense — and successful — periods of my career. We delivered projects at breakneck speed, and looking back, that period at the coalface taught me what really drives engineering team performance.
 
-There are many factors behind a successful team, but these practical habits stand out. They don’t require special talent, just discipline — and almost any organization can put them into practice.
+There are many factors behind a successful team, but these practical steps stand out. They don’t require special talent, just discipline — and almost any organization can put them into practice.
 
 1.	**Keep standups short and on point** – Standups are for alignment, not debate. Keep the team focused because while engineers often feel compelled to justify themselves, others don't need the details and just want to get back to work. 
 
@@ -27,11 +27,11 @@ There are many factors behind a successful team, but these practical habits stan
 7.	**Provide air cover** - As a manager, your job is to absorb the noise. Most organizations have more people asking for updates than producing code. Shield your team from constant interruptions by being the single point of contact. Let them focus on building while you handle the information flow. Updates come through you - and you alone. Don't tolerate others bypassing you and instruct your team to politely direct inquiries to you. 
 
 
-It might seem rather basic but these simple practices helped my teams increase productivity and deliver at extraordinary speed without burning out. They’re not complicated — they just require consistency and discipline.
+It might seem rather basic but these simple steps helped my teams increase productivity and deliver at extraordinary speed without burning out. They’re not complicated — they just require consistency and discipline.
 
 > **Tip:** Despite an abundance of encouragement, one team struggled to keep the standup short. In the end, I introduced an egg-timer that got passed around as each person gave their update. The egg-timer was set to a two-minute interval each time and if it went off while you were holding it, you had to do the forfeit (i.e. coffee run to the local cafe). Needless to say, standups ran to time after that.
 
-In my next article on management, I’ll share how we built culture, trust, autonomy and technical excellence beyond these practical habits.
+In my next article on management, I’ll share how we built culture, trust, autonomy and technical excellence beyond these practical steps.
 
 ***
 _Donnacha Forde_
