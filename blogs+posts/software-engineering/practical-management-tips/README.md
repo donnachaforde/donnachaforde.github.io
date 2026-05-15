@@ -15,16 +15,16 @@ These seven practical steps don’t depend on a perfect org chart. They are repe
 1.	**Keep stand-ups short and on point** - Stand-ups are for alignment, not debate. Keep the team focused because, while engineers often feel compelled to justify their work, others simply want to get back to work. 
 
 
-2.	**Move discussions to follow-up meetings** - If a deeper conversation is needed, book it right after the stand-up. Let the right people opt in, instead of holding everyone hostage.
+2.	**Move discussions to follow-up meetings** - If a deeper conversation is needed, book it right after the stand-up. Let the right people opt in, instead of trapping the whole team in a conversation that doesn't concern them.
 
 
-3.	**Protect morning periods** - For most engineers, mornings are prime productivity time. Avoid booking meetings then, so they can tackle their hardest problems when they’re freshest. This can be a challenge in organizations that operate across multiple time zones, so if you do have to arrange, say, a stand-up meeting in someone's morning, try to preserve the rest of that productive block. 
+3.	**Protect morning periods** - For most engineers, mornings are prime productivity time. Avoid booking meetings then, so they can tackle their hardest problems when they’re freshest.
 
 4.	**Give engineers long, contiguous blocks** - A fragmented schedule kills an engineer's momentum. Engineers need those long blocks to get into the zone and tackle complex problems. As Paul Graham explained in [Maker’s Schedule, Manager’s Schedule](https://www.paulgraham.com/makersschedule.html), managers think in half-hour slots, but engineers need hours at a stretch. 
 
-5.	**Respect flow** - It takes around 15-20 minutes to achieve a state of concentration. And, the length of time you manage to stay focused is known as ‘flow’. This is where the real work and breakthroughs happen. Any interruptions, no matter how trivial, reset the clock and prevent that productive state from ever being achieved. 
+5.	**Respect flow** - It takes around 15-20 minutes to reach a state of deep concentration known as ‘flow’. This is where the real work and breakthroughs happen. Any interruption, no matter how trivial, resets the clock - and that productive state may never be recovered during that session.
 
-6.	**Resist breaking the stand-up cycle** - If you’ve asked an engineer to get something done by tomorrow or they've reported they'll work on it today, then let them get on with it. Repeated check-ins and requests for updates only create disruption. 
+6.	**Resist the urge to chase updates between stand-ups** - If an engineer has committed to delivering something by tomorrow, trust them and let them work. Repeated status checks signal distrust, create disruption, and ironically slow the very delivery you’re chasing.
 
 7.    **Provide air cover** - As a manager, your job is to absorb the noise. In many organizations, more people ask for status updates than actually produce code. Shield your team from constant interruptions by being the main information buffer. Let them focus on building while you coordinate requests and share the right updates at the right time. Encourage others to route enquiries to you first, and keep the team’s communication channels clear rather than letting them be flooded with ad hoc demands.
 
