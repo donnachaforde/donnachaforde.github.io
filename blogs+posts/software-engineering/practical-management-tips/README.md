@@ -31,7 +31,7 @@ These seven practical steps don’t depend on a perfect org chart. They are repe
 
 These seven practices are simple, but simplicity alone is not enough. When you protect focus, keep meetings lean, and buffer your team from unnecessary noise, the work flows more smoothly and the team can deliver reliably without burning out.
 
-> **Tip:** Despite an abundance of encouragement, one of my teams struggled to keep the standup to time. In the end, I introduced an egg-timer that got passed around as each person gave their update. It was set to a two-minute interval each time and the thing was that if it went off while you were holding it, you had to incur a forfeit (i.e. coffee run to the local cafe). Needless to say, that prop helped keep focus and stand-ups ran to time after that.
+> **Tip:** Despite an abundance of encouragement, one of my teams struggled to keep the stand-up to time. In the end, I introduced an egg-timer that got passed around as each person gave their update. It was set to a two-minute interval for each person with the proviso that you incurred a forfeit if it the alarm went off - i.e. i.e. coffee run to the local cafe. Needless to say, that prop helped keep focus and stand-ups ran to time after that.
 
 In the next article, I’ll explain how we built the culture, trust, autonomy and technical excellence that made those habits sustainable over time.
 
