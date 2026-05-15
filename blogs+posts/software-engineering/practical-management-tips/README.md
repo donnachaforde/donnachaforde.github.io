@@ -8,9 +8,9 @@ _Photo Credit: [pxhere.com](https://pxhere.com/en/photo/1452795)_
 
 
 
-Between 2016 and 2021, my engineering teams went through one of the most intense - and successful - periods of my career, delivering projects at breakneck speed. Looking back at that period at the coalface taught me what really drives engineering team performance.
+Between 2016 and 2021, my engineering teams delivered major work at breakneck speed. What I learned from that period wasn’t about special talent — it was about protecting focus, keeping communication tight, and giving engineers the conditions they needed to do deep work.
 
-There are many factors behind building successful teams, but these practical steps stand out. They don’t require special talent, just discipline - and almost any organization can put them into practice.
+These seven practical steps don’t depend on a perfect org chart. They are repeatable habits that almost any team can adopt with discipline and consistency.
 
 1.	**Keep stand-ups short and on point** – Stand-ups are for alignment, not debate. Keep the team focused because, while engineers often feel compelled to justify their work, others simply want to get back to work. 
 
@@ -29,11 +29,11 @@ There are many factors behind building successful teams, but these practical ste
 7.	**Provide air cover** - As a manager, your job is to absorb the noise. In many  organizations there can be more people seeking status updates than actually producing code. Shield your team from constant interruptions by being the single point of contact. Let them focus on building while you handle the information flow. Updates come through you - and you alone. Don't tolerate being bypassed and instruct your team to politely direct inquiries to you. 
 
 
-It might seem rather basic but these simple steps helped my teams increase productivity and deliver at extraordinary speed without burning out. They’re not complicated - they just require consistency and discipline.
+These seven practices are simple, but simplicity alone is not enough. When you protect focus, keep meetings lean, and buffer your team from unnecessary noise, the work flows more smoothly and the team can deliver reliably without burning out.
 
-> **Tip:** Despite an abundance of encouragement, one of my teams struggled to keep the stand-up to time. In the end, I introduced an egg-timer that got passed around as each person gave their update. It was set to a two-minute interval each time and the thing was that if it went off while you were holding it, you had to incur a forfeit (i.e. coffee run to the local cafe). Needless to say, that prop helped keep focus and stand-ups ran to time after that.
+> **Tip:** Despite an abundance of encouragement, one of my teams struggled to keep the standup to time. In the end, I introduced an egg-timer that got passed around as each person gave their update. It was set to a two-minute interval each time and the thing was that if it went off while you were holding it, you had to incur a forfeit (i.e. coffee run to the local cafe). Needless to say, that prop helped keep focus and stand-ups ran to time after that.
 
-In my next article on management, I’ll share how we built culture, trust, autonomy and technical excellence beyond these practical steps.
+In the next article, I’ll explain how we built the culture, trust, autonomy and technical excellence that made those habits sustainable over time.
 
 ***
 _Donnacha Forde_
