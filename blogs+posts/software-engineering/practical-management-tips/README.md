@@ -8,7 +8,7 @@ _Photo Credit: [pxhere.com](https://pxhere.com/en/photo/1452795)_
 
 
 
-Between 2016 and 2021, my engineering teams delivered major work at breakneck speed. What I learned from that period wasn’t about special talent — it was about protecting focus, keeping communication tight, and giving engineers the conditions they needed to do deep work.
+Between 2016 and 2021, my engineering teams delivered major work at breakneck speed. What I learned from that period wasn’t about special talent — it was about protecting focus, keeping communication tight and giving engineers the conditions they needed to do deep work.
 
 These seven practical steps don’t depend on a perfect org chart. They are repeatable habits that almost any team can adopt with discipline and consistency.
 
@@ -26,7 +26,7 @@ These seven practical steps don’t depend on a perfect org chart. They are repe
 
 6.	**Resist breaking the stand-up cycle** - If you’ve asked an engineer to get something done by tomorrow or they've reported they'll work on it today, then let them get on with it. Repeated check-ins and requests for updates only creates disruption. 
 
-7.	**Provide air cover** - As a manager, your job is to absorb the noise. In many  organizations there can be more people seeking status updates than actually producing code. Shield your team from constant interruptions by being the single point of contact. Let them focus on building while you handle the information flow. Updates come through you - and you alone. Don't tolerate being bypassed and instruct your team to politely direct inquiries to you. 
+7.    **Provide air cover** - As a manager, your job is to absorb the noise. In many organizations, more people ask for status updates than actually produce code. Shield your team from constant interruptions by being the main information buffer. Let them focus on building while you coordinate requests and share the right updates at the right time. Encourage others to route enquiries to you first, and keep the team’s communication channels clear rather than letting them be flooded with ad hoc demands.
 
 
 These seven practices are simple, but simplicity alone is not enough. When you protect focus, keep meetings lean, and buffer your team from unnecessary noise, the work flows more smoothly and the team can deliver reliably without burning out.
