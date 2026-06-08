@@ -1,1 +1,10 @@
 theme: jekyll-theme-slate
+
+title: Donnacha Forde
+description: Software engineering, cybersecurity architecture and distributed systems — blogs, lectures and open-source projects.
+url: "https://donnachaforde.github.io"
+
+author:
+  name: Donnacha Forde
+  linkedin: https://www.linkedin.com/in/donnachaforde
+  github: https://github.com/donnachaforde
