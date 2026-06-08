@@ -44,7 +44,7 @@ I've detailed that design journey in a separate article on [object construction]
 
 When I first devised the espresso library, I was strongly influenced by the Visual C++ naming conventions, using CamelCase (with a leading capital letter). I always thought this more aesthetically pleasing that the use of underscores in names, commonly_seen_in UNIX systems programming circles. However, after many years of Java programming, I came round to having a preference for camelCase (without' the leading uppercase letter). 
 
-Also, I've was strongly influenced by the book [Writing Solid Code](https://www.amazon.co.uk/Writing-Solid-Code-Techniques-Programming/dp/1556155514) _by Steve Maguire_ early on in my career where [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation) was explained and I've been using a 'light' version ever since. 
+Also, I was strongly influenced by the book [Writing Solid Code](https://www.amazon.co.uk/Writing-Solid-Code-Techniques-Programming/dp/1556155514) _by Steve Maguire_ early on in my career where [Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation) was explained and I've been using a 'light' version ever since. 
 
 
 ### IDE History

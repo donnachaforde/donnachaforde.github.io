@@ -6,7 +6,7 @@ The rationale behind the introduction of the 'Manager' object in espresso.
 
 ## Introduction
 
-In this blog, I explore the presence of the 'manager' object in the class design for the espresso library, which might be considered controversial in some circles. In a pure OO model, your classes represent real-work entities and manager classes don't always fit into that view. Still, I remain a fan and often resort to deploying them. 
+In this blog, I explore the presence of the 'manager' object in the class design for the espresso library, which might be considered controversial in some circles. In a pure OO model, your classes represent real-world entities and manager classes don't always fit into that view. Still, I remain a fan and often resort to deploying them. 
 
 
 
@@ -23,7 +23,7 @@ There were two drivers to introducing the `ArgManager` class, as follows:
 
 ## Design Evolution
 
-The overarching driver though was the desire to avoid writing duplicate code. It had become clear tha tthe code to handle 'After developing some tools that leveraged the espresso library, I realized certain command-line arguments are common to almost all commands. Requests for _help_ and _version_ being practically universal. 
+The overarching driver though was the desire to avoid writing duplicate code. It had become clear that the code to handle 'After developing some tools that leveraged the espresso library, I realized certain command-line arguments are common to almost all commands. Requests for _help_ and _version_ being practically universal. 
 
 
 The following code was common across all the CLI tools I'd developed:

@@ -13,7 +13,7 @@ When I really need to scrutinize the compile output, I copy this output to a sep
 ## Massage the message
 One of the downsides of introducing templates into C++ is that compiler errors can be so verbose as to be near impossible for a human to read. One advantage of copying build output to a separate editor, is to replace expanded template definitions with human-readable shorthand. For example, the humble `std::string` expands to `std::basic_string<char,std::char_traits<char>,std::allocator<char>>` and can make a function/method call seem quite verbose. I’ve found myself making these sort of substitutions with STL constructs (like `list` and `queue`) just to make the error more readable. Once your build output starts to resemble readable code again, you're half-way to understanding the error at hand.
 
-Let's take an example of a linker error I recently encoutered while working with gRPC. On initial presentation, the following error-message is somewhat opaque. 
+Let's take an example of a linker error I recently encountered while working with gRPC. On initial presentation, the following error-message is somewhat opaque. 
 
 ````
 libprotobuf-lite.lib(libprotobuf-lite.dll) : error LNK2005: "public: void __cdecl google::protobuf::internal::ArenaStringPtr::Set(struct google::protobuf::internal::ArenaStringPtr::EmptyDefault,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&,class google::protobuf::Arena *)" (?Set@ArenaStringPtr@internal@protobuf@google@@QEAAXUEmptyDefault@1234@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVArena@34@@Z) already defined in libprotobuf.lib(arenastring.obj)
@@ -29,7 +29,7 @@ libprotobuf-lite.lib(libprotobuf-lite.dll) : error LNK2005:
 already defined in libprotobuf.lib(arenastring.obj)
 ````
 
-This is the mangled representation of the function. I've found that whereas these used to be fairly simple when using C, because of namespace, classes, overloading, etc. these are more unweildy. 
+This is the mangled representation of the function. I've found that whereas these used to be fairly simple when using C, because of namespace, classes, overloading, etc. these are more unwieldy. 
 ````
 (?Set@ArenaStringPtr@internal@protobuf@google@@QEAAXUEmptyDefault@1234@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVArena@34@@Z) 
 ````
@@ -45,7 +45,7 @@ Now, we can substitute the full representation for the string class.
 "public: void __cdecl google::protobuf::internal::ArenaStringPtr::Set(struct google::protobuf::internal::ArenaStringPtr::EmptyDefault, string&&, class google::protobuf::Arena *)" 
 ````
 
-It's still a little unweildy so let's get rid of namespace and class scoping. 
+It's still a little unwieldy so let's get rid of namespace and class scoping. 
 ````
 "public: void google::protobuf::internal::ArenaStringPtr::Set(struct google::protobuf::internal::ArenaStringPtr::EmptyDefault, string&&, class google::protobuf::Arena *)" 
 ````
@@ -99,7 +99,7 @@ Filtering the output in this way shows us that we really only have 2-3 types of 
 A quick read up on [LNK1169](https://docs.microsoft.com/en-us/cpp/error-messages/tool-errors/linker-tools-error-lnk1169) explains it normally follows instances of [LNK2005](https://docs.microsoft.com/en-us/cpp/error-messages/tool-errors/linker-tools-error-lnk2005).
 Ultimately, what might initially appeared as scary with hundreds of errors just boils down to two. 
 
-## Extended logs exists
+## Extended logs exist
 The visual studio build actually writes this information to it’s own logs in a dedicated directory under the project output called \<project-name>.tlog (same location as the temporary project files described above). The same compiler command revealed by not suppressing the start-up banner is logged to cat `CL.command.1.tlog`.
 
 Unfortunately, the corresponding linker file – i.e. `link.command.1.tlog` – doesn’t contain any text. Both files seem to start with a binary signature so they don’t work with tools like grep. (I understand they are ‘Unicode’ files.)

@@ -57,7 +57,7 @@ Note the second template argument, which defaults to `deque<T>`, is used to decl
 
 If you set out to model this sort of construct in a Object-Oriented class library (which was popular in the '90s with libraries like RougeWave), you'd probably design it along the lines of first defining `class queue` containing elements with a single pointer to the next element and then extend it through inheritance to define `class deque` with an additional pointer to the previous element. But, in generic or template design, you invert that approach and define `template <T> class deque` first and then define `template <T> class queue` as a restricted form of `deque`.
 
-This illustrates an important way Object-oriented design differs from 'Generic' design. Remember, C++ can support multiple languages and paradigms and that what we have today in C++ development is arguably a _hotpotch_ of technology and paradigms with a mix of OO and Generics. 
+This illustrates an important way Object-oriented design differs from 'Generic' design. Remember, C++ can support multiple languages and paradigms and that what we have today in C++ development is arguably a _hodgepodge_ of technology and paradigms with a mix of OO and Generics. 
 
 
 ***
