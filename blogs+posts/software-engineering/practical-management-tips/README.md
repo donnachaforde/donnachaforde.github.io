@@ -40,4 +40,5 @@ _Donnacha Forde_
 
 _[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
 
-#management #software-engineering #productivity #engineering-leadership 
+<!-- tags: management, software-engineering, productivity, engineering-leadership -->
+
