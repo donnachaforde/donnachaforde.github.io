@@ -76,9 +76,9 @@ The mechanics of this approach meant that I had to provide a copy-constructor im
 Of course, this approach didn't work. 
 
 
-Even though this succeeded in providing the `ArgMg` object with a valid reference to a renderer object, declaring the `stdoutArgRenderer` on the stack meant that it got destructed when the factory method returned. The valid reference referenced invalid memory causing an Access Violation. 
+Even though this succeeded in providing the `ArgMgr` object with a valid reference to a renderer object, declaring the `stdoutArgRenderer` on the stack meant that it got destructed when the factory method returned. The valid reference referenced invalid memory causing an Access Violation. 
 
-Incidentally, things work when the user explicitly declares the ArgRenderer (as above) because it will still exist on the stack. 
+Incidentally, things work when the user explicitly declares the `ArgRenderer` (as above) because it will still exist on the stack. 
 
 My first reaction was that, despite my best efforts, I was going to have to rely on the renderer object being allocated on the heap. I couldn't utilize concrete objects **and** rely on dynamic types at runtime. The `ArgMgr` class couldn't know the concrete type of the object it was interacting with here. It had to use a pointer or reference in order for that dynamic relationship. In this instance, it's clear that the GC approach deployed in Java provides a greater degree of freedom in facilitating Dynamic Injection (DI) and the Inversion of Control (IoC) pattern. 
 
