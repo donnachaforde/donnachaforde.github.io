@@ -65,13 +65,13 @@ _The following links reference PDF docs._
 
 ## About Me
 
-I'm a passionate software engineer and educator with experience across architecture, design and development of robust systems. I enjoy sharing practical insights through blogs, lectures and open-source projects. My interests include distributed system, API design and for kicks, building tools that make developers' lives easier.
+Architect and engineering leader specialising in cybersecurity and distributed systems. The last decade: endpoint protection platform engineering at McAfee and Malwarebytes, designing next-generation architecture and investigating the technical implications of new markets; technical strategy at CrowdStrike; Zero Trust connectivity and IAM at Cerby. Over 25 years prior, building backend and middleware systems across cellular network management, storage management and security platforms.
 
-I also have extensive management and leadership experience, having led engineering teams and mentored professionals in both technical and organizational growth. I believe in fostering collaborative environments and empowering others to achieve their best.
+MSc in Distributed Systems. Developed and delivered a postgraduate course in Software Architecture & Design at Munster Technology University (2017–2018).
+
+This site collates the technical writing, lecture materials and open-source projects from across that career.
 
 You can learn more about my professional background on [LinkedIn](https://www.linkedin.com/in/donnachaforde) or visit my [about.me](https://about.me/donnacha.forde) page.
-
-I value authentic connections and welcome genuine opportunities to collaborate or network.
 
 _Donnacha Forde_
 
