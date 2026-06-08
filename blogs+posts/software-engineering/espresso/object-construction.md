@@ -50,7 +50,7 @@ The idea being that if a developer wanted to show command-line argument info in 
 	ArgMgr argMgr(windowsArgRenderer);
 
 
-This was possible because I had defined an interface for arg-rendering - i.e. `IArgRenderer` to allow the user to provide their own renderer. The `ArgMgr` class holds a reference of type `IArgRenderer` and in turn, the object delegates all print output to this instance. So, the trick is simply to provide the ArgMgr instance with a valid ArgRenderer. 
+This was possible because I had defined an interface for arg-rendering - i.e. `IArgRenderer` to allow the user to provide their own renderer. The `ArgMgr` class holds a reference of type `IArgRenderer` and in turn, the object delegates all print output to this instance. So, the trick is simply to provide the `ArgMgr` instance with a valid `ArgRenderer`. 
 
 
 However, I really wanted this to encapsulate this detail for the vast majority of users so I decided to employ a Factory that would do this simple initialization for me. 
@@ -70,15 +70,15 @@ Under the covers, an early attempt took this approach:
 		ArgMgr argMgr(argRenderer);
 		return argMgr;
 	}
-The mechanics of this approach meant that I had to provide a copy-constructor implementation for ArgMgr, though this was trivial. You can see that the cleanest implementation for the factory methods involved passing back a copy of the object rather than a pointer or reference (thus avoiding any messy responsibilities for deletion). 
+The mechanics of this approach meant that I had to provide a copy-constructor implementation for `ArgMgr`, though this was trivial. You can see that the cleanest implementation for the factory methods involved passing back a copy of the object rather than a pointer or reference (thus avoiding any messy responsibilities for deletion). 
 
 
 Of course, this approach didn't work. 
 
 
-Even though this succeeded in providing the `ArgMg` object with a valid reference to a renderer object, declaring the `stdoutArgRenderer` on the heap meant that it got destructed when the factory method returned. The valid reference referenced invalid memory causing an Access Violation. 
+Even though this succeeded in providing the `ArgMg` object with a valid reference to a renderer object, declaring the `stdoutArgRenderer` on the stack meant that it got destructed when the factory method returned. The valid reference referenced invalid memory causing an Access Violation. 
 
-Incidentally, things work when the user explicitly declares the ArgRenderer (as above) because it will still exist on the heap. 
+Incidentally, things work when the user explicitly declares the ArgRenderer (as above) because it will still exist on the stack. 
 
 My first reaction was that, despite my best efforts, I was going to have to rely on the renderer object being allocated on the heap. I couldn't utilize concrete objects **and** rely on dynamic types at runtime. The `ArgMgr` class couldn't know the concrete type of the object it was interacting with here. It had to use a pointer or reference in order for that dynamic relationship. In this instance, it's clear that the GC approach deployed in Java provides a greater degree of freedom in facilitating Dynamic Injection (DI) and the Inversion of Control (IoC) pattern. 
 
