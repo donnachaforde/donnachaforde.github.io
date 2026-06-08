@@ -3,7 +3,7 @@
 # Think on Paper
 <img src="https://c.pxhere.com/photos/84/94/office_startup_business_home_office_businessman_notebook_laptop_computer-764432.jpg!d">
 
-_Photo Credit: [pxhere.com/](https://pxhere.com/en/photo/680859)_
+_Photo Credit: [pxhere.com/](https://pxhere.com/en/photo/764432)_
 
 
 
