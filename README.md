@@ -8,6 +8,7 @@ Welcome to my **GitHub Pages** where you'll find everything I've made available 
 
 - [Blogs & Posts](#blogs--posts) — Articles on software engineering, JVM tuning, and more
 - [Code on GitHub](#code-on-github) — Public repositories and code samples
+- [Talks](#talks) — Talks I've delivered
 - [Lectures](#lectures) — University course materials and lecture PDFs
 - [About me](#about-me)  — Personal info and contact links
 
@@ -34,9 +35,15 @@ Here are public repos on GitHub that are in a presentable form.
 
 
 
+## [Talks](https://github.com/donnachaforde/talks-public)
+
+Talks I've delivered. PDF slides are available in the [talks-public](https://github.com/donnachaforde/talks-public) repository.
+
+
+
 ## [Lectures](./lectures/)
 
- I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_). The course covers distributed systems, middleware, database design, cloud architecture and IoT — eleven lectures with contributions from guest speakers from industry.
+ I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_). The course covers distributed systems, middleware, database design, cloud architecture and IoT - eleven lectures with contributions from guest speakers from industry.
 
  Full details and PDF slides are available [here.](./lectures/)
 
