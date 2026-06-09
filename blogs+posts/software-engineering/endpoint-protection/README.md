@@ -154,9 +154,7 @@ I wrote this article to try to illustrate the depth and sophistication of antima
 
 
 ***
-_Donnacha Forde_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 
 ## Acknowledgements

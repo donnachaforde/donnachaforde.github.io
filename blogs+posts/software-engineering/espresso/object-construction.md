@@ -102,8 +102,4 @@ Simply declaring the `stdoutArgRenderer` as `static` meant the object effectivel
 Great! This worked a treat and meant that I was now able to meet my fussy design goals. The only minor annoyance being that I didn't think of it sooner... :-) 
 
 ***
-_Donnacha Forde_
-
-_May 2021_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · May 2021 · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_

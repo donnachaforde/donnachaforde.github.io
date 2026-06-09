@@ -141,7 +141,4 @@ The proof for this solution was in the profiling results, with a greatly reduced
 
 
 ***
-Donnacha Forde
-
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_

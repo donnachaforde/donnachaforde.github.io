@@ -58,8 +58,4 @@ In addition to Windows support, the project now builds on macOS using CMake, mak
 
 
 ***
-_Donnacha Forde_
-
-_espresso library - 1995-2021_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · espresso library, 1995–2021 · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_

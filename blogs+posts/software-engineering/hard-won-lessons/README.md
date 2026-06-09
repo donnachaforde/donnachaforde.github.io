@@ -114,8 +114,4 @@ Or, at the very least, be aware of the compiler warnings you can ignore and thos
 
 
 ***
-_Donnacha Forde_
-
-_Summer 2022_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · Summer 2022 · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_

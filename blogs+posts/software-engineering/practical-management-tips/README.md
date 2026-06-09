@@ -36,9 +36,7 @@ These seven practices are simple, but simplicity alone is not enough. When you p
 In the next article, I’ll explain how we built the culture, trust, autonomy and technical excellence that made those habits sustainable over time.
 
 ***
-_Donnacha Forde_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 <!-- tags: management, software-engineering, productivity, engineering-leadership -->
 

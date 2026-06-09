@@ -70,9 +70,7 @@ In my [next and last blog](./java-performance-tuning-part-v-jvm-diagnostics) in 
 
 ---
 
-_Donnacha Forde_
-
-_[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 
 

@@ -21,11 +21,7 @@ So, don't just go through the motions of what you think Agile says you should be
 
 
 ***
-_Donnacha Forde_
-
-_August 2023_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · August 2023 · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 > **Note:**
 _The quote above attributed to Ben Goldacre is from his [book](https://www.amazon.co.uk/Think-Youll-Find-More-Complicated/dp/0007505140) with the same title. He's also known for his book titled [Bad Science](https://www.amazon.co.uk/Bad-Science-Ben-Goldacre/dp/000728487X), which is a good read for anyone remotely interested in science or the scientific method._

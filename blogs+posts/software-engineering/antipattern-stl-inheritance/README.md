@@ -67,9 +67,7 @@ The point is that all of this rework could have been avoided had the original au
 
 
 ***
-_Donnacha Forde_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 
 

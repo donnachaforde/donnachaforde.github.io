@@ -61,9 +61,7 @@ This illustrates an important way Object-oriented design differs from 'Generic' 
 
 
 ***
-_Donnacha Forde_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 
 

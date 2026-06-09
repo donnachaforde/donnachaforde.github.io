@@ -32,8 +32,4 @@ My advice is, if you're asked or if you feel you've got something to give, then 
 
 
 ***
-_Donnacha Forde_
-
-_September, 2023_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · September 2023 · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_

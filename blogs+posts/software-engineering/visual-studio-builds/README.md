@@ -106,9 +106,7 @@ Unfortunately, the corresponding linker file – i.e. `link.command.1.tlog` – 
 
 
 ***
-_Donnacha Forde_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 
 

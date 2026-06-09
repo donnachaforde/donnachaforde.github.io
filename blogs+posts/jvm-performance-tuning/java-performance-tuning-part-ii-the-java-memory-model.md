@@ -118,9 +118,7 @@ In my [next blog](./java-performance-tuning-part-iii-garbage-collectors), I’ll
 
 
 ---
-_Donnacha Forde_
-
-_[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_/
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 ---
 _See [Part V](./java-performance-tuning-part-v-jvm-diagnostics) for article references._

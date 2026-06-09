@@ -105,9 +105,7 @@ In my [next blog](./java-performance-tuning-part-ii-the-java-memory-model) in th
 
 
 ---
-_Donnacha Forde_
-
-_[linkedin.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde/)_
+_Donnacha Forde · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 
 ---

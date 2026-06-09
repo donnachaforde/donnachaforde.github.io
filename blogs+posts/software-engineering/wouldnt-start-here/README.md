@@ -97,11 +97,7 @@ The overarching question then must be whether endpoint architecture  has a part 
 
 
 ***
-Donnacha Forde
-
-_February 2024_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · February 2024 · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
 
 
 

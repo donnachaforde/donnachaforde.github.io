@@ -24,8 +24,4 @@ As elite Judo coach Neil Adams MBE likes to remind us, "Practice makes permanent
 
 
 ***
-_Donnacha Forde_
-
-_Summer 2021_
-
-_[linkedIn.com/in/donnachaforde](https://www.linkedin.com/in/donnachaforde)_
+_Donnacha Forde · Summer 2021 · [LinkedIn](https://www.linkedin.com/in/donnachaforde)_
