@@ -15,7 +15,7 @@ Cybersecurity architect and engineering leader. This site publishes technical wr
 
 
 
-## [Blog](./blog/)
+## Blog
 
 Articles on cybersecurity, engineering leadership, software architecture and system design.
 
@@ -28,7 +28,8 @@ Articles on cybersecurity, engineering leadership, software architecture and sys
 
 
 
-## [Code on GitHub](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
+## Code on GitHub
+
 Here are public repos on GitHub that are in a presentable form.
 
 * [espresso lib](https://github.com/donnachaforde/espresso) - A hobby-horse project - i.e. an easy-to-use command-line parser for CLI applications. 
@@ -36,11 +37,12 @@ Here are public repos on GitHub that are in a presentable form.
 * [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
 * [Hello World!](https://github.com/donnachaforde/example-hello-world) - Various implementations of the famous K&R "Hello World!" in different languages.
 * [Bash Shell Profile](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
-* [GitHub Repos](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
+
+[All repos →](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=)
 
 
 
-## [Talks](https://github.com/donnachaforde/talks-public)
+## Talks
 
 Talks I've delivered at conferences, industry meetups and as a guest lecturer at university. PDF slides are available in the [talks-public](https://github.com/donnachaforde/talks-public) repository.
 
@@ -56,13 +58,15 @@ Talks I've delivered at conferences, industry meetups and as a guest lecturer at
 * **Engineering Security Solutions — Rollback Remediation** _(November 2023)_  
   Talk delivered at the [Cork|Sec Meetup](https://www.meetup.com/corksec/). Covers how AV works before diving into the engineering detail of building a ransomware rollback solution.
 
+[All talks →](https://github.com/donnachaforde/talks-public)
 
 
-## [Lectures](./lectures/)
 
- I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_). The course covers distributed systems, middleware, database design, cloud architecture and IoT - eleven lectures with contributions from guest speakers from industry.
+## Lectures
 
- Full details and PDF slides are available [here.](./lectures/)
+I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_). The course covers distributed systems, middleware, database design, cloud architecture and IoT - eleven lectures with contributions from guest speakers from industry.
+
+[All slides (PDF) →](./lectures/)
 
 
 
