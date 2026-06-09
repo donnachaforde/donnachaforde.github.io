@@ -2,7 +2,7 @@
     <img src="./resources/donnacha-headshot.jpeg" width="250" height="250"/>
 </p>
 
-Welcome to my **GitHub Pages** where you'll find everything I've made available online. There are Posts & Blogs I've written on all things related to Software Engineering as well links to code samples and 'hobby horse' projects. You'll also find an outline of the University course I've delivered on _Software Architecture & Design_ at [MTU](www.mtu.ie). 
+Cybersecurity architect and engineering leader. This site publishes technical writing, talks and open-source projects from a career spanning endpoint security, distributed systems and identity.
 
 ## Contents
 
@@ -67,11 +67,9 @@ Talks I've delivered at conferences, industry meetups and as a guest lecturer at
 
 ## About Me
 
-Architect and engineering leader specialising in cybersecurity and distributed systems. The last decade: endpoint protection platform engineering at McAfee and Malwarebytes, designing next-generation architecture and investigating the technical implications of new markets; technical strategy at CrowdStrike; Zero Trust connectivity and IAM at Cerby. Over 25 years prior, building backend and middleware systems across cellular network management, storage management and security platforms.
+Architect and engineering leader specialising in cybersecurity and distributed systems. The last decade: endpoint protection platform engineering at McAfee and Malwarebytes; Senior Technology Strategist in the Office of the CTO at CrowdStrike, directing high-stakes technical initiatives and developer experience strategy; Zero Trust connectivity and IAM at Cerby. Before that, a career building backend and middleware systems across cellular network management, storage management and security platforms.
 
-MSc in Distributed Systems. Developed and delivered a postgraduate course in Software Architecture & Design at Munster Technology University (2017–2018).
-
-This site collates the technical writing, lecture materials and open-source projects from across that career.
+MSc in Distributed Systems. Developed and delivered a postgraduate module in Software Architecture & Design at Munster Technology University (2017–2018).
 
 You can learn more about my professional background on [LinkedIn](https://www.linkedin.com/in/donnachaforde) or visit my [about.me](https://about.me/donnacha.forde) page.
 
