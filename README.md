@@ -6,20 +6,20 @@ Welcome to my **GitHub Pages** where you'll find everything I've made available 
 
 ## Contents
 
-- [Blogs & Posts](#blogs--posts) — Articles on software engineering, JVM tuning, and more
+- [Blog](#blog) — Articles on software engineering, JVM tuning, and more
 - [Code on GitHub](#code-on-github) — Public repositories and code samples
-- [Talks](#talks) — Talks I've delivered
+- [Talks](#talks) — Talks I've delivered as a guest speaker or at a conference
 - [Lectures](#lectures) — University course materials and lecture PDFs
 - [About me](#about-me)  — Personal info and contact links
 
 
 
 
-## [Blogs & Posts](./blogs+posts/)
+## [Blog](./blog/)
 
-* [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
-* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
-* [Espresso Library](./blogs+posts/software-engineering/espresso/) — Articles on the design for a lightweight CLI argument parser
+* [Software Engineering](./blog/) - Blogs on a wide range of software engineering and architecture topics.
+* [JVM Performance Tuning](./blog/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM.
+* [Espresso Library](./blog/espresso/) — Articles on the design for a lightweight CLI argument parser
 
 
 
