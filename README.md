@@ -37,7 +37,19 @@ Here are public repos on GitHub that are in a presentable form.
 
 ## [Talks](https://github.com/donnachaforde/talks-public)
 
-Talks I've delivered. PDF slides are available in the [talks-public](https://github.com/donnachaforde/talks-public) repository.
+Talks I've delivered at conferences, industry meetups and as a guest lecturer at university. PDF slides are available in the [talks-public](https://github.com/donnachaforde/talks-public) repository.
+
+* **Endpoint Security — Engineering Cybersecurity Solutions** _(October 2025)_  
+  Revised lecture for the [Cyber Innovate](https://cyberinnovate.ie/) class of 2025–26 at [MTU](https://www.mtu.ie/). Expands coverage of endpoint security within a growing threat landscape, with engineering-focused sections on AV, EDR and ransomware.
+
+* **A Tour of Cybersecurity — AI Native Security** _(April 2025)_  
+  Delivered at the [Lero Research Centre](https://lero.ie/) Industry Day 2025 conference at the [University of Limerick](https://www.ul.ie/), attended by 200+ delegates. Covers cybercrime costs, threat detection and the emerging role of AI in defence.
+
+* **Endpoint Security — Engineering Cybersecurity Solutions** _(September 2024)_  
+  Lecture for Cybersecurity postgraduate students at [MTU](https://www.mtu.ie/). Covers the endpoint security landscape and uses a ransomware remediation-rollback solution as an engineering case study.
+
+* **Engineering Security Solutions — Rollback Remediation** _(November 2023)_  
+  Talk delivered at the [Cork|Sec Meetup](https://www.meetup.com/corksec/). Covers how AV works before diving into the engineering detail of building a ransomware rollback solution.
 
 
 
