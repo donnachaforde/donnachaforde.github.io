@@ -17,9 +17,14 @@ Cybersecurity architect and engineering leader. This site publishes technical wr
 
 ## [Blog](./blog/)
 
-* [Software Engineering](./blog/) - Blogs on a wide range of software engineering and architecture topics.
-* [JVM Performance Tuning](./blog/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM.
-* [Espresso Library](./blog/espresso/) — Articles on the design for a lightweight CLI argument parser
+Articles on cybersecurity, engineering leadership, software architecture and system design.
+
+* **[Cybersecurity](./blog/#cybersecurity)** — Endpoint protection, antimalware evolution and AV platform engineering.
+* **[Management & Leadership](./blog/#management--leadership)** — Engineering team habits, coaching and knowledge transfer.
+* **[Design](./blog/#design)** — API design principles, C++ patterns and architectural antipatterns.
+* **[JVM Performance Tuning](./blog/jvm-performance-tuning/)** — Five-part series covering garbage collection, memory model and JVM diagnostics.
+
+[All posts →](./blog/)
 
 
 
