@@ -2,27 +2,34 @@
     <img src="./resources/donnacha-headshot.jpeg" width="250" height="250"/>
 </p>
 
-Welcome to my **GitHub Pages** where you'll find everything I've made available online. There are Posts & Blogs I've written on all things related to Software Engineering as well links to code samples and 'hobby horse' projects. You'll also find an outline of the University course I've delivered on _Software Architecture & Design_ at [MTU](www.mtu.ie). 
+Cybersecurity architect and engineering leader. This site publishes technical writing, talks and open-source projects from a career spanning endpoint security, distributed systems and identity.
 
 ## Contents
 
-- [Blogs & Posts](#blogs--posts) — Articles on software engineering, JVM tuning, and more
+- [Blog](#blog) — Articles on software engineering, JVM tuning, and more
 - [Code on GitHub](#code-on-github) — Public repositories and code samples
+- [Talks](#talks) — Talks I've delivered as a guest speaker or at a conference
 - [Lectures](#lectures) — University course materials and lecture PDFs
 - [About me](#about-me)  — Personal info and contact links
 
 
 
 
-## [Blogs & Posts](./blogs+posts/)
+## Blog
 
-* [Software Engineering](./blogs%2Bposts/software-engineering) - Blogs on a wide range of software engineering and architecture topics. 
-* [JVM Performance Tuning](./blogs%2Bposts/jvm-performance-tuning) - A series of blogs I wrote summarizing my experiences tuning the JVM. 
-* [Espresso Library](./blogs+posts/software-engineering/espresso/) — Articles on the design for a lightweight CLI argument parser
+Articles on cybersecurity, engineering leadership, software architecture and system design.
+
+* **[Cybersecurity](./blog/#cybersecurity)** — Endpoint protection, antimalware evolution and AV platform engineering.
+* **[Management & Leadership](./blog/#management--leadership)** — Engineering team habits, coaching and knowledge transfer.
+* **[Design](./blog/#design)** — API design principles, C++ patterns and architectural antipatterns.
+* **[JVM Performance Tuning](./blog/jvm-performance-tuning/)** — Five-part series covering garbage collection, memory model and JVM diagnostics.
+
+[All posts →](./blog/)
 
 
 
-## [Code on GitHub](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=) 
+## Code on GitHub
+
 Here are public repos on GitHub that are in a presentable form.
 
 * [espresso lib](https://github.com/donnachaforde/espresso) - A hobby-horse project - i.e. an easy-to-use command-line parser for CLI applications. 
@@ -30,32 +37,36 @@ Here are public repos on GitHub that are in a presentable form.
 * [Examples](https://github.com/donnachaforde?tab=repositories&q=example&type=public&language=&sort=) - Simple code examples covering Sockets, MQTT, AMQP and REST, mostly written in Java/Spring and C/C++.  
 * [Hello World!](https://github.com/donnachaforde/example-hello-world) - Various implementations of the famous K&R "Hello World!" in different languages.
 * [Bash Shell Profile](https://github.com/donnachaforde/unix-shell-config) - Resource files for configuring your Bash Shell environment on Linux and UNIX. 
-* [GitHub Repos](https://github.com/donnachaforde) - All public repos (mostly C/C++/Java but also some helper shell-scripts).
+
+[All repos →](https://github.com/donnachaforde?tab=repositories&q=&type=public&language=&sort=)
 
 
 
-## [Lectures](./lectures/)
+## Talks
 
- I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_).  
- 
- A short summary of the lectures are available [here.](./lectures/)
+Talks I've delivered at conferences, industry meetups and as a guest lecturer at university. PDF slides are available in the [talks-public](https://github.com/donnachaforde/talks-public) repository.
 
-**Contents**
+* **Endpoint Security — Engineering Cybersecurity Solutions** _(October 2025)_  
+  Revised lecture for the [Cyber Innovate](https://cyberinnovate.ie/) class of 2025–26 at [MTU](https://www.mtu.ie/). Expands coverage of endpoint security within a growing threat landscape, with engineering-focused sections on AV, EDR and ransomware.
 
- >**Note:**
-_The following links reference PDF docs._
+* **A Tour of Cybersecurity — AI Native Security** _(April 2025)_  
+  Delivered at the [Lero Research Centre](https://lero.ie/) Industry Day 2025 conference at the [University of Limerick](https://www.ul.ie/), attended by 200+ delegates. Covers cybercrime costs, threat detection and the emerging role of AI in defence.
 
-1. [The Role of the Architect](lectures/published/01%20-%20The%20Role%20of%20the%20Architect.pdf)
-2. [Middleware & Interprocess Communication](lectures/published/02%20-%20Middleware%20%26%20Interprocess%20Communication.pdf)
-3. [UI Architecture](lectures/published/03%20-%20UI%20Architecture.pdf)
-4. [An Introduction to Database Modelling](lectures/published/04%20-%20An%20Introduction%20to%20Database%20Modelling.pdf)
-5. [Databases & Persistency](lectures/published/05%20-%20Databases%20%26%20Persistency.pdf)
-6. [A Quick Recap on Object-Oriented Design](lectures/published/06%20-%20A%20Quick%20Recap%20on%20Object-Oriented%20Design.pdf)
-7. [An Introduction to Spring, DI & IOC](lectures/published/07%20-%20An%20Introduction%20to%20Spring%2C%20DI%20%26%20IOC.pdf) 
-8. [Server Infrastructure & Enterprise Services](lectures/published/08%20-%20Server%20Infrastructure%20%26%20Enterprise%20Services.pdf)
-9. [Messaging & Event-Driven Architecture](lectures/published/09%20-%20Messaging%20%26%20Event-Driven%20Architecture.pdf)
-10. [The 'Third Platform' - Cloud & Big Data](lectures/published/10%20-%20The%20Third%20Platform%20-%20Cloud%20%26%20Big%20Data.pdf)
-11. [Architecting for the Internet of Things](lectures/published/11%20-%20Architecting%20for%20the%20Internet%20of%20Things%20(IoT).pdf)
+* **Endpoint Security — Engineering Cybersecurity Solutions** _(September 2024)_  
+  Lecture for Cybersecurity postgraduate students at [MTU](https://www.mtu.ie/). Covers the endpoint security landscape and uses a ransomware remediation-rollback solution as an engineering case study.
+
+* **Engineering Security Solutions — Rollback Remediation** _(November 2023)_  
+  Talk delivered at the [Cork|Sec Meetup](https://www.meetup.com/corksec/). Covers how AV works before diving into the engineering detail of building a ransomware rollback solution.
+
+[All talks →](https://github.com/donnachaforde/talks-public)
+
+
+
+## Lectures
+
+I developed and delivered the anchor module for an [MSc in Software Architecture & Design](https://www.mtu.ie/courses/crksade9/) at [MTU](https://www.mtu.ie/) during 2017-2019 (_formerly CIT - Cork Institute of Technology_). The course covers distributed systems, middleware, database design, cloud architecture and IoT - eleven lectures with contributions from guest speakers from industry.
+
+[All slides (PDF) →](./lectures/)
 
 
 
@@ -65,13 +76,11 @@ _The following links reference PDF docs._
 
 ## About Me
 
-I'm a passionate software engineer and educator with experience across architecture, design and development of robust systems. I enjoy sharing practical insights through blogs, lectures and open-source projects. My interests include distributed system, API design and for kicks, building tools that make developers' lives easier.
+Architect and engineering leader specialising in cybersecurity and distributed systems. The last decade: endpoint protection platform engineering at McAfee and Malwarebytes; Senior Technology Strategist in the Office of the CTO at CrowdStrike, directing high-stakes technical initiatives and developer experience strategy; Zero Trust connectivity and IAM at Cerby. Before that, a career building backend and middleware systems across cellular network management, storage management and security platforms.
 
-I also have extensive management and leadership experience, having led engineering teams and mentored professionals in both technical and organizational growth. I believe in fostering collaborative environments and empowering others to achieve their best.
+MSc in Distributed Systems. Developed and delivered a postgraduate module in Software Architecture & Design at Munster Technology University (2017–2018).
 
 You can learn more about my professional background on [LinkedIn](https://www.linkedin.com/in/donnachaforde) or visit my [about.me](https://about.me/donnacha.forde) page.
-
-I value authentic connections and welcome genuine opportunities to collaborate or network.
 
 _Donnacha Forde_
 
